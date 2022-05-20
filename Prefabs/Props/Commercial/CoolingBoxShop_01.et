@@ -32,6 +32,9 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
    }
    additionalActions {
     ADRP_GatherAction "{596959ACCA4F550A}" {
+     ParentContextList {
+      "button"
+     }
      Duration 1
      m_GatherItemDisplayName "TOTO"
     }
