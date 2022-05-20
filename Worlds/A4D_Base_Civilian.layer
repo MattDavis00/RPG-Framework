@@ -1,3 +1,15 @@
-SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
- coords 9678.392 14.241 1554.944
+GenericEntity : "{B89D79612B3B89B9}Prefabs/Props/Commercial/CoolingBoxShop_01.et" {
+ components {
+  ActionsManagerComponent "{596945B7E195302C}" {
+   additionalActions {
+    RPG_Test "{59694D84B28F02FB}" {
+     ParentContextList {
+      "button"
+     }
+     Duration 0.5
+    }
+   }
+  }
+ }
+ coords 9676.981 14.19 1552.141
 }
