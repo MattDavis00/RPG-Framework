@@ -1,0 +1,12 @@
+SubScene {
+ Parent "worlds/Eden/Eden.ent"
+}
+Layer Systems {
+ Index 0
+}
+Layer Civilian {
+ Index 1
+}
+Layer PNJ {
+ Index 2
+}

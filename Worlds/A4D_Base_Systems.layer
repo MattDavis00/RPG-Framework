@@ -1,0 +1,22 @@
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5230.291 0 12445.169
+}
+SCR_BaseGameMode GameMode_Plain1 : "{1B76F75A3175E85C}Prefabs/MP/Modes/Plain/GameMode_Plain.et" {
+ components {
+  SCR_AutomaticRespawnHandlerComponent "{56B4EA4DA0EEFF85}" {
+   m_iForcedFaction 1
+  }
+ }
+ coords 5231.18 0.317 12441.449
+}
+SCR_FactionManager FactionManager_USxUSSR1 : "{589540B35EBA8CDC}Prefabs/MP/Managers/Factions/FactionManager_USxUSSR.et" {
+ coords 5234.3 0 12443.396
+}
+SCR_LoadoutManager : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {
+ coords 5235.807 0 12442.518
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{56B2B461C7495F41}" {
+   m_sLoadoutResource "{2C0A1269EB2BFFBE}Prefabs/Characters/Factions/BLUFOR/US_Army/Civilian.et"
+  }
+ }
+}
