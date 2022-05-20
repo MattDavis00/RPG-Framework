@@ -17,7 +17,7 @@ GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
    }
   }
   MeshObject "{59695C81F008B03A}" {
-   Object "{D9380D19DF422535}Assets/Items/Food/Apple_01.xob"
+   Object "{820C247F652C099C}Prefabs/Items/Food/apple.xob"
   }
   RigidBody "{59695C81F008B024}" {
    LinearDamping 0.5
@@ -30,6 +30,9 @@ GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
    additionalActions {
    }
   }
+  RplComponent "{508AB59531D748C9}" {
+  }
  }
  coords 3118.714 15.855 2738.387
+ scale 1000
 }
