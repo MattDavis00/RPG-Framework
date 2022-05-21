@@ -35,16 +35,16 @@ SCR_ChimeraCharacter : "{836E7E39AAC5888B}Prefabs/Characters/Factions/BLUFOR/US_
      Prefab ""
     }
     LoadoutSlotInfo Jacket {
-     Prefab ""
+     Prefab "{E44990162EBC47B7}Prefabs/Characters/Uniforms/Jacket_M88_base.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab ""
+     Prefab "{4EF74D1922997E84}Prefabs/Characters/Uniforms/Pants_M88_base.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab ""
+     Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
     }
     LoadoutSlotInfo Back {
-     Prefab ""
+     Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
     }
     LoadoutSlotInfo Vest {
     }
@@ -53,14 +53,15 @@ SCR_ChimeraCharacter : "{836E7E39AAC5888B}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{56607B916E51CA58}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_M88_base.et"
      PrefabsToSpawn {
       "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{73950FBA2D7DB5C5}Prefabs/Items/Equipment/Radios/Radio_ANPRC68.et"
      }
     }
     ItemsInitConfigurationItem "{59693B17AFE6BC3B}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
      PrefabsToSpawn {
-      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et"
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et"
      }
     }
     ItemsInitConfigurationItem "{59693B17AFE6BC2F}" {

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{29D3D04C69CC0E06}Prefabs/Items/Food/Pizza/data/pizza.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

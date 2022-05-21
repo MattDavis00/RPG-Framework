@@ -1,0 +1,4 @@
+MatPBRBasic {
+ Color 0.82 0.937 0.937 1
+ BCRMap "{586A45F22AAD0A76}Prefabs/Items/Drink/Water/Full/data/Label.edds"
+}

@@ -10,3 +10,6 @@ Layer Civilian {
 Layer PNJ {
  Index 2
 }
+Layer MarketShop {
+ Index 3
+}

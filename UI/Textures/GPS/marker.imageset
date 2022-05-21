@@ -1,0 +1,17 @@
+ImageSetClass {
+ RefSize 520 520
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "UI/Textures/GPS/marker_atlas.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass marker {
+   Name "marker"
+   Pos 2 2
+   Size 512 512
+   Flags 0
+  }
+ }
+}

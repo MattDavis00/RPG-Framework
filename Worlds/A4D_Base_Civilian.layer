@@ -1,15 +1,3 @@
-GenericEntity : "{B89D79612B3B89B9}Prefabs/Props/Commercial/CoolingBoxShop_01.et" {
- components {
-  ActionsManagerComponent "{596945B7E195302C}" {
-   additionalActions {
-    RPG_Test "{59694D84B28F02FB}" {
-     ParentContextList {
-      "button"
-     }
-     Duration 0.5
-    }
-   }
-  }
- }
- coords 9676.981 14.19 1552.141
+GenericEntity : "{95FA12A5EE958C72}Prefabs/Props/Commercial/ItemTestor.et" {
+ coords 5231.738 18.269 4023.856
 }

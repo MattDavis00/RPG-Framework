@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{EC68E8AF6D61A9D9}UI/Layouts/GPS/PlayerMapIndicator.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}
