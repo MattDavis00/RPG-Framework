@@ -2,6 +2,9 @@ MetaFileClass {
  Name "{820C247F652C099C}Prefabs/Items/Food/apple.xob"
  Configurations {
   FBXResourceClass PC {
+   Scale 4 4 4
+   Offset -0.008 0.29 0.04
+   Rotate 0 0 0
    MaterialAssigns {
     MaterialAssignClass "{596970BA662EC39D}" {
      SourceMaterial "wire_177028149"
