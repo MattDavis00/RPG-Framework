@@ -1,0 +1,92 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{1A6A8BF05ED800FB}Assets/Props/Commercial/ShelfUniversal_01/ShelfUniversal_01_narrow.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 30
+   ResponseIndex "SmallDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 2500
+   m_fDamageThresholdMaximum 30000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{596AF6B8DBD8C255}" {
+     m_vOffsetPosition -0.5 1.5 0.4
+     m_ModelPrefabs {
+      "{B83F6469D7CA3459}Assets/Props/Debris/Wood/PlankWooden_Big_dbr_01.xob" "{2121DDF0CA2D05C9}Assets/Props/Debris/Wood/PlankWooden_Big_dbr_02.xob" "{68E2A8F815B4FD59}Assets/Props/Debris/Wood/PlankWooden_dbr_01.xob" "{F1FC11610853CCC9}Assets/Props/Debris/Wood/PlankWooden_dbr_02.xob" "{86F679E9FCF123B9}Assets/Props/Debris/Wood/PlankWooden_dbr_03.xob" "{813183B89A77997A}Assets/Props/Debris/Wood/PlankWooden_dbr_04.xob"
+     }
+     m_fMass 1
+     m_fDamageToImpulse 3
+     m_fRandomVelocityLinear 3
+     m_eMaterialSoundType WOOD_PLANK_SMALL
+     m_fSoundTriggerThreshold 1.563
+    }
+   }
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{596AF6B8DBD8C25C}" {
+     m_fPhaseHealth 2000
+     m_PhaseModel "{C39A5B214A5DC0CB}Assets/Props/Commercial/ShelfUniversal_01/Dst/ShelfUniversal_01_narrow_dst.xob"
+     m_PhaseDestroySpawnObjects {
+      SCR_DebrisSpawnable "{596AF6B8DBD8C242}" {
+       m_vOffsetPosition -0.6 1.8 0.3
+       m_ModelPrefabs {
+        "{B83F6469D7CA3459}Assets/Props/Debris/Wood/PlankWooden_Big_dbr_01.xob" "{2121DDF0CA2D05C9}Assets/Props/Debris/Wood/PlankWooden_Big_dbr_02.xob" "{68E2A8F815B4FD59}Assets/Props/Debris/Wood/PlankWooden_dbr_01.xob" "{F1FC11610853CCC9}Assets/Props/Debris/Wood/PlankWooden_dbr_02.xob" "{86F679E9FCF123B9}Assets/Props/Debris/Wood/PlankWooden_dbr_03.xob" "{813183B89A77997A}Assets/Props/Debris/Wood/PlankWooden_dbr_04.xob"
+       }
+       m_fMass 1
+       m_fDamageToImpulse 3
+       m_fRandomVelocityLinear 3
+       m_eMaterialSoundType WOOD_PLANK_SMALL
+      }
+      SCR_DebrisSpawnable "{596AF6B8DBD8C241}" {
+       m_vOffsetPosition -0.1 1 0.3
+       m_ModelPrefabs {
+        "{B83F6469D7CA3459}Assets/Props/Debris/Wood/PlankWooden_Big_dbr_01.xob" "{2121DDF0CA2D05C9}Assets/Props/Debris/Wood/PlankWooden_Big_dbr_02.xob" "{68E2A8F815B4FD59}Assets/Props/Debris/Wood/PlankWooden_dbr_01.xob" "{F1FC11610853CCC9}Assets/Props/Debris/Wood/PlankWooden_dbr_02.xob" "{86F679E9FCF123B9}Assets/Props/Debris/Wood/PlankWooden_dbr_03.xob" "{813183B89A77997A}Assets/Props/Debris/Wood/PlankWooden_dbr_04.xob"
+       }
+       m_fMass 1
+       m_fDamageToImpulse 3
+       m_fRandomVelocityLinear 3
+       m_eMaterialSoundType WOOD_PLANK_SMALL
+      }
+     }
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SMALL
+  }
+  ActionsManagerComponent "{596AF6B91D3BEB97}" {
+   ActionContexts {
+    UserActionContext "{596AF6B90A96EE48}" {
+     ContextName "KeyHouseButton"
+     Position PointInfo "{596AF6B933170284}" {
+      Offset -0.5177 1.1946 0.2935
+     }
+    }
+   }
+   additionalActions {
+    ADRP_BuyAction "{596AF6B950EFDA1D}" {
+     ParentContextList {
+      "KeyHouseButton"
+     }
+     Duration 1
+     m_BuyItemDisplayName "Key house"
+     m_BuyItemPrefab "{97112478144DFD61}Prefabs/Items/Key/House/KeyHouse.et"
+    }
+    ADRP_BuyAction "{596AFA038C2A8BAC}" {
+     ParentContextList {
+      "KeyHouseButton"
+     }
+     Duration 1
+     m_BuyItemDisplayName "Copper Ore"
+     m_BuyItemPrefab "{354F9A0C033BB3FC}Prefabs/Items/Legal_Resources/Untreated/copper/CopperOre.et"
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+}

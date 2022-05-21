@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{354F9A0C033BB3FC}Prefabs/Items/Legal_Resources/Untreated/copper/Apple.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,6 @@
+MatPBRBasic {
+ BCRMap "{61BC4393A87068E7}Prefabs/Items/Legal_Resources/Untreated/copper/data/Copper_Ore_Colour.edds"
+ OpacityMap "{035DC4623493764B}Prefabs/Items/Legal_Resources/Untreated/copper/data/Copper_Ore_Metallic.edds"
+ NMOMap "{96E0E1D20F7C319E}Prefabs/Items/Legal_Resources/Untreated/copper/data/Copper_Ore_Roughness.edds"
+ DetailNormalMap "{11FB51510038D0DF}Prefabs/Items/Legal_Resources/Untreated/copper/data/Copper_Ore_Normal.edds"
+}

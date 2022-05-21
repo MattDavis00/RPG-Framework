@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{900F4DCC7C3F3A51}Prefabs/Items/Drink/Water/data/Water.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

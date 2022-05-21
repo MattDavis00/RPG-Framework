@@ -1,0 +1,45 @@
+MetaFileClass {
+ Name "{352473CB8F649E2D}Prefabs/Items/Drink/Water/Full/Plastic Water Bottle Full.xob"
+ Configurations {
+  FBXResourceClass PC {
+   Scale 0.13 0.13 0.13
+   Offset 0 0.09 0
+   MaterialAssigns {
+    MaterialAssignClass "{596ADBA3E9B194A3}" {
+     SourceMaterial "CapBlue"
+     AssignedMaterial "{F78039BE2B6BA54D}Prefabs/Items/Drink/Water/Full/data/CapBlue.emat"
+    }
+    MaterialAssignClass "{596ADBA3E9B1949C}" {
+     SourceMaterial "BottleClear"
+     AssignedMaterial "{D32EF0357E762F8E}Common/Materials/Glass_generic_ccw.emat"
+    }
+    MaterialAssignClass "{596ADBA3E9B19480}" {
+     SourceMaterial "Water"
+     AssignedMaterial "{900F4DCC7C3F3A51}Prefabs/Items/Drink/Water/Full/data/Water.emat"
+    }
+    MaterialAssignClass "{596ADBA3E9B1948A}" {
+     SourceMaterial "Label"
+     AssignedMaterial "{92B05962E496FE92}Prefabs/Items/Drink/Water/Full/data/Label.emat"
+    }
+   }
+   Common TXOCommonClass "{596ADBA3E93D8146}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{596ADBA3E93D8021}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{596ADBA3E93D8077}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{596ADBA3E93D8056}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{596ADBA3E93D80BA}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}
