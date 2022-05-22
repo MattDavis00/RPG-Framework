@@ -1,249 +1,342 @@
-$grp GenericEntity : "{B89D79612B3B89B9}Prefabs/Props/Commercial/CoolingBoxShop_01.et" {
- Market1 {
-  components {
-   ActionsManagerComponent "{596945B7E195302C}" {
-    additionalActions {
-    }
-   }
-  }
-  coords 9677.993 14.006 1546.721
-  angleY -132.133
-  angleZ -3.094
+$grp GenericEntity : "{7A7DB2EB70F0152B}Prefabs/Props/Commercial/GeneralStore.et" {
+ {
+  coords 5230.766 18.073 4022.052
   {
    $grp GenericEntity {
     {
      components {
-      MeshObject "{596AC3414F2FACFD}" {
-       Object "{820C247F652C099C}Prefabs/Items/Food/Apple/apple.xob"
+      MeshObject "{596CD827032F7BDD}" {
+       Object "{47E30697B0265157}Prefabs/Tools/Axe/Axe.xob"
       }
      }
-     coords -0.545 0.617 0.076
-     angleY 34.776
-     angleZ -45.571
+     coords 1.143 1.024 0.23
+     angleY 65.064
     }
     {
      components {
-      MeshObject "{596AC34172EBA21C}" {
-       Object "{820C247F652C099C}Prefabs/Items/Food/Apple/apple.xob"
+      MeshObject "{596CD8273A39DC29}" {
+       Object "{170EE372D687AEE1}Prefabs/Tools/Shovel/Shovel.xob"
       }
      }
-     coords -0.628 0.591 0.215
-     angleX -15.769
-     angleY 98.687
-     angleZ -92.378
+     coords 0.708 1.026 0.066
+     angleY -84.556
     }
     {
      components {
-      MeshObject "{596AD4CFB716E347}" {
-       Object "{93584595C7ACA3B7}Prefabs/Items/Food/Pizza/pizza.xob"
+      MeshObject "{596CD8273F94D7D4}" {
+       Object "{F61D0B176B774985}Prefabs/Tools/Pickaxe/Pickaxe.xob"
       }
      }
-     coords -0.146 0.628 0.024
+     coords 0.323 1.016 -0.052
+     angleY -98.938
     }
     {
      components {
-      MeshObject "{596AC34172EBA21C}" {
-       Object "{820C247F652C099C}Prefabs/Items/Food/Apple/apple.xob"
+      MeshObject "{596CD8248B3C003E}" {
+       Object "{7FF724B7B51E2059}Assets/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.xob"
       }
      }
-     coords -0.814 0.577 0.286
-     angleY 38.425
+     coords -0.521 1.078 0.438
+     angleX 16.233
+     angleY -21.21
     }
     {
      components {
-      MeshObject "{596AC34172EBA21C}" {
-       Object "{820C247F652C099C}Prefabs/Items/Food/Apple/apple.xob"
+      MeshObject "{596CD82487D28500}" {
+       Object "{C02B912A423AEADA}Assets/Items/Equipment/Watches/Watch_Vostok/Watch_Vostok_item.xob"
       }
      }
-     coords -0.754 0.606 0.041
+     coords -0.818 1.026 0.407
+     angleY 32.602
     }
     {
      components {
-      MeshObject "{596AC34172EBA21C}" {
-       Object "{820C247F652C099C}Prefabs/Items/Food/Apple/apple.xob"
+      MeshObject "{596CD824BE41136F}" {
+       Object "{C1BFD239F9A10AF5}Assets/Items/Equipment/Compass/Compass_SY183/Compass_SY183.xob"
       }
      }
-     coords -0.661 0.631 -0.21
-     angleY -41.661
+     coords -0.954 1.024 0.435
+     angleY -26.991
     }
     {
      components {
-      MeshObject "{596AD4CFB716E347}" {
-       Object "{93584595C7ACA3B7}Prefabs/Items/Food/Pizza/pizza.xob"
+      MeshObject "{596CD824D081E249}" {
+       Object "{BDB7E0B5CEA16D85}Assets/Items/Equipment/Maps/Map_Paper_01/Map_Paper_01_title.xob"
       }
      }
-     coords -0.288 0.649 -0.232
-    }
-    {
-     components {
-      MeshObject "{596AD4CFB716E347}" {
-       Object "{93584595C7ACA3B7}Prefabs/Items/Food/Pizza/pizza.xob"
-      }
-     }
-     coords -0.302 0.599 0.281
-    }
-    {
-     components {
-      MeshObject "{596AE151BCE6EB1F}" {
-       Object "{352473CB8F649E2D}Prefabs/Items/Drink/Water/Full/Plastic Water Bottle Full.xob"
-      }
-     }
-     coords 0.349 0.617 0.069
-     angleY 111.43
-    }
-    {
-     components {
-      MeshObject "{596AE151BCE6EB1F}" {
-       Object "{352473CB8F649E2D}Prefabs/Items/Drink/Water/Full/Plastic Water Bottle Full.xob"
-      }
-     }
-     coords 0.276 0.617 0.067
-     angleY -136.852
-    }
-    {
-     components {
-      MeshObject "{596AE151BCE6EB1F}" {
-       Object "{352473CB8F649E2D}Prefabs/Items/Drink/Water/Full/Plastic Water Bottle Full.xob"
-      }
-     }
-     coords 0.208 0.617 0.072
-     angleY 153.23
-    }
-    {
-     components {
-      MeshObject "{596AE151BCE6EB1F}" {
-       Object "{352473CB8F649E2D}Prefabs/Items/Drink/Water/Full/Plastic Water Bottle Full.xob"
-      }
-     }
-     coords 0.126 0.617 0.07
-     angleY -47.536
+     coords -0.224 1.026 0.406
+     angleY 100.329
     }
    }
   }
  }
- Market2 {
-  components {
-   ActionsManagerComponent "{596945B7E195302C}" {
-    additionalActions {
-    }
-   }
-  }
-  coords 5235.368 18.438 4020.553
-  angleX 2.163
-  angleY -42.849
-  angleZ -4.974
+ {
+  coords 5238.531 18.721 4025.817
+  angleY -67.42
   {
    $grp GenericEntity {
     {
      components {
-      MeshObject "{596AC34172EBA21C}" {
-       Object "{820C247F652C099C}Prefabs/Items/Food/Apple/apple.xob"
+      MeshObject "{596CD827032F7BDD}" {
+       Object "{47E30697B0265157}Prefabs/Tools/Axe/Axe.xob"
       }
      }
-     coords -0.815 0.577 0.286
-     angleY 38.425
+     coords 1.143 1.024 0.23
+     angleY 65.064
     }
     {
      components {
-      MeshObject "{596AD4CFB716E347}" {
-       Object "{93584595C7ACA3B7}Prefabs/Items/Food/Pizza/pizza.xob"
+      MeshObject "{596CD8273A39DC29}" {
+       Object "{170EE372D687AEE1}Prefabs/Tools/Shovel/Shovel.xob"
       }
      }
-     coords -0.288 0.65 -0.232
+     coords 0.708 1.026 0.066
+     angleY -84.556
     }
     {
      components {
-      MeshObject "{596AC34172EBA21C}" {
-       Object "{820C247F652C099C}Prefabs/Items/Food/Apple/apple.xob"
+      MeshObject "{596CD8273F94D7D4}" {
+       Object "{F61D0B176B774985}Prefabs/Tools/Pickaxe/Pickaxe.xob"
       }
      }
-     coords -0.629 0.59 0.214
-     angleX -15.769
-     angleY 98.687
-     angleZ -92.377
+     coords 0.323 1.016 -0.052
+     angleY -98.938
     }
     {
      components {
-      MeshObject "{596AD4CFB716E347}" {
-       Object "{93584595C7ACA3B7}Prefabs/Items/Food/Pizza/pizza.xob"
+      MeshObject "{596CD8248B3C003E}" {
+       Object "{7FF724B7B51E2059}Assets/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.xob"
       }
      }
-     coords -0.145 0.627 0.025
+     coords -0.521 1.078 0.438
+     angleX 16.233
+     angleY -21.21
     }
     {
      components {
-      MeshObject "{596AC34172EBA21C}" {
-       Object "{820C247F652C099C}Prefabs/Items/Food/Apple/apple.xob"
+      MeshObject "{596CD82487D28500}" {
+       Object "{C02B912A423AEADA}Assets/Items/Equipment/Watches/Watch_Vostok/Watch_Vostok_item.xob"
       }
      }
-     coords -0.66 0.63 -0.209
-     angleY -41.661
+     coords -0.818 1.026 0.407
+     angleY 32.602
     }
     {
      components {
-      MeshObject "{596AC34172EBA21C}" {
-       Object "{820C247F652C099C}Prefabs/Items/Food/Apple/apple.xob"
+      MeshObject "{596CD824BE41136F}" {
+       Object "{C1BFD239F9A10AF5}Assets/Items/Equipment/Compass/Compass_SY183/Compass_SY183.xob"
       }
      }
-     coords -0.754 0.605 0.041
+     coords -0.954 1.024 0.435
+     angleY -26.991
     }
     {
      components {
-      MeshObject "{596AE151BCE6EB1F}" {
-       Object "{352473CB8F649E2D}Prefabs/Items/Drink/Water/Full/Plastic Water Bottle Full.xob"
+      MeshObject "{596CD824D081E249}" {
+       Object "{BDB7E0B5CEA16D85}Assets/Items/Equipment/Maps/Map_Paper_01/Map_Paper_01_title.xob"
       }
      }
-     coords 0.125 0.617 0.072
-     angleX 0.001
-     angleY -47.535
-    }
-    {
-     components {
-      MeshObject "{596AE151BCE6EB1F}" {
-       Object "{352473CB8F649E2D}Prefabs/Items/Drink/Water/Full/Plastic Water Bottle Full.xob"
-      }
-     }
-     coords 0.208 0.617 0.072
-     angleY 153.23
-    }
-    {
-     components {
-      MeshObject "{596AE151BCE6EB1F}" {
-       Object "{352473CB8F649E2D}Prefabs/Items/Drink/Water/Full/Plastic Water Bottle Full.xob"
-      }
-     }
-     coords 0.35 0.617 0.069
-     angleX -0.001
-     angleY 111.43
-    }
-    {
-     components {
-      MeshObject "{596AD4CFB716E347}" {
-       Object "{93584595C7ACA3B7}Prefabs/Items/Food/Pizza/pizza.xob"
-      }
-     }
-     coords -0.302 0.599 0.282
-    }
-    {
-     components {
-      MeshObject "{596AE151BCE6EB1F}" {
-       Object "{352473CB8F649E2D}Prefabs/Items/Drink/Water/Full/Plastic Water Bottle Full.xob"
-      }
-     }
-     coords 0.276 0.617 0.068
-     angleY -136.852
-    }
-    {
-     components {
-      MeshObject "{596AC3414F2FACFD}" {
-       Object "{820C247F652C099C}Prefabs/Items/Food/Apple/apple.xob"
-      }
-     }
-     coords -0.544 0.616 0.077
-     angleY 34.776
-     angleZ -45.57
+     coords -0.224 1.026 0.406
+     angleY 100.329
     }
    }
   }
  }
+}
+GenericEntity : "{A32FB25777409D3F}Prefabs/Props/Kiosk/VendorKiosk.et" {
+ coords 5233.324 18.747 4032.609
+}
+GenericEntity Market1 : "{B89D79612B3B89B9}Prefabs/Props/Commercial/MarketShop.et" {
+ components {
+  ActionsManagerComponent "{596945B7E195302C}" {
+   additionalActions {
+   }
+  }
+ }
+ coords 5235.368 18.438 4020.553
+ angleX 2.163
+ angleY -42.849
+ angleZ -1.756
+ {
+  $grp GenericEntity {
+   {
+    components {
+     MeshObject "{596AC34172EBA21C}" {
+      Object "{820C247F652C099C}Prefabs/Items/Food/Apple/apple.xob"
+     }
+    }
+    coords -0.814 0.596 0.286
+    angleY 38.425
+   }
+   {
+    components {
+     MeshObject "{596AD4CFB716E347}" {
+      Object "{93584595C7ACA3B7}Prefabs/Items/Food/Pizza/pizza.xob"
+     }
+    }
+    coords -0.288 0.65 -0.232
+   }
+   {
+    components {
+     MeshObject "{596AC34172EBA21C}" {
+      Object "{820C247F652C099C}Prefabs/Items/Food/Apple/apple.xob"
+     }
+    }
+    coords -0.62 0.622 0.214
+    angleX -15.769
+    angleY 98.687
+    angleZ -92.377
+   }
+   {
+    components {
+     MeshObject "{596AD4CFB716E347}" {
+      Object "{93584595C7ACA3B7}Prefabs/Items/Food/Pizza/pizza.xob"
+     }
+    }
+    coords -0.145 0.627 0.025
+   }
+   {
+    components {
+     MeshObject "{596AC34172EBA21C}" {
+      Object "{820C247F652C099C}Prefabs/Items/Food/Apple/apple.xob"
+     }
+    }
+    coords -0.66 0.63 -0.209
+    angleY -41.661
+   }
+   {
+    components {
+     MeshObject "{596AC34172EBA21C}" {
+      Object "{820C247F652C099C}Prefabs/Items/Food/Apple/apple.xob"
+     }
+    }
+    coords -0.754 0.605 0.041
+   }
+   {
+    components {
+     MeshObject "{596AE151BCE6EB1F}" {
+      Object "{352473CB8F649E2D}Prefabs/Items/Drink/Water/Full/Plastic Water Bottle Full.xob"
+     }
+    }
+    coords 0.125 0.617 0.072
+    angleX 0.001
+    angleY -47.535
+   }
+   {
+    components {
+     MeshObject "{596AE151BCE6EB1F}" {
+      Object "{352473CB8F649E2D}Prefabs/Items/Drink/Water/Full/Plastic Water Bottle Full.xob"
+     }
+    }
+    coords 0.194 0.617 0.025
+    angleY 153.23
+   }
+   {
+    components {
+     MeshObject "{596AE151BCE6EB1F}" {
+      Object "{352473CB8F649E2D}Prefabs/Items/Drink/Water/Full/Plastic Water Bottle Full.xob"
+     }
+    }
+    coords 0.365 0.617 0.108
+    angleX -0.001
+    angleY 111.43
+   }
+   {
+    components {
+     MeshObject "{596AD4CFB716E347}" {
+      Object "{93584595C7ACA3B7}Prefabs/Items/Food/Pizza/pizza.xob"
+     }
+    }
+    coords -0.302 0.599 0.282
+   }
+   {
+    components {
+     MeshObject "{596AE151BCE6EB1F}" {
+      Object "{352473CB8F649E2D}Prefabs/Items/Drink/Water/Full/Plastic Water Bottle Full.xob"
+     }
+    }
+    coords 0.276 0.617 0.068
+    angleY -136.852
+   }
+   {
+    components {
+     MeshObject "{596AC3414F2FACFD}" {
+      Object "{820C247F652C099C}Prefabs/Items/Food/Apple/apple.xob"
+     }
+    }
+    coords -0.544 0.616 0.077
+    angleY 34.776
+    angleZ -45.57
+   }
+   {
+    components {
+     MeshObject "{596CA3D128939A8C}" {
+      Object "{8EEA4F4A5EFAACB3}Prefabs/Items/Drink/EnergyDrink/EnergyDrinkCan.xob"
+     }
+    }
+    coords 0.558 0.619 0.057
+    angleX -2.78
+    angleY 42.82
+    angleZ -0.183
+   }
+   {
+    components {
+     MeshObject "{596CA3D128939A8C}" {
+      Object "{8EEA4F4A5EFAACB3}Prefabs/Items/Drink/EnergyDrink/EnergyDrinkCan.xob"
+     }
+    }
+    coords 0.633 0.617 0.087
+    angleX 1.566
+    angleY -85.128
+    angleZ 2.304
+   }
+   {
+    components {
+     MeshObject "{596CA3D128939A8C}" {
+      Object "{8EEA4F4A5EFAACB3}Prefabs/Items/Drink/EnergyDrink/EnergyDrinkCan.xob"
+     }
+    }
+    coords 0.723 0.617 0.055
+    angleX 0.496
+    angleY 139.305
+    angleZ -2.741
+   }
+   {
+    components {
+     MeshObject "{596CA3D128939A8C}" {
+      Object "{8EEA4F4A5EFAACB3}Prefabs/Items/Drink/EnergyDrink/EnergyDrinkCan.xob"
+     }
+    }
+    coords 0.816 0.619 0.035
+    angleX 2.675
+    angleY -157.174
+    angleZ -0.778
+   }
+   {
+    components {
+     MeshObject "{596CA3D128939A8C}" {
+      Object "{8EEA4F4A5EFAACB3}Prefabs/Items/Drink/EnergyDrink/EnergyDrinkCan.xob"
+     }
+    }
+    coords 0.645 0.62 -0.045
+    angleX -2.012
+    angleY 82.849
+    angleZ -1.928
+   }
+   {
+    components {
+     MeshObject "{596AE151BCE6EB1F}" {
+      Object "{352473CB8F649E2D}Prefabs/Items/Drink/Water/Full/Plastic Water Bottle Full.xob"
+     }
+    }
+    coords 0.331 0.62 -0.04
+    angleX 2.55
+    angleY -164.645
+    angleZ -1.12
+   }
+  }
+ }
+}
+GenericEntity : "{CEA74B6F6E0B358B}Prefabs/Tools/Test.et" {
+ coords 5239.084 19.137 4033.248
 }

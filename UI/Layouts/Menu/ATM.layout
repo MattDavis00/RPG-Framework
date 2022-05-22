@@ -1,58 +1,306 @@
 FrameWidgetClass {
  Name "rootFrame"
  {
+  ImageWidgetClass "{596D43555318E6F8}" {
+   Name "Image1"
+   Slot FrameWidgetSlot "{596D43555318E6D8}" {
+    Anchor 0 0 1 1
+    PositionX -19.09
+    OffsetLeft -19.09
+    PositionY -21.476
+    OffsetTop -21.476
+    SizeX 50.618
+    OffsetRight -31.528
+    SizeY 50.042
+    OffsetBottom -28.566
+   }
+   Color 1 1 1 0.843
+   Texture "{248F04FDA4551723}UI/Textures/Layouts/back.edds"
+   Image ""
+   Size 64 64
+  }
   ImageWidgetClass "{596C76727D06DC5B}" {
    Name "Image0"
    Slot FrameWidgetSlot "{596B78009DA14E14}" {
-    PositionX 355.609
-    OffsetLeft 355.609
-    PositionY 435.714
-    OffsetTop 435.714
-    SizeX 789.941
-    OffsetRight -1145.55
-    SizeY 408.16
-    OffsetBottom -843.874
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -277.5
+    OffsetLeft -277.5
+    PositionY -540
+    OffsetTop -540
+    SizeX 555
+    OffsetRight -277.5
+    SizeY 1080
+    OffsetBottom -540
    }
-   Texture "{90BB7FC55A160133}textures/background.edds"
+   Texture "{5757A26838B8107A}UI/Textures/Layouts/ATM/atm.edds"
    Image ""
-   Size 980 594
+   Size 600 964
   }
   ButtonWidgetClass "{596C76727D06DC5A}" {
    Name "Exit"
    Slot FrameWidgetSlot "{596B78007621CFEC}" {
-    PositionX 1029.06
-    OffsetLeft 1029.06
-    PositionY 789.927
-    OffsetTop 789.927
-    SizeX 100
-    OffsetRight -1129.06
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 141.545
+    OffsetLeft 141.545
+    PositionY -4.473
+    OffsetTop -4.473
+    SizeX 93.829
+    OffsetRight -235.374
     SizeY 30
-    OffsetBottom -819.927
+    OffsetBottom -25.527
    }
+   Color 1 1 1 0
    {
     TextWidgetClass "{596C76727D06DC59}" {
      Name "Text0"
      Slot ButtonWidgetSlot "{596B780074DC52B6}" {
+      HorizontalAlign 0
      }
      Color 0 0 0 1
      Text "Exit"
+     "Font Size" 20
+     "Min Font Size" 20
+     FontProperties FontProperties "{596D435696B32AEA}" {
+      Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+     }
     }
    }
   }
-  TextWidgetClass "{596C7672E6EC4040}" {
-   Name "Text0"
-   Slot FrameWidgetSlot "{596C7672E6EC407D}" {
-    PositionX 1022.23
-    OffsetLeft 1022.23
-    PositionY 445.076
-    OffsetTop 445.076
-    SizeX 119.867
-    OffsetRight -1142.1
+  ButtonWidgetClass "{596D08B996B8234F}" {
+   Name "Withdraw"
+   Slot FrameWidgetSlot "{596D08B996B8232D}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -243.716
+    OffsetLeft -243.716
+    PositionY -4.947
+    OffsetTop -4.947
+    SizeX 145.413
+    OffsetRight 98.303
     SizeY 30
-    OffsetBottom -475.076
+    OffsetBottom -25.053
    }
-   Color 0.502 0 0 1
-   Text "ATM Menu"
+   Color 1 1 1 0
+   {
+    TextWidgetClass "{596D08B9A41F545F}" {
+     Name "Text0"
+     Slot ButtonWidgetSlot "{596D08B9A41F543E}" {
+      HorizontalAlign 2
+     }
+     Color 0 0 0 1
+     Text "Withdraw"
+     "Font Size" 20
+     "Min Font Size" 20
+     FontProperties FontProperties "{596D435667D8281E}" {
+      Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+     }
+    }
+   }
+  }
+  ButtonWidgetClass "{596D08A31125AB44}" {
+   Name "Deposit"
+   Slot FrameWidgetSlot "{596D08B996B8232D}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -242.951
+    OffsetLeft -242.951
+    PositionY -67.158
+    OffsetTop -67.158
+    SizeX 128.946
+    OffsetRight 114.005
+    SizeY 29.326
+    OffsetBottom 37.831
+   }
+   Color 1 1 1 0
+   {
+    TextWidgetClass "{596D08A31125AB4A}" {
+     Name "Text0"
+     Slot ButtonWidgetSlot "{596D08B9A41F543E}" {
+      HorizontalAlign 2
+     }
+     Color 0 0 0 1
+     Text "Deposit"
+     "Font Size" 20
+     "Min Font Size" 20
+     "Horizontal Alignment" Right
+     "Vertical Alignment" Center
+     FontProperties FontProperties "{596D435625EEB341}" {
+      Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+     }
+    }
+   }
+  }
+  TextWidgetClass "{596D08A0C9497876}" {
+   Name "IDAccount"
+   Slot FrameWidgetSlot "{596D08A0C9497843}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -178.921
+    OffsetLeft -178.921
+    PositionY -116.217
+    OffsetTop -116.217
+    SizeX 176.139
+    OffsetRight 2.782
+    SizeY 30.001
+    OffsetBottom 86.216
+   }
+   Text "Recipient account ID :"
+   "Font Size" 18
+   "Min Font Size" 18
+   "Horizontal Alignment" Center
+   "Vertical Alignment" Center
+   FontProperties FontProperties "{596D08AF1E591523}" {
+    Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+   }
+  }
+  EditBoxWidgetClass "{596D08A0A5EF4AE9}" {
+   Name "YourAccountID"
+   Slot FrameWidgetSlot "{596D08A0A5EF4ACC}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 0.302
+    OffsetLeft 0.302
+    PositionY -113.486
+    OffsetTop -113.486
+    SizeX 170.471
+    OffsetRight -170.773
+    SizeY 23.341
+    OffsetBottom 90.145
+   }
+   "Font Size" 20
+   "Use placeholder text" 1
+   "Placeholder color" 0.591 0.591 0.591 1
+   "Placeholder text" "AD5628746934"
+  }
+  ButtonWidgetClass "{596D08A129F29715}" {
+   Name "Tansfert"
+   Slot FrameWidgetSlot "{596D08B996B8232D}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 91.609
+    OffsetLeft 91.609
+    PositionY -68.122
+    OffsetTop -68.122
+    SizeX 143.339
+    OffsetRight -234.948
+    SizeY 30
+    OffsetBottom 38.122
+   }
+   Color 1 1 1 0
+   {
+    TextWidgetClass "{596D08A129F29714}" {
+     Name "Text0"
+     Slot ButtonWidgetSlot "{596D08B9A41F543E}" {
+      HorizontalAlign 0
+     }
+     Color 0 0 0 1
+     Text "Transfert"
+     "Font Size" 20
+     "Min Font Size" 20
+     FontProperties FontProperties "{596D43569F00962D}" {
+      Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+     }
+    }
+   }
+  }
+  TextWidgetClass "{596D08A19EC7B0F2}" {
+   Name "IDAccount0"
+   Slot FrameWidgetSlot "{596D08A0C9497843}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -176.92
+    OffsetLeft -176.92
+    PositionY -199.643
+    OffsetTop -199.643
+    SizeX 102.671
+    OffsetRight 74.249
+    SizeY 30.001
+    OffsetBottom 169.642
+   }
+   Text "Account ID :"
+   "Font Size" 18
+   "Min Font Size" 18
+   "Horizontal Alignment" Right
+   "Vertical Alignment" Center
+   FontProperties FontProperties "{596D08AECA3C53E8}" {
+    Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+   }
+  }
+  TextWidgetClass "{596D08A1BDF4EE36}" {
+   Name "MyIDAccount"
+   Slot FrameWidgetSlot "{596D08A0C9497843}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -73.402
+    OffsetLeft -73.402
+    PositionY -199.645
+    OffsetTop -199.645
+    SizeX 240.179
+    OffsetRight -166.777
+    SizeY 30.001
+    OffsetBottom 169.644
+   }
+   Text "AD56 2874 6934"
+   "Horizontal Alignment" Center
+   "Vertical Alignment" Center
+   FontProperties FontProperties "{596D08AE5A83E649}" {
+    Font "{B5902016D80E5C91}UI/Fonts/NotoSans/NotoSansCJK-Light-sc.fnt"
+   }
+  }
+  TextWidgetClass "{596D08A1FBA27609}" {
+   Name "BankText"
+   Slot FrameWidgetSlot "{596D08A0C9497843}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -176.92
+    OffsetLeft -176.92
+    PositionY -170.259
+    OffsetTop -170.259
+    SizeX 103.267
+    OffsetRight 73.653
+    SizeY 30.001
+    OffsetBottom 140.258
+   }
+   Text "In bank :"
+   "Font Size" 18
+   "Min Font Size" 18
+   "Horizontal Alignment" Right
+   "Vertical Alignment" Center
+   FontProperties FontProperties "{596D08AEE66858F8}" {
+    Font "{CD2634D279AB011A}UI/Fonts/Roboto/Roboto_Bold.fnt"
+   }
+  }
+  TextWidgetClass "{596D08A1FBA5D47E}" {
+   Name "MyIDAccount0"
+   Slot FrameWidgetSlot "{596D08A0C9497843}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -72.805
+    OffsetLeft -72.805
+    PositionY -169.59
+    OffsetTop -169.59
+    SizeX 239.552
+    OffsetRight -166.747
+    SizeY 30.001
+    OffsetBottom 139.589
+   }
+   Color 0.318 0.561 0.071 1
+   Text "2.278.964,85 $"
+   "Horizontal Alignment" Center
+   "Vertical Alignment" Center
+   FontProperties FontProperties "{596D08AE34125918}" {
+    Font "{DE4B66C39B62E39B}UI/Fonts/Purista/Purista Medium.fnt"
+   }
+  }
+  EditBoxWidgetClass "{596D08A129F3E166}" {
+   Name "TransfertAmount"
+   Slot FrameWidgetSlot "{596D08A2EAB54B80}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -71.668
+    OffsetLeft -71.668
+    PositionY -31.001
+    OffsetTop -31.001
+    SizeX 146.002
+    OffsetRight -74.334
+    SizeY 25.5
+    OffsetBottom 5.501
+   }
+   "Font Size" 20
+   "Use placeholder text" 1
+   "Placeholder color" 0.527 0.527 0.527 1
+   "Placeholder text" "Amount"
+   "Horizontal alignment" Center
   }
  }
 }

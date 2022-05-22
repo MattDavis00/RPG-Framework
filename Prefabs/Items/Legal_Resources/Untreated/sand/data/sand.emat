@@ -1,0 +1,4 @@
+MatPBRBasic {
+ Color 0.765 0.875 0.655 1
+ BCRMap "{CB433FE88915F43A}Prefabs/Items/Legal_Resources/Untreated/sand/sand.edds"
+}

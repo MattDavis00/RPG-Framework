@@ -1,0 +1,42 @@
+GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SoundComponent "{596CCCD2C4EC0FC3}" {
+   Filenames {
+    "{12A94705DF2BFD25}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic.acp"
+   }
+   OnFrameUpdate 0
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "Sand"
+     Description "You can make bags"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.45
+     SizeSetupStrategy Volume
+     ItemVolume 113
+    }
+   }
+  }
+  MeshObject "{596CCCD2C4EC0E36}" {
+   Object "{1EBF96E7E2028A28}Prefabs/Items/Legal_Resources/Untreated/sand/sand.xob"
+  }
+  RigidBody "{596CCCD2C4EC0E34}" {
+   LinearDamping 0.5
+   AngularDamping 0.5
+   AngularSleepingThreashold 1
+   ModelGeometry 1
+   CCDRadius 0.015
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   additionalActions {
+   }
+  }
+  RplComponent "{508AB59531D748C9}" {
+  }
+ }
+ coords 3118.714 15.855 2738.387
+ scale 1000
+}

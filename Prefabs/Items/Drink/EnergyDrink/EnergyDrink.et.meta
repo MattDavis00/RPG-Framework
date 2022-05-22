@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{14B6F1D08451F6FD}Prefabs/Items/Drink/EnergyDrink/EnergyDrink.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

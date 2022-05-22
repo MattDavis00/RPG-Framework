@@ -1,0 +1,147 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{8AEBC3FDF26E9C07}Assets/Props/Commercial/MarketStand_01/MarketStand_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 20
+   ResponseIndex "HugeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 1000
+   m_fForceToDamageScale 350
+   m_fDamageThresholdMinimum 30
+   m_fDamageThresholdMaximum 20000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{596CA3D2723471D9}" {
+     m_ModelPrefabs {
+      "{41B7DD05CF848F15}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_05.xob" "{D8A9649CD263BE85}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_06.xob"
+     }
+     m_fRandomVelocityLinear 2
+     m_eMaterialSoundType WOOD_PLANK_LARGE
+     m_fSoundTriggerThreshold 7.818
+    }
+    SCR_DebrisSpawnable "{596CA3D2723471C7}" {
+     m_ModelPrefabs {
+      "{DF6E9ECDB4E50446}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_01.xob" "{46702754A90235D6}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_02.xob" "{317A4FDC5DA0DAA6}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_03.xob" "{36BDB58D3B266065}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_04.xob" "{AFA30C1426C151F5}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_07.xob"
+     }
+     m_eMaterialSoundType WOOD_PLANK_LARGE
+     m_fSoundTriggerThreshold 10
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SMALL
+  }
+  ActionsManagerComponent "{596CA3D2A3DEFBCF}" {
+   ActionContexts {
+    UserActionContext "{596CD826016972CB}" {
+     ContextName "BuyAxeButton"
+     Position PointInfo "{596CD826384B6AC4}" {
+      Offset 1.1428 1.0683 0.5363
+     }
+    }
+    UserActionContext "{596CD8262E50B46B}" {
+     ContextName "BuyShovelButton"
+     Position PointInfo "{596CD826207209E8}" {
+      Offset 0.8525 1.0683 0.5363
+     }
+    }
+    UserActionContext "{596CD82625EEA2AB}" {
+     ContextName "BuyPickAxeButton"
+     Position PointInfo "{596CD826584814DC}" {
+      Offset 0.3389 1.0683 0.5363
+      Angles 0 0 0.5363
+     }
+    }
+    UserActionContext "{596CD826537003CD}" {
+     ContextName "BuyMapButton"
+     Position PointInfo "{596CD8264A704A43}" {
+      Offset -0.1639 1.0683 0.5363
+     }
+    }
+    UserActionContext "{596CD8264947281D}" {
+     ContextName "BuyBinocularButton"
+     Position PointInfo "{596CD826473490EE}" {
+      Offset -0.4943 1.0683 0.5363
+     }
+    }
+    UserActionContext "{596CD82645EB7C85}" {
+     ContextName "BuyWatchButton"
+     Position PointInfo "{596CD8267059B585}" {
+      Offset -0.8191 1.0683 0.5363
+     }
+    }
+    UserActionContext "{596CD826746DAC31}" {
+     ContextName "BuyCompassButton"
+     Position PointInfo "{596CD8266C074509}" {
+      Offset -0.933 1.0683 0.5363
+     }
+    }
+   }
+   additionalActions {
+    ADRP_BuyAction "{596CD826A7E37E7B}" {
+     ParentContextList {
+      "BuyAxeButton"
+     }
+     Duration 0.2
+     m_BuyItemDisplayName "axe"
+     m_BuyItemPrefab "{E0DFA03B26DC16AA}Prefabs/Tools/Axe/Axe.et"
+    }
+    ADRP_BuyAction "{596CD826A4FB7071}" {
+     ParentContextList {
+      "BuyShovelButton"
+     }
+     Duration 0.2
+     m_BuyItemDisplayName "shovel"
+     m_BuyItemPrefab "{9DBB4D6188632950}Prefabs/Tools/Shovel/Shovel.et"
+    }
+    ADRP_BuyAction "{596CD826A5AA1896}" {
+     ParentContextList {
+      "BuyPickAxeButton"
+     }
+     Duration 0.2
+     m_BuyItemDisplayName "pickaxe"
+     m_BuyItemPrefab "{1A2C1EEF789206E1}Prefabs/Tools/Pickaxe/Pickaxe.et"
+    }
+    ADRP_BuyAction "{596CD826DA45E286}" {
+     ParentContextList {
+      "BuyMapButton"
+     }
+     Duration 0.2
+     m_BuyItemDisplayName "map"
+     m_BuyItemPrefab "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+    }
+    ADRP_BuyAction "{596CD826DB623D2F}" {
+     ParentContextList {
+      "BuyBinocularButton"
+     }
+     Duration 0.2
+     m_BuyItemDisplayName "binocular"
+     m_BuyItemPrefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22.et"
+    }
+    ADRP_BuyAction "{596CD826D8164B15}" {
+     ParentContextList {
+      "BuyWatchButton"
+     }
+     Duration 0.2
+     m_BuyItemDisplayName "watch"
+     m_BuyItemPrefab "{4FAD128BE9F66C6F}Prefabs/Items/Equipment/Watches/Watch_Vostok_Map.et"
+    }
+    ADRP_BuyAction "{596CD826D9290C59}" {
+     ParentContextList {
+      "BuyCompassButton"
+     }
+     Duration 0.2
+     m_BuyItemDisplayName "compass"
+     m_BuyItemPrefab "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+}

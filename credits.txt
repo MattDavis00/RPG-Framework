@@ -1,0 +1,10 @@
+----- Main developer:
+-TheSam
+-Zomblard
+
+----- Contributor:
+ |
+--- 3d object:
+-Bossbirdyman
+ |
+--- Script:

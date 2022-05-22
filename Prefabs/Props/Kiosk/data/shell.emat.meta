@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5D39E0D52D3B1B13}Prefabs/Props/Kiosk/data/shell.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

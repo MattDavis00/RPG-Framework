@@ -1,0 +1,5 @@
+MatPBRBasic {
+ BCRMap "{36706B9341AB3737}Prefabs/Items/Legal_Resources/Untreated/sand/data/Sandbag_10_d.edds"
+ OpacityMap "{785AD693666B2545}Prefabs/Items/Legal_Resources/Untreated/sand/data/Sandbag_10_ao.edds"
+ NMOMap "{B2F07DF1696C2586}Prefabs/Items/Legal_Resources/Untreated/sand/data/Sandbag_10_n.edds"
+}

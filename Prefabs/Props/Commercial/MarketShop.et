@@ -41,6 +41,12 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
       Offset 0.3024 0.7313 0.3486
      }
     }
+    UserActionContext "{596CA3D264BBDB86}" {
+     ContextName "BuyEnergyDrink"
+     Position PointInfo "{596CA3D29CCCDE97}" {
+      Offset 0.6703 0.7313 0.3486
+     }
+    }
    }
    additionalActions {
     ADRP_BuyAction "{596AC342528C1F51}" {
@@ -66,6 +72,14 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      Duration 0.2
      m_BuyItemDisplayName "Water"
      m_BuyItemPrefab "{07B5EE4EB5344031}Prefabs/Items/Drink/Water/Full/BottleFull.et"
+    }
+    ADRP_BuyAction "{596CA3D2B8F35CC9}" {
+     ParentContextList {
+      "BuyEnergyDrink"
+     }
+     Duration 0.2
+     m_BuyItemDisplayName "energy drink"
+     m_BuyItemPrefab "{14B6F1D08451F6FD}Prefabs/Items/Drink/EnergyDrink/EnergyDrink.et"
     }
    }
   }

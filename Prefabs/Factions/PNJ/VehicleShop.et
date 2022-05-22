@@ -50,7 +50,7 @@ SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_
   CharacterHeadAimingComponent "{520EA1D2F659CF99}" {
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   Enabled 0
+   WeaponTemplate "{CEA74B6F6E0B358B}Prefabs/Tools/Test.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    Enabled 0
@@ -128,7 +128,7 @@ SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_
      }
      Duration 0.2
      _DisplayName "garage"
-     _UI_Class "Garage"
+     _UI_Class Garage
     }
     ADRP_OpenMenuAction "{596C7674658B3123}" {
      ParentContextList {
@@ -136,7 +136,7 @@ SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_
      }
      Duration 0.2
      _DisplayName "adminmenu"
-     _UI_Class "AdminMenu"
+     _UI_Class AdminMenu
     }
     ADRP_OpenMenuAction "{596C76749C3DC1E4}" {
      ParentContextList {
@@ -144,7 +144,7 @@ SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_
      }
      Duration 0.2
      _DisplayName "atm"
-     _UI_Class "Atm"
+     _UI_Class Atm
     }
     ADRP_OpenMenuAction "{596C76749D0772D8}" {
      ParentContextList {
@@ -152,7 +152,7 @@ SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_
      }
      Duration 0.2
      _DisplayName "clothing"
-     _UI_Class "Clothing"
+     _UI_Class Clothing
     }
     ADRP_OpenMenuAction "{596C767492790918}" {
      ParentContextList {
@@ -160,7 +160,7 @@ SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_
      }
      Duration 0.2
      _DisplayName "player interaction"
-     _UI_Class "PlayerInteraction"
+     _UI_Class PlayerInteraction
     }
     ADRP_OpenMenuAction "{596C76749373DCA2}" {
      ParentContextList {
@@ -168,7 +168,7 @@ SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_
      }
      Duration 0.2
      _DisplayName "vehicle shop"
-     _UI_Class "VehicleShop"
+     _UI_Class VehicleShop
     }
    }
   }

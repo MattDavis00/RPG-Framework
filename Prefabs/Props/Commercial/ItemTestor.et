@@ -82,6 +82,38 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      m_BuyItemDisplayName "Copper Ore"
      m_BuyItemPrefab "{354F9A0C033BB3FC}Prefabs/Items/Legal_Resources/Untreated/copper/CopperOre.et"
     }
+    ADRP_BuyAction "{596CCCD5481ADA75}" {
+     ParentContextList {
+      "KeyHouseButton" ""
+     }
+     Duration 0.2
+     m_BuyItemDisplayName "iron ingot"
+     m_BuyItemPrefab "{932317C2D4145E98}Prefabs/Items/Legal_Resources/Processed/iron/IronIngot.et"
+    }
+    ADRP_BuyAction "{596CCCD578080DE4}" {
+     ParentContextList {
+      "KeyHouseButton"
+     }
+     Duration 0.2
+     m_BuyItemDisplayName "iron ore"
+     m_BuyItemPrefab "{4B1557A11832C577}Prefabs/Items/Legal_Resources/Untreated/iron/IronOre.et"
+    }
+    ADRP_BuyAction "{596CCCD578D047F0}" {
+     ParentContextList {
+      "KeyHouseButton"
+     }
+     Duration 0.2
+     m_BuyItemDisplayName "sand"
+     m_BuyItemPrefab "{4EAA51B8DDB97499}Prefabs/Items/Legal_Resources/Untreated/sand/Sand.et"
+    }
+    ADRP_BuyAction "{596CCCD5AFA76B1D}" {
+     ParentContextList {
+      "KeyHouseButton"
+     }
+     Duration 0.2
+     m_BuyItemDisplayName "sand bag"
+     m_BuyItemPrefab "{545F55F2F8023826}Prefabs/Items/Legal_Resources/Processed/sand/SandBag.et"
+    }
    }
   }
   RplComponent "{5624A88DC2D9928D}" {

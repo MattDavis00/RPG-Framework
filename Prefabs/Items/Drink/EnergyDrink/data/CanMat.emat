@@ -1,0 +1,4 @@
+MatPBRBasic {
+ Color 1 1 1 1
+ BCRMap "{0F524933852A58F1}Prefabs/Items/Drink/EnergyDrink/CanMat_Base_Color.edds"
+}

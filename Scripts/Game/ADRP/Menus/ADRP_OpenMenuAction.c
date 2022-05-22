@@ -20,14 +20,14 @@ class ADRP_OpenMenuAction: ScriptedUserAction {
 	[Attribute("", UIWidgets.EditBox, desc: "Display name of what is opend")]
 	private string _DisplayName;
 	
-	[Attribute("", UIWidgets.EditBox, desc: "The Class UI in OpenMenuAction you want to call")]
-	private string _UI_Class;
+	[Attribute("", UIWidgets.ComboBox, desc: "The Class UI in OpenMenuAction you want to call", "", ParamEnumArray.FromEnum(ChimeraMenuPreset))]
+	private ChimeraMenuPreset _UI_Class;
 	
 		
 	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)
 	{	
 		MenuManager menuManager = GetGame().GetMenuManager();
-		menuManager.OpenMenu(ChimeraMenuPreset.Garage);
+		menuManager.OpenMenu(_UI_Class);
 		Print(_UI_Class);
 	}
 	

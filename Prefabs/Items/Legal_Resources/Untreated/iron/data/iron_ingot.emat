@@ -1,0 +1,5 @@
+MatPBRBasic {
+ BCRMap "{860905309F0FA13B}Prefabs/Items/Legal_Resources/Untreated/iron/data/IronIngot.edds"
+ OpacityMap "{E74F4C7CAAC0FB71}Prefabs/Items/Legal_Resources/Untreated/iron/data/iron_texture.edds"
+ NMOMap "{E9517FF5C27DABBF}Prefabs/Items/Legal_Resources/Untreated/iron/data/rock5_Metallic.edds"
+}

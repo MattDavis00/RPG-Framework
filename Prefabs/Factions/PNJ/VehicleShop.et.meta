@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{8D451A4C1F9A48E4}Prefabs/Characters/Campaign/Final/VehicleShop.et"
+ Name "{8D451A4C1F9A48E4}Prefabs/Factions/PNJ/VehicleShop.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

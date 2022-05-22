@@ -25,6 +25,15 @@ class AtmUI: ChimeraMenuBase
 		if (w.GetName() == "Exit") 
 			super.Close();
 		
+		if (w.GetName() == "Withdraw")
+			Print("Withdraw Button Clicked");
+		
+		if (w.GetName() == "Deposit")
+			Print("Deposit Button Clicked");
+		
+		if (w.GetName() == "Tansfert")
+			Print("Tansfert Button Clicked");
+		
 		return true;
 	}
 }
