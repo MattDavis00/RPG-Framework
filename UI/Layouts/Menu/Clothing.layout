@@ -1,0 +1,58 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  ImageWidgetClass "{596C7672644F9EFF}" {
+   Name "Image0"
+   Slot FrameWidgetSlot "{596B78009DA14E14}" {
+    PositionX 355.609
+    OffsetLeft 355.609
+    PositionY 435.714
+    OffsetTop 435.714
+    SizeX 789.941
+    OffsetRight -1145.55
+    SizeY 408.16
+    OffsetBottom -843.874
+   }
+   Texture "{90BB7FC55A160133}textures/background.edds"
+   Image ""
+   Size 980 594
+  }
+  ButtonWidgetClass "{596C7672644F9EFE}" {
+   Name "Exit"
+   Slot FrameWidgetSlot "{596B78007621CFEC}" {
+    PositionX 1029.06
+    OffsetLeft 1029.06
+    PositionY 789.927
+    OffsetTop 789.927
+    SizeX 100
+    OffsetRight -1129.06
+    SizeY 30
+    OffsetBottom -819.927
+   }
+   {
+    TextWidgetClass "{596C7672644F9EFD}" {
+     Name "Text0"
+     Slot ButtonWidgetSlot "{596B780074DC52B6}" {
+     }
+     Color 0 0 0 1
+     Text "Exit"
+    }
+   }
+  }
+  TextWidgetClass "{596C76750901DEA4}" {
+   Name "Text0"
+   Slot FrameWidgetSlot "{596C76750901DE40}" {
+    PositionX 995.088
+    OffsetLeft 995.088
+    PositionY 443.267
+    OffsetTop 443.267
+    SizeX 168.752
+    OffsetRight -1163.84
+    SizeY 30
+    OffsetBottom -473.267
+   }
+   Color 0.502 0 0 1
+   Text "Clothing Menu"
+  }
+ }
+}

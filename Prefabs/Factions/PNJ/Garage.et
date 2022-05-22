@@ -114,61 +114,21 @@ SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_
   }
   ActionsManagerComponent "{520EA1D2F659CE02}" {
    ActionContexts {
-    UserActionContext "{596B61CC0F75C76F}" {
+    UserActionContext "{596C7671E64B5FD4}" {
      ContextName "GarageButton"
-     Position PointInfo "{596B61CC07C5B424}" {
+     Position PointInfo "{596C7671E64B5FC1}" {
       Offset 0.0641 1.3423 0.0923
      }
     }
    }
    additionalActions {
-    ADRP_OpenMenuAction "{596B61C8CE261F2D}" {
+    ADRP_OpenMenuAction "{596C7671E64B5FC6}" {
      ParentContextList {
       "GarageButton"
      }
      Duration 0.2
      _DisplayName "garage"
-     _UI_Class "Garage"
-    }
-    ADRP_OpenMenuAction "{596C7674658B3123}" {
-     ParentContextList {
-      "GarageButton"
-     }
-     Duration 0.2
-     _DisplayName "adminmenu"
-     _UI_Class "AdminMenu"
-    }
-    ADRP_OpenMenuAction "{596C76749C3DC1E4}" {
-     ParentContextList {
-      "GarageButton"
-     }
-     Duration 0.2
-     _DisplayName "atm"
-     _UI_Class "Atm"
-    }
-    ADRP_OpenMenuAction "{596C76749D0772D8}" {
-     ParentContextList {
-      "GarageButton"
-     }
-     Duration 0.2
-     _DisplayName "clothing"
-     _UI_Class "Clothing"
-    }
-    ADRP_OpenMenuAction "{596C767492790918}" {
-     ParentContextList {
-      "GarageButton"
-     }
-     Duration 0.2
-     _DisplayName "player interaction"
-     _UI_Class "PlayerInteraction"
-    }
-    ADRP_OpenMenuAction "{596C76749373DCA2}" {
-     ParentContextList {
-      "GarageButton"
-     }
-     Duration 0.2
-     _DisplayName "vehicle shop"
-     _UI_Class "VehicleShop"
+     _LayoutPrefab "{EC68E8AF6D61A9D9}UI/Layouts/GPS/PlayerMapIndicator.layout"
     }
    }
   }

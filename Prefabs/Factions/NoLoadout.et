@@ -12,6 +12,22 @@ SCR_ChimeraCharacter : "{836E7E39AAC5888B}Prefabs/Characters/Factions/BLUFOR/US_
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponSlotIndex 1
   }
+  SCR_BaseHUDComponent "{520EA1D2DB118134}" {
+   InfoDisplays {
+    SCR_InfoDisplay "{596C7678D81E2062}" {
+     m_LayoutPath "{E52EF67E6029D7BA}UI/Layouts/Widgets/Arma4Dev.layout"
+     m_eLayer ALWAYS_TOP
+    }
+    SCR_InfoDisplay "{596C767F0A408B87}" {
+     m_LayoutPath "{40D4FF701F963929}UI/Layouts/Widgets/LifeHungerThrist.layout"
+     m_eLayer ALWAYS_TOP
+    }
+    SCR_InfoDisplay "{596C767F00958E7F}" {
+     m_LayoutPath "{7966A6CF08778A5B}UI/Layouts/Widgets/VoiceDistance.layout"
+     m_eLayer ALWAYS_TOP
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Grenadier"

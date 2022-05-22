@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7966A6CF08778A5B}UI/Layouts/Widgets/VoiceDistance.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

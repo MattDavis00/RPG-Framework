@@ -1,0 +1,104 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  ImageWidgetClass "{596C767D2B93403F}" {
+   Name "Image0"
+   Slot FrameWidgetSlot "{596C767D2B9341DB}" {
+    Anchor 0 1 0 1
+    PositionX 70
+    OffsetLeft 70
+    PositionY -220
+    OffsetTop -220
+    SizeX 40
+    OffsetRight -110
+    SizeY 40
+    OffsetBottom 180
+   }
+   Texture "{7463E95E20236A34}UI/Textures/LifeHungerThrist/coeur-fill.edds"
+   Image ""
+   Size 512 512
+  }
+  ImageWidgetClass "{596C767D9C270684}" {
+   Name "Image1"
+   Slot FrameWidgetSlot "{596C767D9C2706B7}" {
+    Anchor 0 1 0 1
+    PositionX 70
+    OffsetLeft 70
+    PositionY -160
+    OffsetTop -160
+    SizeX 40
+    OffsetRight -110
+    SizeY 40
+    OffsetBottom 120
+   }
+   Texture "{8E2F20F9DFA320EC}UI/Textures/LifeHungerThrist/meat-fill.edds"
+   Image ""
+   Size 512 512
+  }
+  ImageWidgetClass "{596C767D9DF46A5E}" {
+   Name "Image2"
+   Slot FrameWidgetSlot "{596C767D9DF46A7B}" {
+    Anchor 0 1 0 1
+    PositionX 70
+    OffsetLeft 70
+    PositionY -100
+    OffsetTop -100
+    SizeX 40
+    OffsetRight -110
+    SizeY 40
+    OffsetBottom 60
+   }
+   Texture "{0702BF8CABD34851}UI/Textures/LifeHungerThrist/water-fill.edds"
+   Image ""
+   Size 512 512
+  }
+  ProgressBarWidgetClass "{596C767DF7EC9A2A}" {
+   Name "LifeBar"
+   Slot FrameWidgetSlot "{596C767DF7EC9BDF}" {
+    Anchor 0 1 0 1
+    PositionX 120
+    OffsetLeft 120
+    PositionY -205
+    OffsetTop -205
+    SizeX 150
+    OffsetRight -270
+    SizeY 10
+    OffsetBottom 195
+   }
+   Color 0.624 0.157 0.157 1
+   Current 100
+  }
+  ProgressBarWidgetClass "{596C767C3F3B7BA2}" {
+   Name "HungerBar"
+   Slot FrameWidgetSlot "{596C767C3F3B7B78}" {
+    Anchor 0 1 0 1
+    PositionX 120
+    OffsetLeft 120
+    PositionY -145
+    OffsetTop -145
+    SizeX 150
+    OffsetRight -270
+    SizeY 10
+    OffsetBottom 135
+   }
+   Color 0.475 0.686 0.259 1
+   Current 80
+  }
+  ProgressBarWidgetClass "{596C767C3F9C7FA5}" {
+   Name "ThristBar"
+   Slot FrameWidgetSlot "{596C767C3F9C7F5F}" {
+    Anchor 0 1 0 1
+    PositionX 120
+    OffsetLeft 120
+    PositionY -85
+    OffsetTop -85
+    SizeX 150
+    OffsetRight -270
+    SizeY 10
+    OffsetBottom 75
+   }
+   Color 0.259 0.365 0.686 1
+   Current 20
+  }
+ }
+}

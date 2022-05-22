@@ -17,14 +17,14 @@ HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegMana
  coords 9678.135 14.251 1554.878
 }
 SCR_SpawnPoint : "{5392C4D80E4B18F8}Prefabs/MP/Spawning/SpawnPoint_FFA.et" {
- coords 9677.873 14.253 1554.547
+ coords 5235.367 18.507 4025.257
 }
 SCR_LoadoutManager : "{B7E5D7F4864D81C0}Prefabs/MP/Managers/Loadouts/LoadoutManager_FFA.et" {
  coords 9677.873 14.253 1554.547
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{59693B17BF65E0E9}" {
    m_sLoadoutName "Civilian"
-   m_sLoadoutResource "{2C0A1269EB2BFFBE}Factions/NoLoadout.et"
+   m_sLoadoutResource "{2C0A1269EB2BFFBE}Prefabs/Factions/NoLoadout.et"
    m_sAffiliatedFaction "FFA"
   }
  }

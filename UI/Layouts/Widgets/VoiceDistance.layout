@@ -1,0 +1,22 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  ImageWidgetClass "{596C767A88FC2EBD}" {
+   Name "Image0"
+   Slot FrameWidgetSlot "{596C767A88FC2E57}" {
+    Anchor 1 1 1 1
+    PositionX -125
+    OffsetLeft -125
+    PositionY -125
+    OffsetTop -125
+    SizeX 60
+    OffsetRight 65
+    SizeY 60
+    OffsetBottom 65
+   }
+   Texture "{AEB0821A8E95042E}UI/Textures/Speaker/speakerhigh.edds"
+   Image ""
+   Size 500 500
+  }
+ }
+}

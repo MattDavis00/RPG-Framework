@@ -1,0 +1,21 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  ImageWidgetClass "{596C767AD0F50C94}" {
+   Name "Image0"
+   Slot FrameWidgetSlot "{596C767AD0F50C42}" {
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 150
+    OffsetRight -150
+    SizeY 150
+    OffsetBottom -150
+   }
+   Texture "{0D661101A65BCC12}UI/Textures/arma4dev/logo.edds"
+   Image ""
+   Size 300 300
+  }
+ }
+}

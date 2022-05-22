@@ -1,7 +1,7 @@
 FrameWidgetClass {
  Name "rootFrame"
  {
-  ImageWidgetClass "{596B78009DA14E32}" {
+  ImageWidgetClass "{596C767296029776}" {
    Name "Image0"
    Slot FrameWidgetSlot "{596B78009DA14E14}" {
     PositionX 355.609
@@ -17,7 +17,7 @@ FrameWidgetClass {
    Image ""
    Size 980 594
   }
-  ButtonWidgetClass "{596B78007621CFF3}" {
+  ButtonWidgetClass "{596C767296029775}" {
    Name "Exit"
    Slot FrameWidgetSlot "{596B78007621CFEC}" {
     PositionX 1029.06
@@ -30,7 +30,7 @@ FrameWidgetClass {
     OffsetBottom -819.927
    }
    {
-    TextWidgetClass "{596B780074DC5252}" {
+    TextWidgetClass "{596C767296029774}" {
      Name "Text0"
      Slot ButtonWidgetSlot "{596B780074DC52B6}" {
      }
@@ -38,6 +38,21 @@ FrameWidgetClass {
      Text "Exit"
     }
    }
+  }
+  TextWidgetClass "{596C76752FC8654C}" {
+   Name "Text0"
+   Slot FrameWidgetSlot "{596C76752FC86569}" {
+    PositionX 924
+    OffsetLeft 924
+    PositionY 438
+    OffsetTop 438
+    SizeX 238
+    OffsetRight -1162
+    SizeY 30
+    OffsetBottom -468
+   }
+   Color 0.502 0 0 1
+   Text "PlayerInteraction Menu"
   }
  }
 }
