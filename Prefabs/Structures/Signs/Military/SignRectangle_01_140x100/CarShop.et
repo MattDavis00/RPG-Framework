@@ -1,0 +1,55 @@
+GenericEntity : "{43B099F05634173B}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/SignRectangle_01_140x100_base.et" {
+ ID "50D67C36F4200F97"
+ components {
+  MeshObject "{54969A6AAAADA251}" {
+   Materials {
+    MaterialAssignClass "{596B064680C4DCB3}" {
+     SourceMaterial "SignRectangle_01_140x100"
+     AssignedMaterial "{6DEFDD488E2155A1}Assets/Structures/Signs/Military/Data/Sign_BaseEntrance_USSR_01.emat"
+    }
+    MaterialAssignClass "{596B064680C4DCBA}" {
+     SourceMaterial "SignRectangle_01_140x100_MLOD"
+     AssignedMaterial "{AACD1F9678B72170}Assets/Structures/Signs/Military/Data/Sign_BaseEntrance_USSR_01_MLOD.emat"
+    }
+   }
+  }
+  RigidBody "{54969A6AA8773997}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{58D4C8DAFF1CE2A0}" {
+     m_ModelPrefabs {
+      "{10DCBF5EED970B4D}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Dst/SignRectangle_01_140x100_dst_02_USSR_entrance.et" "{34567B212E3EAD9C}Assets/Structures/Signs/Military/Dst/SignRectangle_01_140x100_dst_03.xob"
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{596B0646A6C8CA1C}" {
+   ActionContexts {
+    UserActionContext "{596B0646DA31A6E0}" {
+     ContextName "BuyCarButon"
+     Position PointInfo "{596B0646DF82244F}" {
+      Offset 0 1.0038 0
+     }
+    }
+   }
+   additionalActions {
+    ADRP_BuyVehicle "{596B064755B876EC}" {
+     ParentContextList {
+      "BuyCarButon"
+     }
+     m_BuyItemDisplayName "Car 1"
+     m_BuyItemPrefab "{8320B837F1122DF7}Prefabs/Items/Drink/Water/Empty/BottleEmpty.et"
+    }
+    ADRP_BuyVehicle "{596B064779126665}" {
+     ParentContextList {
+      "BuyCarButon"
+     }
+     m_BuyItemDisplayName "Car 2"
+     m_BuyItemPrefab "{8320B837F1122DF7}Prefabs/Items/Drink/Water/Empty/BottleEmpty.et"
+    }
+   }
+  }
+ }
+}

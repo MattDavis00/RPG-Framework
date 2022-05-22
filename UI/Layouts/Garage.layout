@@ -1,0 +1,43 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  ImageWidgetClass "{596B78009DA14E32}" {
+   Name "Image0"
+   Slot FrameWidgetSlot "{596B78009DA14E14}" {
+    PositionX 355.609
+    OffsetLeft 355.609
+    PositionY 435.714
+    OffsetTop 435.714
+    SizeX 789.941
+    OffsetRight -1145.55
+    SizeY 408.16
+    OffsetBottom -843.874
+   }
+   Texture "{90BB7FC55A160133}textures/background.edds"
+   Image ""
+   Size 980 594
+  }
+  ButtonWidgetClass "{596B78007621CFF3}" {
+   Name "Exit"
+   Slot FrameWidgetSlot "{596B78007621CFEC}" {
+    PositionX 1029.06
+    OffsetLeft 1029.06
+    PositionY 789.927
+    OffsetTop 789.927
+    SizeX 100
+    OffsetRight -1129.06
+    SizeY 30
+    OffsetBottom -819.927
+   }
+   {
+    TextWidgetClass "{596B780074DC5252}" {
+     Name "Text0"
+     Slot ButtonWidgetSlot "{596B780074DC52B6}" {
+     }
+     Color 0 0 0 1
+     Text "Exit"
+    }
+   }
+  }
+ }
+}

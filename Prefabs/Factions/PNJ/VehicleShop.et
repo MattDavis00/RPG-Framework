@@ -1,0 +1,147 @@
+SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_CharacterControllerComponent "{520EA1D2F659CEA5}" {
+  }
+  SignalsManagerComponent "{520EA1D2F659C85A}" {
+  }
+  CharacterSoundComponent "{520EA1D2F659CF84}" {
+  }
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+  }
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+    }
+   }
+  }
+  AIControlComponent "{520EA1D2DB109F34}" {
+   components {
+    AICharacterAimingComponent "{520EA1D2DB109F0C}" {
+    }
+    AICharacterHeadAimingComponent "{520EA1D2DB109F04}" {
+    }
+    AICharacterMovementComponent "{520EA1D2DB109F01}" {
+    }
+    AICharacterSteeringComponent "{520EA1D2DB109F3D}" {
+     "Using Railroad" 1
+    }
+    AIPathfindingComponent "{56349A6F9C02E7A1}" {
+    }
+    PerceptionComponent "{54A2CBC75F06064B}" {
+    }
+    SCR_AICombatComponent "{55A2C9BE343B2EA1}" {
+    }
+   }
+   EnableAI 1
+  }
+  ActionsPerformerComponent "{520EA1D2F659CE3F}" {
+  }
+  BaseFlattenGrassComponent "{520EA1D2F659CE26}" {
+  }
+  BaseWeaponManagerComponent "{520EA1D2F659CE5D}" {
+  }
+  CharacterAimingComponent "{520EA1D2F659CE42}" {
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   Enabled 0
+   shouldHandleObstruction 0
+  }
+  CharacterHeadAimingComponent "{520EA1D2F659CF99}" {
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   Enabled 0
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   Enabled 0
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   Enabled 0
+  }
+  ClimbingDataComponent "{5304A49E934A0758}" {
+  }
+  ColliderHistoryComponent "{566C7EDBB7BCC719}" {
+  }
+  EquipedWeaponStorageComponent "{520EA1D2DB118C70}" {
+  }
+  EventHandlerManagerComponent "{530284308E2527DD}" {
+  }
+  FactionAffiliationComponent "{520EC961FB0A2E90}" {
+  }
+  Hierarchy "{520EA1D2F659C818}" {
+  }
+  Ragdoll "{520EA1D2F659C83D}" {
+  }
+  SCR_BaseHUDComponent "{520EA1D2DB118134}" {
+  }
+  SCR_CallsignCharacterComponent "{55BADB0EB09CC77E}" {
+  }
+  SCR_CampaignInteractionsComponent "{52C6D568A19C43AE}" : "{3DB2C15A8AFF1927}Prefabs/Characters/Campaign/CampaignInteractions.ct" {
+  }
+  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
+   "Fall damage min height" 32.8
+   EnableDamage 0
+  }
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+  }
+  SCR_CharacterRegistrationComponent "{5216D6E4AC68563B}" {
+  }
+  SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
+  }
+  SCR_CharacterVicinityComponent "{529A70D96D401B33}" {
+  }
+  SCR_CompartmentAccessComponent "{52249C842F1EF1F4}" {
+  }
+  SCR_FuelNozzleHolderComponent "{52368400919641C0}" {
+  }
+  SCR_GadgetManagerComponent "{520EA1D2DB118DF3}" {
+  }
+  SCR_MapDescriptorComponent "{5902A44E904E5B68}" {
+  }
+  SCR_MeleeComponent "{520EA1D2F659C85E}" {
+  }
+  SCR_PreviewEntityComponent "{55EE4A2A78856F12}" {
+  }
+  SCR_VoNComponent "{520EA1D2F659C856}" {
+  }
+  TagComponent "{5864D980062191CA}" {
+  }
+  CharacterIdentityComponent "{5584CBC63E092DBC}" {
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+  }
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   ActionContexts {
+    UserActionContext "{596B61CC0F75C76F}" {
+     ContextName "GarageButton"
+     Position PointInfo "{596B61CC07C5B424}" {
+      Offset 0.0641 1.3423 0.0923
+     }
+    }
+   }
+   additionalActions {
+    ADRP_OpenMenuAction "{596B61C8CE261F2D}" {
+     ParentContextList {
+      "GarageButton"
+     }
+     Duration 0.2
+     _DisplayName "garage"
+     _LayoutPrefab "{EC68E8AF6D61A9D9}UI/Layouts/GPS/PlayerMapIndicator.layout"
+    }
+   }
+  }
+  CharacterAnimationComponent "{520EA1D2F659C994}" {
+   components {
+    SCR_CharacterCommandHandlerComponent "{520EA1D2F659C99A}" {
+    }
+   }
+  }
+  SCR_CharacterCameraHandlerComponent "{520EA1D2F659C98D}" {
+  }
+  RplComponent "{5238B6A9F3442EE7}" {
+  }
+ }
+ coords 536.698 0.985 843.726
+}
