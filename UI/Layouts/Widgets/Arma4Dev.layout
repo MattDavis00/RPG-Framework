@@ -30,6 +30,7 @@ FrameWidgetClass {
     SizeY 30
     OffsetBottom 501.288
    }
+   Opacity 0.35
    Text "www.arma4dev.com"
    "Horizontal Alignment" Center
    "Vertical Alignment" Center

@@ -14,18 +14,34 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
       }
       SCR_EquipmentStorageSlot BinocularSlot {
       }
+      SCR_EquipmentStorageSlot Map {
+       Prefab "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+      }
      }
     }
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
-   WeaponTemplate ""
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate ""
   }
   FactionAffiliationComponent "{520EC9618276DF23}" {
    "faction affiliation" "FFA"
+  }
+  SCR_BaseHUDComponent "{520EA1D2DB118134}" {
+   InfoDisplays {
+    SCR_InfoDisplay "{59710D183DBC1C8C}" {
+     VisibleAtParent 1
+     m_LayoutPath "{E52EF67E6029D7BA}UI/Layouts/Widgets/Arma4Dev.layout"
+     m_eLayer ALWAYS_TOP
+    }
+    SCR_InfoDisplay "{59710D195787D3F7}" {
+     m_LayoutPath "{40D4FF701F963929}UI/Layouts/Widgets/LifeHungerThrist.layout"
+     m_eLayer OVERLAY
+    }
+   }
   }
   SCR_CampaignBuildingComponent "{5970F68298D2A03C}" {
    m_fBuildingRadius 300
@@ -69,20 +85,13 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{54A4D05608012D36}" {
-     PrefabsToSpawn {
-     }
+     TargetStorage ""
     }
     ItemsInitConfigurationItem "{54A68D64D7F9124F}" {
-     PrefabsToSpawn {
-     }
     }
     ItemsInitConfigurationItem "{56607B902B535037}" {
-     PrefabsToSpawn {
-     }
     }
     ItemsInitConfigurationItem "{56628A465EF1343C}" {
-     PrefabsToSpawn {
-     }
     }
    }
   }

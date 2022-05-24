@@ -66,6 +66,10 @@ FrameWidgetClass {
     OffsetBottom 195
    }
    Color 0.624 0.157 0.157 1
+   components {
+    ADRP_HUD "{59710D12A919EDAA}" {
+    }
+   }
    Current 100
   }
   ProgressBarWidgetClass "{596C767C3F3B7BA2}" {

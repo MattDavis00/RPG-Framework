@@ -15,8 +15,9 @@ class ADRP_BuyAction: ScriptedUserAction {
 		
 	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)
 	{
-		auto inventoryManager = SCR_InventoryStorageManagerComponent.Cast(pUserEntity.FindComponent(SCR_InventoryStorageManagerComponent));
-		inventoryManager.TrySpawnPrefabToStorage(m_BuyItemPrefab);
+		SCR_InventoryStorageManagerComponent inventoryManager = SCR_InventoryStorageManagerComponent.Cast(pUserEntity.FindComponent(SCR_InventoryStorageManagerComponent));
+		if (inventoryManager)
+			inventoryManager.TrySpawnPrefabToStorage(m_BuyItemPrefab);
 	}
 	
 	override bool GetActionNameScript(out string outName)
