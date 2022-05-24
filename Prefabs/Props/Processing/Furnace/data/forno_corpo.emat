@@ -1,0 +1,6 @@
+MatPBRBasic {
+ RoughnessScale 0.489
+ MetalnessScale 1.979
+ DielectricReflectance 0.085
+ BCRMap "{DF42FFA3D8584B36}Prefabs/Props/Processing/Furnace/data/forno_eletrico_factorio_uv__forno_corpo_Ba.edds"
+}

@@ -10,6 +10,18 @@ Layer Civilian {
 Layer PNJ {
  Index 2
 }
-Layer MarketShop {
+Layer Shop {
  Index 3
+}
+Layer World {
+ Index 4
+}
+Layer Bank {
+ Index 5
+}
+Layer Trader {
+ Index 6
+}
+Layer Processing {
+ Index 7
 }

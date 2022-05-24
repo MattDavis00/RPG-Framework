@@ -1,0 +1,62 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{FD21470C17492E77}Prefabs/Props/Processing/Furnace/furnace.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 20
+   ResponseIndex "HugeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 1000
+   m_fForceToDamageScale 350
+   m_fDamageThresholdMinimum 30
+   m_fDamageThresholdMaximum 20000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{5970A806187F1A5D}" {
+     m_ModelPrefabs {
+      "{41B7DD05CF848F15}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_05.xob" "{D8A9649CD263BE85}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_06.xob"
+     }
+     m_fRandomVelocityLinear 2
+     m_eMaterialSoundType WOOD_PLANK_LARGE
+     m_fSoundTriggerThreshold 7.818
+    }
+    SCR_DebrisSpawnable "{5970A806187F1A4B}" {
+     m_ModelPrefabs {
+      "{DF6E9ECDB4E50446}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_01.xob" "{46702754A90235D6}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_02.xob" "{317A4FDC5DA0DAA6}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_03.xob" "{36BDB58D3B266065}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_04.xob" "{AFA30C1426C151F5}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_07.xob"
+     }
+     m_eMaterialSoundType WOOD_PLANK_LARGE
+     m_fSoundTriggerThreshold 10
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SMALL
+  }
+  ActionsManagerComponent "{5970A806187F1A4F}" {
+   ActionContexts {
+    UserActionContext "{5970B38615938F01}" {
+     ContextName "test"
+     Position PointInfo "{5970B3860ECE9A66}" {
+      Offset -1.2342 1.0348 0
+     }
+     Radius 6.02
+    }
+   }
+   additionalActions {
+    ADRP_GatherAction "{5970B3863431B204}" {
+     ParentContextList {
+      "test"
+     }
+     m_GatherItemDisplayName "copper"
+     m_GatherItemPrefab "{354F9A0C033BB3FC}Prefabs/Items/Legal_Resources/Untreated/copper/CopperOre.et"
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+}

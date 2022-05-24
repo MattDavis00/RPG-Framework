@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{99A2D6686A22BB82}UI/Layouts/Widgets/phone/Home.layout"
+ Name "{077BAFDA653EB917}UI/Layouts/Menu/PhoneMenu.layout"
  Configurations {
   LayoutResourceClass PC {
   }

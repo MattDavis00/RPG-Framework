@@ -1,0 +1,5 @@
+MatPBRBasic {
+ RoughnessScale 0.234
+ AOScale 0.574
+ BCRMap "{66D750A173FA6348}Prefabs/Props/Processing/Furnace/data/uv__condizionatore.edds"
+}

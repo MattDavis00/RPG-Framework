@@ -5,12 +5,12 @@
 |
 /--------------------------------------------------------------------------------------------------------------------------------------*/
 
-class PhoneUI: ChimeraMenuBase
+class PhoneMenuUI: ChimeraMenuBase
 {
 	override void OnMenuOpen()
 	{
 		super.OnMenuOpen();
-		Print("Phone Menu Open");
+		Print("Admin Menu Open");
 	}
 	
 	override void OnMenuClose()
@@ -22,7 +22,7 @@ class PhoneUI: ChimeraMenuBase
 	override bool OnClick(Widget w, int x, int y, int button)
 	{
 		Print("clicked");
-		if (w.GetName() == "ExitPhone") 
+		if (w.GetName() == "Exit") 
 			super.Close();
 		
 		return true;

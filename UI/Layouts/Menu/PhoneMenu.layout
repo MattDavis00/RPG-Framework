@@ -1,0 +1,58 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  ImageWidgetClass "{5970866B0E3AF71D}" {
+   Name "Image0"
+   Slot FrameWidgetSlot "{596B78009DA14E14}" {
+    PositionX 355.609
+    OffsetLeft 355.609
+    PositionY 435.714
+    OffsetTop 435.714
+    SizeX 789.941
+    OffsetRight -1145.55
+    SizeY 408.16
+    OffsetBottom -843.874
+   }
+   Texture "{90BB7FC55A160133}textures/background.edds"
+   Image ""
+   Size 980 594
+  }
+  ButtonWidgetClass "{5970866B0E3AF702}" {
+   Name "Exit"
+   Slot FrameWidgetSlot "{596B78007621CFEC}" {
+    PositionX 1029.06
+    OffsetLeft 1029.06
+    PositionY 789.927
+    OffsetTop 789.927
+    SizeX 100
+    OffsetRight -1129.06
+    SizeY 30
+    OffsetBottom -819.927
+   }
+   {
+    TextWidgetClass "{5970866B0E3AF701}" {
+     Name "Text0"
+     Slot ButtonWidgetSlot "{596B780074DC52B6}" {
+     }
+     Color 0 0 0 1
+     Text "Exit"
+    }
+   }
+  }
+  TextWidgetClass "{5970866B0E3AF700}" {
+   Name "Text0"
+   Slot FrameWidgetSlot "{596C7672D01A4E31}" {
+    PositionX 985.068
+    OffsetLeft 985.068
+    PositionY 445.793
+    OffsetTop 445.793
+    SizeX 151.996
+    OffsetRight -1137.06
+    SizeY 30
+    OffsetBottom -475.793
+   }
+   Color 0.502 0 0 1
+   Text "PhoneMenu"
+  }
+ }
+}

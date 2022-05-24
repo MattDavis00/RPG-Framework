@@ -1,0 +1,31 @@
+GenericEntity {
+ components {
+  MeshObject "{5970AE181259AC83}" {
+   Object "{34ED098B4678341D}Prefabs/Props/Processing/Furnace/BlastFurnance_Full.xob"
+  }
+  ActionsManagerComponent "{5970AE180893D9C7}" {
+   ActionContexts {
+    UserActionContext "{5970AE180FA67366}" {
+     ContextName "sss"
+     Position PointInfo "{5970AE180361CDAE}" {
+      Offset 0.3994 1.0735 -0.71
+     }
+    }
+   }
+   additionalActions {
+    ADRP_BuyAction "{5970AE183B3B33DF}" {
+     ParentContextList {
+      "sss"
+     }
+     m_BuyItemDisplayName "ss"
+     m_BuyItemPrefab "{14B6F1D08451F6FD}Prefabs/Items/Drink/EnergyDrink/EnergyDrink.et"
+    }
+   }
+  }
+ }
+ coords 5225.2 17.833 4022.328
+}
+GenericEntity : "{C29801AF0AF6C494}Prefabs/Props/Bank/ATM.et" {
+ coords 5230.996 18.447 4031.132
+ angleY -43.569
+}

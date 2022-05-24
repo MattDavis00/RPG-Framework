@@ -170,13 +170,13 @@ SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_
      _DisplayName "vehicle shop"
      _UI_Class VehicleShop
     }
-    ADRP_OpenPhoneKey "{596ECAEAA381F962}" {
+    ADRP_OpenMenuAction "{5970894936F947F0}" {
      ParentContextList {
       "GarageButton"
      }
-     Duration 0.1
-     _DisplayName "Phone"
-     _UI_ClassPhone Phone
+     Duration 0.2
+     _DisplayName "SmartPhone"
+     _UI_Class PhoneMenu
     }
    }
   }
