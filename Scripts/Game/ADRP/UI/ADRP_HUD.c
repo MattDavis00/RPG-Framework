@@ -1,3 +1,10 @@
+/*--------------------------------------------------------------------------------------------------------------------------------------/
+|
+|	Author : TheSam
+|	Desc : 
+|
+/--------------------------------------------------------------------------------------------------------------------------------------*/
+
 class ADRP_HUD: ScriptedWidgetComponent
 {
 
@@ -10,8 +17,7 @@ class ADRP_HUD: ScriptedWidgetComponent
 
     private SCR_CharacterDamageManagerComponent _charDamageManager;
 
-    //======================== CLOCK UPDATE ===================================\\
-    //Sets clock as System clock, Called every seconds
+    //======================== UPDATE HUD ===================================\\
     protected void OnHUDUpdate()
     {
         if (_progress.GetName() == "LifeBar")

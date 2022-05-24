@@ -1,6 +1,8 @@
 GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
  ID "F0DBA538AC2A0552"
  components {
+  ADRP_FoundryComponent "{5971330FF6E0D7E4}" {
+  }
   MeshObject "{5872F0EB7FA40561}" {
    Object "{FD21470C17492E77}Prefabs/Props/Processing/Furnace/furnace.xob"
   }
@@ -34,44 +36,48 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
    }
    m_eMaterialSoundType BREAK_WOOD_SMALL
   }
+  SCR_InventoryStorageManagerComponent "{5971330D93378C4A}" {
+  }
   ActionsManagerComponent "{5970A806187F1A4F}" {
    ActionContexts {
     UserActionContext "{5970B38615938F01}" {
-     ContextName "InteractionButton"
+     ContextName "IventoryButton"
      Position PointInfo "{5970B3860ECE9A66}" {
       Offset 1.7774 1.1613 0
      }
      Radius 6.02
     }
+    UserActionContext "{5971331E7F00B6F6}" {
+     ContextName "FoundryButton"
+     Position PointInfo "{5971331E7D918681}" {
+      Offset 1.8091 1.53 -0.8442
+     }
+    }
    }
    additionalActions {
-    ADRP_BuyAction "{5971100029A6056B}" {
+    ADRP_StartFoundryAction "{5971331E43E84674}" {
      ParentContextList {
-      "InteractionButton"
+      "IventoryButton"
      }
-     Duration 0.2
-     m_BuyItemDisplayName "Use foundry"
+     Duration 2
     }
-    ADRP_BuyAction "{597110002FA83507}" {
+    ADRP_UseFoundryAction "{59712D7B661EA447}" {
      ParentContextList {
-      "InteractionButton"
+      "IventoryButton"
      }
-     Duration 0.2
-     m_BuyItemDisplayName "Start foundry"
+     Duration 0.5
     }
-    ADRP_BuyAction "{5971100046AF5F3C}" {
+    ADRP_ReleaseFoundryAction "{597155D2CAEE4A7B}" {
      ParentContextList {
-      "InteractionButton"
+      "IventoryButton"
      }
-     Duration 0.2
-     m_BuyItemDisplayName "Release foundry"
+     Duration 5
     }
-    ADRP_BuyAction "{5971100614FBE18A}" {
+    ADRP_OpenFoundryAction "{597155D52EF9E4B5}" {
      ParentContextList {
-      "InteractionButton"
+      "IventoryButton"
      }
-     Duration 0.2
-     m_BuyItemDisplayName "Open Inventory"
+     Duration 0.1
     }
    }
   }
