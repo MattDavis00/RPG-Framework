@@ -2,7 +2,7 @@ MetaFileClass {
  Name "{FD21470C17492E77}Prefabs/Props/Processing/Furnace/furnace.xob"
  Configurations {
   FBXResourceClass PC {
-   Scale 0.016 0.016 0.016
+   Scale 0.017 0.017 0.017
    MaterialAssigns {
     MaterialAssignClass "{5970B383E8653CAC}" {
      SourceMaterial "forno_corpo"

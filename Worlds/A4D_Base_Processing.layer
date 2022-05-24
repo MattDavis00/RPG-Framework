@@ -1,3 +1,26 @@
 GenericEntity : "{6695DB94F1D81AC5}Prefabs/Props/Processing/Furnace/Fundry.et" {
- coords 5240.919 19.276 4033.753
+ components {
+  ActionsManagerComponent "{5970A806187F1A4F}" {
+   additionalActions {
+    ADRP_BuyAction "{5971100029A6056B}" {
+     Duration 1
+     "Sort Priority" 11
+    }
+    ADRP_BuyAction "{597110002FA83507}" {
+     Duration 1
+     "Sort Priority" 3
+    }
+    ADRP_BuyAction "{5971100046AF5F3C}" {
+     Duration 1
+    }
+    ADRP_BuyAction "{5971100614FBE18A}" {
+     Duration 0
+     "Sort Priority" 10
+    }
+   }
+  }
+ }
+ coords 5240.918 19.243 4033.754
+ angleY 137.481
+ angleZ 3.852
 }

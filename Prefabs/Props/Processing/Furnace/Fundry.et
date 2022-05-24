@@ -37,20 +37,41 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
   ActionsManagerComponent "{5970A806187F1A4F}" {
    ActionContexts {
     UserActionContext "{5970B38615938F01}" {
-     ContextName "test"
+     ContextName "InteractionButton"
      Position PointInfo "{5970B3860ECE9A66}" {
-      Offset -1.2342 1.0348 0
+      Offset 1.7774 1.1613 0
      }
      Radius 6.02
     }
    }
    additionalActions {
-    ADRP_GatherAction "{5970B3863431B204}" {
+    ADRP_BuyAction "{5971100029A6056B}" {
      ParentContextList {
-      "test"
+      "InteractionButton"
      }
-     m_GatherItemDisplayName "copper"
-     m_GatherItemPrefab "{354F9A0C033BB3FC}Prefabs/Items/Legal_Resources/Untreated/copper/CopperOre.et"
+     Duration 0.2
+     m_BuyItemDisplayName "Use foundry"
+    }
+    ADRP_BuyAction "{597110002FA83507}" {
+     ParentContextList {
+      "InteractionButton"
+     }
+     Duration 0.2
+     m_BuyItemDisplayName "Start foundry"
+    }
+    ADRP_BuyAction "{5971100046AF5F3C}" {
+     ParentContextList {
+      "InteractionButton"
+     }
+     Duration 0.2
+     m_BuyItemDisplayName "Release foundry"
+    }
+    ADRP_BuyAction "{5971100614FBE18A}" {
+     ParentContextList {
+      "InteractionButton"
+     }
+     Duration 0.2
+     m_BuyItemDisplayName "Open Inventory"
     }
    }
   }
