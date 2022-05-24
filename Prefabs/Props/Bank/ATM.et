@@ -1,0 +1,48 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{CAF26B0E14AFF5C8}Prefabs/Props/Bank/ATMpotentialfix.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 200
+   ResponseIndex "HugeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 5000
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{596EFC330F33BF20}" {
+     m_fPhaseHealth 5000
+     m_PhaseModel "{E7A02FE2D686FBF6}Assets/Props/Commercial/CoolingBoxShop_01/Dst/ShopCoolingBox_01_dst.xob"
+    }
+   }
+   m_eMaterialSoundType METAL_LIGHT
+  }
+  ActionsManagerComponent "{596EFC330F33BF2C}" {
+   ActionContexts {
+    UserActionContext "{596EFC325E36F484}" {
+     ContextName "atmButton"
+     Position PointInfo "{596EFC325C50F005}" {
+      Offset -0.105 1.4159 0.1276
+     }
+    }
+   }
+   additionalActions {
+    ADRP_OpenMenuAction "{596EFC327F818224}" {
+     ParentContextList {
+      "atmButton"
+     }
+     Duration 0.2
+     _DisplayName "ATM"
+     _UI_Class Atm
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+}

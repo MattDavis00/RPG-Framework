@@ -42,9 +42,9 @@ class SCR_WhereAmIUI : SCR_MapUIBaseComponent
 			return;
 		}
 
-		m_widget = GetGame().GetWorkspace().CreateWidgets("{3513CA0C0C83D2E3}UI/layouts/GPS/PlayerMapIndicator.layout", m_RootWidget);
+		m_widget = GetGame().GetWorkspace().CreateWidgets("{3513CA0C0C83D2E3}UI/Layouts/GPS/PlayerMapIndicator.layout", m_RootWidget);
 
-		ResourceName imageSet = "{5968FAE6F3EC3B1D}UI/Textures/GPS/marker.imageset";
+		ResourceName imageSet = "{3513CA0C0C83D2E3}UI/Textures/GPS/marker.imageset";
 		ImageWidget image = ImageWidget.Cast(m_widget.FindAnyWidget("Image"));
 		if(image)
 		{

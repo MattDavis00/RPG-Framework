@@ -17,5 +17,22 @@ FrameWidgetClass {
    Image ""
    Size 300 300
   }
+  TextWidgetClass "{596F426D0DE98742}" {
+   Name "Text0"
+   Slot FrameWidgetSlot "{596F426D0DE987A5}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -958.414
+    OffsetLeft -958.414
+    PositionY -531.288
+    OffsetTop -531.288
+    SizeX 1921.01
+    OffsetRight -962.598
+    SizeY 30
+    OffsetBottom 501.288
+   }
+   Text "www.arma4dev.com"
+   "Horizontal Alignment" Center
+   "Vertical Alignment" Center
+  }
  }
 }

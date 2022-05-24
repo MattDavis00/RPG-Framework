@@ -87,7 +87,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      }
      Duration 0.2
      m_BuyItemDisplayName "axe"
-     m_BuyItemPrefab "{E0DFA03B26DC16AA}Prefabs/Tools/Axe/Axe.et"
+     m_BuyItemPrefab "{CEA74B6F6E0B358B}Prefabs/Tools/Test.et"
     }
     ADRP_BuyAction "{596CD826A4FB7071}" {
      ParentContextList {

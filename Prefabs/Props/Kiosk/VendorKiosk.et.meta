@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A32FB25777409D3F}Prefabs/Props/Kiosk/VendorKiosk.et"
+ Name "{3214F90D2ED60496}Prefabs/Props/test/VendorKioskFix.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

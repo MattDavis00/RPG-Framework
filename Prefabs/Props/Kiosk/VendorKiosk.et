@@ -2,7 +2,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
  ID "F0DBA538AC2A0552"
  components {
   MeshObject "{5872F0EB7FA40561}" {
-   Object "{3173C9B6B86279C6}Prefabs/Props/Kiosk/vendor.xob"
+   Object "{259A17FB8951BADA}Prefabs/Props/test/vendor_remakePotential_Fix.xob"
   }
   RigidBody "{5872F0EB7DFB5A9D}" {
    Mass 200
@@ -13,75 +13,14 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
    m_fBaseHealth 5000
    m_aDamagePhases {
-    SCR_DamagePhaseData "{596D08BA57C95DC1}" {
+    SCR_DamagePhaseData "{596E7CA63FBFA523}" {
      m_fPhaseHealth 5000
      m_PhaseModel "{E7A02FE2D686FBF6}Assets/Props/Commercial/CoolingBoxShop_01/Dst/ShopCoolingBox_01_dst.xob"
     }
    }
    m_eMaterialSoundType METAL_LIGHT
   }
-  ActionsManagerComponent "{596D08BA57C95DC9}" {
-   ActionContexts {
-    UserActionContext "{596D08BA57C95DD4}" {
-     ContextName "BuyAppleButton"
-     Position PointInfo "{596D08BA57C95DD2}" {
-      Offset -0.6405 0.7313 0.3486
-     }
-     Radius 1
-    }
-    UserActionContext "{596D08BA57C95DDE}" {
-     ContextName "BuyPizzaButton"
-     Position PointInfo "{596D08BA57C95DDD}" {
-      Offset -0.2151 0.7313 0.3486
-     }
-    }
-    UserActionContext "{596D08BA57C95DDB}" {
-     ContextName "BuyWaterButton"
-     Position PointInfo "{596D08BA57C95DDA}" {
-      Offset 0.3024 0.7313 0.3486
-     }
-    }
-    UserActionContext "{596D08BA57C981CE}" {
-     ContextName "BuyEnergyDrink"
-     Position PointInfo "{596D08BA57C981CC}" {
-      Offset 0.6703 0.7313 0.3486
-     }
-    }
-   }
-   additionalActions {
-    ADRP_BuyAction "{596D08BA57C981B0}" {
-     ParentContextList {
-      "BuyAppleButton"
-     }
-     Duration 0.2
-     m_BuyItemDisplayName "apple"
-     m_BuyItemPrefab "{C9D661E5B0714712}Prefabs/Items/Food/Apple/Apple.et"
-    }
-    ADRP_BuyAction "{596D08BA57C981B5}" {
-     ParentContextList {
-      "BuyPizzaButton"
-     }
-     Duration 0.2
-     m_BuyItemDisplayName "pizza"
-     m_BuyItemPrefab "{1B0816D8A787AC06}Prefabs/Items/Food/Pizza/Pizza.et"
-    }
-    ADRP_BuyAction "{596D08BA57C981B9}" {
-     ParentContextList {
-      "BuyWaterButton"
-     }
-     Duration 0.2
-     m_BuyItemDisplayName "Water"
-     m_BuyItemPrefab "{07B5EE4EB5344031}Prefabs/Items/Drink/Water/Full/BottleFull.et"
-    }
-    ADRP_BuyAction "{596D08BA57C981BF}" {
-     ParentContextList {
-      "BuyEnergyDrink"
-     }
-     Duration 0.2
-     m_BuyItemDisplayName "energy drink"
-     m_BuyItemPrefab "{14B6F1D08451F6FD}Prefabs/Items/Drink/EnergyDrink/EnergyDrink.et"
-    }
-   }
+  ActionsManagerComponent "{596E7CA63FBFA529}" {
   }
   RplComponent "{5624A88DC2D9928D}" {
    Enabled 1

@@ -1,0 +1,39 @@
+MetaFileClass {
+ Name "{FD21470C17492E77}Prefabs/Props/Processing/Furnace/furnace.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{596F426DA6D82104}" {
+     SourceMaterial "stone"
+     AssignedMaterial "{AC7EAAE53B5F8889}Assets/Structures/Walls/Brick/Data/brick_wall_02.emat"
+    }
+    MaterialAssignClass "{596F426DA6D82161}" {
+     SourceMaterial "metal"
+     AssignedMaterial "{B208C1B33B100189}Assets/Structures/Infrastructure/Towers/AntennaVOR_01/Data/AntennaVOR_concrete_01.emat"
+    }
+    MaterialAssignClass "{596F426DA6D82165}" {
+     SourceMaterial "gold"
+     AssignedMaterial "{C5B8BA73C9C24698}Assets/Props/Industrial/BarrelMetal_01/Data/BarrelMetal_01_Nocover_Blue.emat"
+    }
+   }
+   Common TXOCommonClass "{596F426DA6FC4985}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{596F426DA6FC4B92}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{596F426DA6FC4A28}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{596F426DA6FC4A40}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{596F426DA6FC4AE0}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

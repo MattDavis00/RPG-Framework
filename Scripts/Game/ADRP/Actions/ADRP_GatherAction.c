@@ -17,6 +17,8 @@ class ADRP_GatherAction: ScriptedUserAction {
 	{
 		auto inventoryManager = SCR_InventoryStorageManagerComponent.Cast(pUserEntity.FindComponent(SCR_InventoryStorageManagerComponent));
 		inventoryManager.TrySpawnPrefabToStorage(m_GatherItemPrefab);
+		
+		SCR_HintManagerComponent.GetInstance().ShowCustomHint("Added apple to your inventory.", "Gathering resources", 20.0 ); 
 	}
 	
 	override bool GetActionNameScript(out string outName)

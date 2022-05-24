@@ -1,6 +1,6 @@
 SCR_ChimeraCharacter : "{8D451A4C1F9A48E4}Prefabs/Factions/PNJ/VehicleShop.et" {
- coords 5232.507 18.55 4028.999
+ coords 5232.773 18.358 4024.662
 }
 GenericEntity : "{95FA12A5EE958C72}Prefabs/Props/Commercial/ItemTestor.et" {
- coords 5228.341 18.269 4023.856
+ coords 5235.069 18.426 4020.68
 }

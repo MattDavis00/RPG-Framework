@@ -1,6 +1,16 @@
 Tree : "{388AE316D09D0680}Prefabs/Vegetation/Core/Tree_Base.et" {
  ID "0F2AA6B42CA78628"
  components {
+  SCR_NotificationsComponent "{596ECAE765B4D3E3}" {
+   m_aNotificationDisplayData {
+    SCR_NotificationNumber "{596ECAE7999AA588}" {
+     m_NotificationKey PLAYER_JOINED
+     m_info SCR_ColoredTextNotificationUIInfo "{596ECAE796AC771D}" {
+      Name "test"
+     }
+    }
+   }
+  }
   ActionsManagerComponent "{596966EC09A9EB5A}" {
    ActionContexts {
     UserActionContext "{596966EC03B36D42}" {
