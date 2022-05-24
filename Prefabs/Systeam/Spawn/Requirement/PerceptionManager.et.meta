@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{028DAEAD63E056C0}Prefabs/Systeam/Spawn/Requirement/PerceptionManager.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

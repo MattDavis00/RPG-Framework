@@ -1,0 +1,19 @@
+SCR_SpawnPoint : "{987991DCED3DC197}PrefabsEditable/SpawnPoints/E_SpawnPoint.et" {
+ ID "52E65E9446A3DC1D"
+ components {
+  SCR_EditableSpawnPointComponent "{52E65E94E3532698}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{52E65E94C47560A2}" {
+    m_Image "{831012F41EFE085A}UI/Textures/EditorPreviews/Auto/Systems/SpawnPoints/E_SpawnPoint_US.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels + {
+     11 30
+    }
+   }
+  }
+  SCR_FactionControlComponent "{54D0CEB06C644B3A}" {
+   m_DefaultFaction "US"
+  }
+ }
+ coords 0 0 0
+ m_sFaction "US"
+}

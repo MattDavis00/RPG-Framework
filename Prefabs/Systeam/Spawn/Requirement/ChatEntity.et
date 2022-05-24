@@ -1,0 +1,23 @@
+ScriptedChatEntity {
+ ID "5970E6DDA8D2783C"
+ components {
+  RplComponent "{5970E6DDA8D27824}" {
+   Streamable Disabled
+  }
+ }
+ Channels {
+  BaseChatChannel "{5970E6DDA8D27810}" {
+   "Channel name" "Global"
+  }
+  SCR_VehicleChatChannel "{5970E6DDA8D2781A}" {
+   "Channel name" "Vehicle"
+  }
+  LocalChatChannel "{5970E6DDA8D2781B}" {
+   "Channel name" "Local"
+  }
+ }
+ "Whisper channel" PrivateMessageChannel "{5970E6DDA8D27819}" {
+  "Channel name" "Whisper"
+ }
+ "Default channel" "Local"
+}

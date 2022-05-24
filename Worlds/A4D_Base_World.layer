@@ -1,15 +1,6 @@
 $grp GenericEntity {
  {
   components {
-   MeshObject "{596EF976486EB3EF}" {
-    Object "{1FBB55F79BD1E844}Prefabs/Props/Bank/ATM.xob"
-   }
-  }
-  coords 5216.483 17.598 4005.502
-  angleY 145.49
- }
- {
-  components {
    MeshObject "{596EFC2DCB7B9A61}" {
     Object "{FACD700DC72E8039}Prefabs/Items/Legal_Resources/Processed/iron/iron_ingot.xob"
    }

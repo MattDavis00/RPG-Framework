@@ -1,0 +1,91 @@
+SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames + {
+    "{FC7A7A9F92D1E225}Sounds/RadioProtocol/RadioProtocol_Campaign_SL_RU.acp" "{7413663A6477A6AE}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_1_RU.acp" "{C6C424D13BD59536}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_2_RU.acp" "{A8891A880EB47BBE}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_3_RU.acp"
+   }
+  }
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+      }
+      SCR_EquipmentStorageSlot BinocularSlot {
+      }
+     }
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate ""
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate ""
+  }
+  FactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "FFA"
+  }
+  SCR_CampaignBuildingComponent "{5970F68298D2A03C}" {
+   m_fBuildingRadius 300
+   m_fDeletingMultiplier 1.2
+   m_PreviewEntityPrefab "{4FF075A21D258ABE}Prefabs/MP/Campaign/BuildPreview.et"
+   m_PreviewMaterial "{58F07022C12D0CF5}Assets/Editor/PlacingPreview/Preview.emat"
+   m_BuildingEntityPrefab "{15BEE7092B88B67D}Prefabs/MP/Campaign/BuildEntity.et"
+  }
+  SCR_CampaignInteractionsComponent "{52C6D5688E910D41}" : "{3DB2C15A8AFF1927}Prefabs/Characters/Campaign/CampaignInteractions.ct" {
+  }
+  SCR_GadgetManagerComponent "{520EA1D2DB118DF3}" {
+  }
+  SCR_MapDescriptorComponent "{5970F68298D2A039}" {
+   DisplayName ""
+   VisibleOnMap 0
+   MainType Unit
+   UnitType Infantry
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Hat {
+     Prefab "{E12126CDE731EED5}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3CCA7A9BB4FD3197}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{604BB72BE8E023C2}Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{54A4D05608012D36}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{54A68D64D7F9124F}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{56607B902B535037}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{56628A465EF1343C}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 535.865 0.985 843.547
+}

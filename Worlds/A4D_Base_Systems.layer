@@ -1,31 +1,22 @@
-PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 9678.006 14.259 1554.955
+SCR_AIWorld : "{B7665F0AC486B8F1}Prefabs/Systeam/Spawn/Requirement/AIWorld.et" {
+ coords 0 0 0
 }
-SCR_BaseGameMode GameMode_Plain1 : "{1B76F75A3175E85C}Prefabs/MP/Modes/Plain/GameMode_Plain.et" {
- components {
-  SCR_AutomaticRespawnHandlerComponent "{56B4EA4DA0EEFF85}" {
-   m_iForcedFaction 0
-   m_iForcedLoadout 10
-  }
- }
- coords 9677.852 14.253 1554.527
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056C0}Prefabs/Systeam/Spawn/Requirement/PerceptionManager.et" {
+ coords 0 0 0
 }
-SCR_FactionManager FactionManager_FFA1 : "{A1C54BBE72C5C696}Prefabs/MP/Managers/Factions/FactionManager_FFA.et" {
- coords 9677.873 14.253 1554.547
+SCR_CampaignFactionManager FactionManager1 : "{130806924CFFDA55}Prefabs/Systeam/Spawn/Requirement/FactionManager.et" {
 }
-HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
- coords 9678.135 14.251 1554.878
+ScriptedChatEntity : "{9ADC482594FDFBE9}Prefabs/Systeam/Spawn/Requirement/ChatEntity.et" {
 }
-SCR_SpawnPoint : "{5392C4D80E4B18F8}Prefabs/MP/Spawning/SpawnPoint_FFA.et" {
- coords 5235.367 18.507 4025.257
+SCR_GameModeCampaignMP GameMode1 : "{DF7FCE3E8B8BD6A6}Prefabs/Systeam/Spawn/Requirement/GameMode.et" {
+ coords 0 0 0
 }
-SCR_LoadoutManager : "{B7E5D7F4864D81C0}Prefabs/MP/Managers/Loadouts/LoadoutManager_FFA.et" {
- coords 9677.873 14.253 1554.547
- m_aPlayerLoadouts {
-  SCR_FactionPlayerLoadout "{59693B17BF65E0E9}" {
-   m_sLoadoutName "Civilian"
-   m_sLoadoutResource "{2C0A1269EB2BFFBE}Prefabs/Factions/NoLoadout.et"
-   m_sAffiliatedFaction "FFA"
-  }
- }
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DF}Prefabs/Systeam/Spawn/Requirement/HitRegManager.et" {
+}
+SCR_CampaignBuildingManagerEntity : "{1722294208A98907}Prefabs/Systeam/Spawn/Requirement/BuildingManager.et" {
+ coords 0 0 0
+}
+SCR_CampaignTaskManager : "{17E3EF2CF4554610}Prefabs/Systeam/Spawn/Requirement/TaskManager.et" {
+}
+SCR_LoadoutManager : "{58FBD035E53D95C2}Prefabs/Systeam/Spawn/Requirement/LoadoutManager.et" {
 }

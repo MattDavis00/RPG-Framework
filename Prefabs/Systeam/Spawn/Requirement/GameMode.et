@@ -1,0 +1,69 @@
+SCR_GameModeCampaignMP : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
+ ID "56B2B479C6B96951"
+ components {
+  SCR_CompositionSlotManagerComponent "{5970E6DDB87B6C57}" {
+  }
+  SCR_GameOverScreenManagerComponent "{56DEC646298AD219}" {
+   m_GameOverScreenConfig SCR_GameOverScreenConfig "{56DEC6462FFDD82D}" {
+    m_aGameOverScreens {
+     SCR_FactionGameOverScreenInfo "{568E79DBAC19013D}" {
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{568E79DBB3E97D11}" {
+       m_sDebriefing "#AR-Campaign_MatchResult_DefeatDetail_Score"
+      }
+     }
+    }
+   }
+  }
+  SCR_InitWeatherComponent "{5970E6DDB87B6C4C}" {
+   m_sInitialStartingWeatherId "Cloudy"
+  }
+  SCR_NametagConfigComponent "{571AA9E54FC9210D}" {
+   m_sConfigPath "{09F7AAA14A642683}Configs/NameTags/NametagFriendlies.conf"
+  }
+  SCR_PlayerPenaltyComponent "{5970E6DDB87B6C4F}" {
+   m_iFriendlyPlayerKillPenalty 3
+   m_iFriendlyAIKillPenalty 1
+   m_iKickPenaltyLimit 9
+   m_iBanDuration 1800
+   m_iPenaltySubstractionPeriod 900
+   m_iPenaltySubstractionPoints 2
+  }
+  SCR_PlayerSpawnPointManagerComponent "{5970E6DDB87B6C49}" {
+   m_SpawnPointPrefab "{6FC8BA123C919DB3}Prefabs/MP/PlayerRadioSpawnPointCampaign.et"
+  }
+  SCR_PlayersRestrictionZoneManagerComponent "{56D09BEE802CA7C5}" {
+   Enabled 0
+  }
+  SCR_RespawnBriefingComponent "{5970E6DDB87B6C4B}" {
+   m_Info SCR_UIInfo "{5970E6DDB87B6CB5}" {
+    Description "#AR-Campaign_GamemodeTutorial"
+   }
+  }
+  SCR_RespawnMenuHandlerComponent "{5970E6DDB87B6CB0}" {
+   m_bAllowFactionChange 0
+   m_bAllowLoadoutSelection 0
+   m_bAllowQuickDeploy 0
+   m_sFactionMenuMessage "#AR-UI_RespawnInfo_PermanentFaction"
+  }
+  SCR_RespawnTimerComponent "{5970E6DDB87B6CB2}" {
+  }
+  SCR_SaveLoadComponent "{58FA739CBE3E9FC5}" {
+   Enabled 0
+   m_Struct SCR_MissionStruct "{5970E6DDB87B6CBD}" {
+    m_CampaignStruct SCR_CampaignStruct "{5970E6DDB87B6CBE}" {
+    }
+   }
+   m_SaveOnExit 0
+   m_iAutosavePeriod 120
+  }
+  SCR_TimedSpawnPointComponent "{5970E6DDB87B6CBF}" {
+   m_fRespawnTime 30
+  }
+  SCR_VotingManagerComponent "{5650BB6B6089393A}" {
+   Enabled 0
+  }
+ }
+ coords 20.291 0 5.837
+ PlayerControllerPrefab "{D39FCAB93FC4FB02}Prefabs/Characters/Core/DefaultPlayerControllerMP_Campaign.et"
+ m_eTestGameFlags 6
+}

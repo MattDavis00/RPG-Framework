@@ -1,0 +1,39 @@
+<changelist name="Uncommitted_changes_before_Update_at_22_05_2022_02_11_[Changes]" date="1653178316716" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_05_2022_02_11_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 22/05/2022 02:11 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="UI/Textures/GPS/marker.imageset" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="UI/Textures/GPS/marker_atlas.edds.meta" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="UI/Textures/GPS/marker_atlas.edds" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Missions/config.conf.meta" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="resourceDatabase.rdb" />
+    <option name="AFTER_PATH" value="resourceDatabase.rdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_05_2022_02_11_[Changes]/resourceDatabase.rdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="UI/Textures/GPS/marker.imageset.meta" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="UI/Textures/GPS/marker_atlas.tga" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>

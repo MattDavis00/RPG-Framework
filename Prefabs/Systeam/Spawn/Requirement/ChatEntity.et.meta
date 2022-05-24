@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{2C0A1269EB2BFFBE}Factions/NoLoadout.et"
+ Name "{9ADC482594FDFBE9}Prefabs/Systeam/Spawn/Requirement/ChatEntity.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

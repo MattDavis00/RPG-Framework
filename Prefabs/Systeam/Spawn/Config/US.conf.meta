@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5EB46557DF2AA250}Prefabs/Systeam/Spawn/Config/US.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

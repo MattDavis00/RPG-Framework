@@ -1,0 +1,29 @@
+SCR_CampaignTaskManager {
+ ID "5970E6DDADCDB1EF"
+ components {
+  SCR_TextsTaskManagerComponent "{58F0BAE2BB50533C}" : "{6F59CB11B5383430}Prefabs/MP/Managers/Tasks/TaskManagerComponent.ct" {
+  }
+  SCR_UITaskManagerComponent "{5970E6DDADCDB1E7}" {
+  }
+  RplComponent "{5970E6DDADCDB1FF}" {
+   Streamable Disabled
+  }
+ }
+ m_aSupportedTaskTypes {
+  SCR_BaseTaskSupportClass "{5970E6DDADCDB1F3}" {
+   m_TaskPrefab "{1D0F815858EE24AC}Prefabs/Tasks/BaseTask.et"
+  }
+  SCR_CampaignTaskSupportClass "{5970E6DDADCDB1F6}" {
+   m_TaskPrefab "{A7E92298A3F916F7}Prefabs/Tasks/CampaignTask.et"
+  }
+  SCR_MoveTaskSupportClass "{5970E6DDADCDB1F4}" {
+  }
+  SCR_EditorTaskSupportClass "{5970E6DDADCDB1F5}" {
+  }
+  SCR_TriggerTaskSupportClass "{5970E6DDADCDB18A}" {
+  }
+  SCR_CampaignBuildingTaskSupportClass "{5970E6DDADCDB18B}" {
+   m_TaskPrefab "{7F722BBED971DCDC}Prefabs/Tasks/CampaignBuildingTask.et"
+  }
+ }
+}

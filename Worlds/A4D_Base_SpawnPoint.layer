@@ -1,0 +1,28 @@
+$grp SCR_SpawnPoint : "{503A450D82290A13}Prefabs/Systeam/Spawn/SpawnPoint.et" {
+ {
+  coords 5231.87 18.283 4023.968
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "Example"
+  }
+ }
+ {
+  coords 2620.524 92.576 5392.334
+  angleY -136.967
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "Le Moule"
+  }
+ }
+ {
+  coords 4447.612 12.823 10759.957
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "St-Phillipe"
+  }
+ }
+ {
+  coords 9703.887 16.334 1589.133
+  angleY 173.95
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "Saint-Pierre"
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B7665F0AC486B8F1}Prefabs/Systeam/Spawn/Requirement/AIWorld.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,198 @@
+SCR_AIWorld {
+ ID "5970E6DDB580A205"
+ components {
+  NavmeshWorldComponent "{5970E6DDB580A20C}" {
+   WorldSettings NavmeshWorldParams "{5970E6DDB580A275}" {
+    TileSize 51
+   }
+   NavmeshSettings NavmeshWorld "{5970E6DDB580A270}" {
+    RecastConfig NavmeshRecastConfig "{5970E6DDB580A272}" {
+     CellHeight 0.1
+     WalkableSlopeAngle 50
+     WalkableHeight 1.8
+     MaxSimplificationError 1.8
+    }
+    UsePathSmoothing 0
+    NavmeshProject "Soldiers"
+    AbsoluteAreas {
+     "Water"
+    }
+   }
+   ServerConfig NavmeshGeneratorServer "{5970E6DDB580A27E}" {
+    ServerPort 1376
+   }
+  }
+  NavmeshWorldComponent "{5970E6DDB580A278}" {
+   Enabled 0
+   WorldSettings NavmeshWorldParams "{5970E6DDB580A279}" {
+    TileSize 51
+   }
+   NavmeshSettings NavmeshWorld "{5970E6DDB580A27B}" {
+    RecastConfig NavmeshRecastConfig "{5970E6DDB580A265}" {
+     CellHeight 0.1
+     WalkableSlopeAngle 10
+     WalkableHeight 3
+     WalkableClimb 0.1
+     WalkableRadius 5.5
+     MaxSimplificationError 1.5
+     MinRegionSize 120
+     MergeRegionSize 360
+    }
+    NavmeshProject "BTRlike"
+    AbsoluteAreas {
+     "Water"
+    }
+   }
+   ServerConfig NavmeshGeneratorServer "{5970E6DDB580A260}" {
+   }
+  }
+  SCR_AISettingsComponent "{5970E6DDB580A262}" {
+   Enabled 1
+  }
+ }
+ coords 7.375 1 19.454
+ Formations {
+  AIFormationDefinition "{5970E6DDB580A26E}" {
+   Name "Line"
+   Offsets {
+    0 0 0 3 0 0 -3 0 0 6 0 0 -6 0 0 9 0 0 -9 0 0 12 0 0 -12 0 0 15 0 0 -15 0 0
+   }
+  }
+  AIFormationDefinition "{5970E6DDB580A26F}" {
+   Name "StaggeredColumn"
+   Offsets {
+    0 0 0 3 0 -3 0 0 -6 3 0 -9 0 0 -12 3 0 -15 0 0 -18 3 0 -21 0 0 -24 3 0 -27 0 0 -30
+   }
+  }
+  AIFormationDefinition "{5970E6DDB580A268}" {
+   Name "Wedge"
+   Offsets {
+    0 0 0 3 0 -3 -3 0 -3 6 0 -6 -6 0 -6 9 0 -9 -9 0 -9 12 0 -12 -12 0 -12 15 0 -15 -15 0 -15
+   }
+  }
+  AIFormationDefinition "{5970E6DDB580A26A}" {
+   Name "Column"
+   Offsets {
+    0 0 0 0 0 -3 0 0 -6 0 0 -9 0 0 -12 0 0 -15 0 0 -18 0 0 -21 0 0 -24 0 0 -27 0 0 -30
+   }
+  }
+ }
+ "Initialize Road Network" 0
+ m_aGoalMessages {
+  SCR_AIMessage_Attack "{5970E6DDB580A255}" {
+   m_eUIType ATTACK
+  }
+  SCR_AIMessage_CoverAdvance "{5970E6DDB580A256}" {
+   m_eUIType COVER_ADVANCE
+  }
+  SCR_AIMessage_Flee "{5970E6DDB580A257}" {
+   m_eUIType FLEE
+  }
+  SCR_AIMessage_GetIn "{5970E6DDB580A250}" {
+   m_eUIType GET_IN_VEHICLE
+  }
+  SCR_AIMessage_GetOut "{5970E6DDB580A251}" {
+   m_eUIType GET_OUT_VEHICLE
+  }
+  SCR_AIMessage_GroupAttack "{5970E6DDB580A252}" {
+   m_eUIType GROUP_ATTACK
+  }
+  SCR_AIMessage_GroupAttackDone "{5970E6DDB580A253}" {
+   m_eUIType GROUP_ATTACK_DONE
+  }
+  SCR_AIMessage_Heal "{5970E6DDB580A25C}" {
+   m_eUIType HEAL
+  }
+  SCR_AIMessage_HealWait "{5970E6DDB580A25D}" {
+   m_eUIType HEAL_WAIT
+  }
+  SCR_AIMessage_KeepFormation "{5970E6DDB580A25E}" {
+   m_eUIType MOVE_IN_FORMATION
+  }
+  SCR_AIMessage_Move "{5970E6DDB580B95A}" {
+   m_eUIType MOVE
+  }
+  SCR_AIMessage_SeekAndDestroy "{5970E6DDB580B95B}" {
+   m_eUIType SEEK_DESTROY
+  }
+  SCR_AIMessage_Defend "{5970E6DDB580B95C}" {
+   m_eUIType DEFEND
+  }
+  SCR_AIMessage_Cancel "{5970E6DDB5836A60}" {
+   m_eUIType CANCEL
+  }
+  SCR_AIMessage_PerformAction "{5970E6DDB5836A61}" {
+   m_eUIType PERFORM_ACTION
+  }
+  SCR_AIMessage_Resupply "{5970E6DDB5836A62}" {
+   m_eUIType RESUPPLY
+  }
+  SCR_AIMessage_AttackStatic "{5970E6DDB5836A63}" {
+   m_eUIType ATTACK_STATIC
+  }
+  SCR_AIMessage_AttackStaticDone "{5970E6DDB5831DD3}" {
+   m_eUIType ATTACK_STATIC_DONE
+  }
+  SCR_AIMessage_Follow "{5970E6DDB5831DCC}" {
+   m_eUIType FOLLOW
+  }
+  SCR_AIMessage_Investigate "{5970E6DDB5831DCD}" {
+   m_eUIType INVESTIGATE
+  }
+  SCR_AIMessage_Retreat "{5970E6DDB5831DCE}" {
+   m_eUIType RETREAT
+  }
+ }
+ m_aInfoMessages {
+  SCR_AIMessage_Contact "{5970E6DDB5831DC8}" {
+   m_eUIType CONTACT
+  }
+  SCR_AIMessage_FoundCorpse "{5970E6DDB5831DC9}" {
+   m_eUIType FOUND_CORPSE
+  }
+  SCR_AIMessage_NoAmmo "{5970E6DDB583877D}" {
+   m_eUIType NO_AMMO
+  }
+  SCR_AIMessage_SitRep "{5970E6DDB583877E}" {
+   m_eUIType SIT_REP
+  }
+  SCR_AIMessage_TargetEliminated "{5970E6DDB583877F}" {
+   m_eUIType TARGET_ELIMINATED
+  }
+  SCR_AIMessage_TargetLost "{5970E6DDB583929D}" {
+   m_eUIType TARGET_LOST
+  }
+  SCR_AIMessage_UnderFire "{5970E6DDB5839292}" {
+   m_eUIType UNDER_FIRE
+  }
+  SCR_AIMessage_Wounded "{5970E6DDB5839293}" {
+   m_eUIType WOUNDED
+  }
+ }
+ m_aOrders {
+  SCR_AIOrder_AIState "{5970E6DDB5839291}" {
+   m_eUIType AI_STATE
+  }
+  SCR_AIOrder_CombatType "{5970E6DDB5839296}" {
+   m_eUIType COMBAT_TYPE
+  }
+  SCR_AIOrder_MovementType "{5970E6DDB58257CA}" {
+   m_eUIType MOVEMENT_TYPE
+  }
+  SCR_AIOrder_ReturnToDefault "{5970E6DDB58257CB}" {
+   m_eUIType BACK_TO_DEFAULT
+  }
+  SCR_AIOrder_Stance "{5970E6DDB58257C8}" {
+   m_eUIType STANCE
+  }
+  SCR_AIOrder_Unit_State "{5970E6DDB58257C9}" {
+   m_eUIType UNIT_STATE
+  }
+  SCR_AIOrder_WeaponRaised "{5970E6DDB582CA8D}" {
+   m_eUIType WEAPON_RAISED
+  }
+  SCR_AIOrder_WeaponType "{5970E6DDB582CA72}" {
+   m_eUIType WEAPON_TYPE
+  }
+ }
+}

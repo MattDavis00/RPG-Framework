@@ -25,3 +25,6 @@ Layer Trader {
 Layer Processing {
  Index 7
 }
+Layer SpawnPoint {
+ Index 8
+}

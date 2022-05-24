@@ -1,0 +1,43 @@
+SCR_CampaignBuildingManagerEntity {
+ ID "5970E6DDAE534D39"
+ components {
+  BasicPrefabList "{5970E6DDAE534D20}" {
+   vehicleResources {
+    VehicleResourceRequest "{5970E6DDAE534D2F}" {
+     resource "{0E5AF358EE0ACBFA}Prefabs/Compositions/Slotted/SlotFlatSmall/FuelStorage_S_US_01.et"
+    }
+    VehicleResourceRequest "{5970E6DDAE534D2C}" {
+     resource "{76A14F180887D76E}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_US_01.et"
+    }
+    VehicleResourceRequest "{5970E6DDAE534D16}" {
+     resource "{561503EA86A3F1B8}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_US_01_Campaign.et"
+    }
+    VehicleResourceRequest "{5970E6DDAE534D17}" {
+     resource "{84A98E30C72639C5}Prefabs/Compositions/Slotted/SlotFlatMedium/FieldHospital_M_US_01.et"
+    }
+    VehicleResourceRequest "{5970E6DDAE534D14}" {
+     resource "{6A93FC5A0302BF49}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Bunker_S_US_01.et"
+    }
+    VehicleResourceRequest "{5970E6DDAE534D15}" {
+     resource "{0E421604AE237931}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_03.et"
+    }
+    VehicleResourceRequest "{5970E6DDAE531A2D}" {
+     resource "{B868744C87EC5E4D}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_S_US_01.et"
+    }
+    VehicleResourceRequest "{5970E6DDAE531A23}" {
+     resource "{E80B669168285FAD}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadSmall/E_Checkpoint_S_US_01.et"
+    }
+    VehicleResourceRequest "{5970E6DDAE531A20}" {
+     resource "{DCA53EC8F3BA6AC5}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadMedium/E_Checkpoint_M_US_01.et"
+    }
+    VehicleResourceRequest "{5970E6DDAE531A21}" {
+     resource "{D231886E2713FD12}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadLarge/E_Checkpoint_L_US_01.et"
+    }
+   }
+  }
+  RplComponent "{5970E6DDAE531A26}" {
+   Streamable Disabled
+  }
+ }
+ coords 496.805 -1.699 372.465
+}
