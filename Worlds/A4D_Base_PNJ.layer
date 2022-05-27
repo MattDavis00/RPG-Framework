@@ -1,3 +1,4 @@
 SCR_ChimeraCharacter : "{8D451A4C1F9A48E4}Prefabs/Factions/PNJ/VehicleShop.et" {
- coords 4948.996 2.206 3897.125
+ coords 4945.475 2.206 3892.368
+ angleY 29.465
 }

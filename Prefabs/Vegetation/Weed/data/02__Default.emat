@@ -1,0 +1,4 @@
+MatPBRBasic {
+ AOScale 0.457
+ BCRMap "{73D812C625962403}Prefabs/Vegetation/Weed/data/branchdiffuse.edds"
+}

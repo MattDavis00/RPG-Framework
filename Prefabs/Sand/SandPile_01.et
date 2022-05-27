@@ -1,0 +1,34 @@
+GenericEntity : "{EAD49AAAD13457F0}Prefabs/Props/Construction/GravelPile_01/SandPile_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{8E3D97AA64FE5D32}Assets/Props/Construction/SandPile_01/SandPile_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+  }
+  ActionsManagerComponent "{5976B8402333B51B}" {
+   ActionContexts {
+    UserActionContext "{5976B84021F4C5A5}" {
+     ContextName "GatherButton"
+     Position PointInfo "{5976B8405A121CDD}" {
+      Offset -1.7382 0.6822 1.4608
+     }
+    }
+   }
+   additionalActions {
+    ADRP_GatherAction "{5976B84050DC5C70}" {
+     ParentContextList {
+      "GatherButton"
+     }
+     Duration 1
+     m_GatherItemDisplayName "sand"
+     m_GatherItemPrefab "{4EAA51B8DDB97499}Prefabs/Items/Legal_Resources/Untreated/sand/Sand.et"
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+}

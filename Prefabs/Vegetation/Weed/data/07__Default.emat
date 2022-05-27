@@ -1,0 +1,8 @@
+MatPBRBasic {
+ SpecularMul 0.171
+ RoughnessScale 1.686
+ MetalnessScale 0.943
+ AOScale 0.485
+ DielectricReflectance 0.042
+ BCRMap "{E96C0CD96D22B8AB}Prefabs/Vegetation/Weed/data/leaf diffuse.edds"
+}

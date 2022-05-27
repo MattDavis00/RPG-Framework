@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F08F767AE9143520}Prefabs/Items/Illegal_Resources/Untreated/weed/cannabis.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

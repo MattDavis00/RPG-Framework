@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2A0BEDA5A1D99A76}Prefabs/Items/Legal_Resources/Processed/ingot/IronIngot.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

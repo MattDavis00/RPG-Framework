@@ -1,0 +1,7 @@
+MatPBRBasic {
+ SpecularMul 1.429
+ RoughnessScale 0.086
+ MetalnessScale 5
+ AOScale 1.086
+ BCRMap "{FFDE5432DC51DE0C}Prefabs/Items/Legal_Resources/Processed/ingot/copper/copper.edds"
+}

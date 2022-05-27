@@ -1,7 +1,7 @@
 GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
  ID "508AB2013EEE1E00"
  components {
-  SoundComponent "{596C9D988B7EAC3A}" {
+  SoundComponent "{5976B856CB2A6E62}" {
    Filenames {
     "{12A94705DF2BFD25}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic.acp"
    }
@@ -10,9 +10,8 @@ GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
   InventoryItemComponent "{5222EB4D0C73006B}" {
    Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
     ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
-     Name "Pizza"
-     Description "A delicious pizza"
-     Icon "{E3B1D6D80F1CA4CC}Prefabs/Items/Food/Pizza/pizza.edds"
+     Name "EnergyDrink"
+     Description "Sprint faster & Longer"
     }
     ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
      Weight 0.45
@@ -21,10 +20,10 @@ GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
     }
    }
   }
-  MeshObject "{596C9D988B7EAC29}" {
+  MeshObject "{5976B856CB2A6E57}" {
    Object "{8EEA4F4A5EFAACB3}Prefabs/Items/Drink/EnergyDrink/EnergyDrinkCan.xob"
   }
-  RigidBody "{596C9D988B7EAC2E}" {
+  RigidBody "{5976B856CB2A6E54}" {
    LinearDamping 0.5
    AngularDamping 0.5
    AngularSleepingThreashold 1

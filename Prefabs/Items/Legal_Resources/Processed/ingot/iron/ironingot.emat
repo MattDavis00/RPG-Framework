@@ -1,0 +1,5 @@
+MatPBRBasic {
+ RoughnessScale 0.114
+ AOScale 0.857
+ BCRMap "{B3E1EB5C570862CA}Prefabs/Items/Legal_Resources/Processed/ingot/iron/iron.edds"
+}

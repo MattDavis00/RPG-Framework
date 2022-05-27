@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C667038304AA6BAD}Prefabs/Items/Legal_Resources/Processed/ingot/copper/CopperIngot.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,8 @@
+MatPBRBasic {
+ SpecularMul 0.314
+ RoughnessScale 0.772
+ MetalnessScale 1.429
+ AOScale 0.172
+ DielectricReflectance 0.05
+ BCRMap "{58A8DEAA1DB873BE}Prefabs/Rock/iron/ironrock.edds"
+}

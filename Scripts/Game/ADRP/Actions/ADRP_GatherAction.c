@@ -19,7 +19,7 @@ class ADRP_GatherAction: ScriptedUserAction {
 		if (inventoryManager)
 			inventoryManager.TrySpawnPrefabToStorage(m_GatherItemPrefab);
 		
-		SCR_HintManagerComponent.GetInstance().ShowCustomHint("You picked up a resource, you can pick up apples on all the apple trees on the map !", "Gathering", 5.0 ); 
+		SCR_HintManagerComponent.GetInstance().ShowCustomHint("You picked up a resource !", "Gathering", 5.0 ); 
 	}
 	
 	override bool GetActionNameScript(out string outName)

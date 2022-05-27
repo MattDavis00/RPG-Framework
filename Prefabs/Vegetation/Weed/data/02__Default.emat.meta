@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{51D835A58CC6F77A}Prefabs/Vegetation/Weed/data/02__Default.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

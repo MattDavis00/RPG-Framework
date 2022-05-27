@@ -1,0 +1,7 @@
+MatPBRBasic {
+ SpecularMul 0.228
+ RoughnessScale 0.686
+ AOScale 0.286
+ DielectricReflectance 0.043
+ BCRMap "{3AD62B2B8C7BBE6E}Prefabs/Rock/copper/copperrock.edds"
+}
