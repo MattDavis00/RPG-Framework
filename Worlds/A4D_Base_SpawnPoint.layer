@@ -1,12 +1,13 @@
 $grp SCR_SpawnPoint : "{503A450D82290A13}Prefabs/Systeam/Spawn/SpawnPoint.et" {
  {
-  coords 5231.87 18.283 4023.968
+  coords 4932.232 2.187 3911.52
+  angleY 123.253
   m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
    Name "Example"
   }
  }
  {
-  coords 2620.524 92.576 5392.334
+  coords 2621.917 92.644 5393.826
   angleY -136.967
   m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
    Name "Le Moule"

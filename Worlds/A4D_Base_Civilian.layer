@@ -1,3 +1,9 @@
-GenericEntity : "{95FA12A5EE958C72}Prefabs/Props/Commercial/ItemTestor.et" {
- coords 5235.069 18.426 4020.68
+Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 10408.7
+  }
+ }
+ coords 4933.158 2.157 3905.154
+ angleY 124.556
 }

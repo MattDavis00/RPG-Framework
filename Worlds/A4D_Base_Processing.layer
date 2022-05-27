@@ -1,26 +1,62 @@
-GenericEntity : "{6695DB94F1D81AC5}Prefabs/Props/Processing/Furnace/Fundry.et" {
- components {
-  ActionsManagerComponent "{5970A806187F1A4F}" {
-   additionalActions {
-    ADRP_BuyAction "{5971100029A6056B}" {
-     Duration 1
-     "Sort Priority" 11
-    }
-    ADRP_BuyAction "{597110002FA83507}" {
-     Duration 1
-     "Sort Priority" 3
-    }
-    ADRP_BuyAction "{5971100046AF5F3C}" {
-     Duration 1
-    }
-    ADRP_BuyAction "{5971100614FBE18A}" {
-     Duration 0
-     "Sort Priority" 10
-    }
+$grp GenericEntity : "{E7B6E351912BE96F}Prefabs/Props/Processing/Furnace/Foundry.et" {
+ {
+  coords 4947.799 2.181 3916.57
+  angleY 124.729
+  {
+   SCR_ParticleEmitter {
+    coords 0.62 3.01 1.395
+    angleY 179.944
+    m_EffectPath "{0F364F4CD1D72350}Particles/Weapon/Trail_PG7VL.ptc"
+   }
+   GenericEntity : "{517ABE92B6BCCC3E}Prefabs/Props/Processing/Furnace/terminal/terminal.et" {
+    coords 2.15 -0.024 -0.959
+    angleY -65.234
    }
   }
  }
- coords 5240.918 19.243 4033.754
- angleY 137.481
- angleZ 3.852
+ {
+  coords 4951.73 2.18 3913.934
+  angleY 124.729
+  {
+   SCR_ParticleEmitter {
+    coords 0.62 3.01 1.395
+    angleY 179.944
+    m_EffectPath "{0F364F4CD1D72350}Particles/Weapon/Trail_PG7VL.ptc"
+   }
+   GenericEntity : "{517ABE92B6BCCC3E}Prefabs/Props/Processing/Furnace/terminal/terminal.et" {
+    coords 2.151 -0.024 -0.958
+    angleY -65.234
+   }
+  }
+ }
+ {
+  coords 4955.726 2.157 3911.186
+  angleY 124.729
+  {
+   SCR_ParticleEmitter {
+    coords 0.62 3.01 1.395
+    angleY 179.944
+    m_EffectPath "{0F364F4CD1D72350}Particles/Weapon/Trail_PG7VL.ptc"
+   }
+   GenericEntity : "{517ABE92B6BCCC3E}Prefabs/Props/Processing/Furnace/terminal/terminal.et" {
+    coords 2.15 -0.024 -0.958
+    angleY -65.234
+   }
+  }
+ }
+ {
+  coords 4959.866 2.163 3908.388
+  angleY 124.729
+  {
+   SCR_ParticleEmitter {
+    coords 0.62 3.01 1.395
+    angleY 179.944
+    m_EffectPath "{0F364F4CD1D72350}Particles/Weapon/Trail_PG7VL.ptc"
+   }
+   GenericEntity : "{517ABE92B6BCCC3E}Prefabs/Props/Processing/Furnace/terminal/terminal.et" {
+    coords 2.15 -0.024 -0.959
+    angleY -65.234
+   }
+  }
+ }
 }

@@ -5,6 +5,10 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
  coords 0 0 0
  Factions {
   SCR_Faction "{5970F6836425706E}" : "{5EB46557DF2AA250}Prefabs/Systeam/Spawn/Config/US.conf" {
+   UIInfo SCR_FactionUIInfo "{5970F6839DF9A816}" {
+    Name "Civilian"
+   }
+   m_sFactionFlag "{0D661101A65BCC12}UI/Textures/arma4dev/logo.edds"
   }
  }
  m_bCanChangeFactionsPlayable 0

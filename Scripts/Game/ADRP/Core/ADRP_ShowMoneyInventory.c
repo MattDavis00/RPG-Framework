@@ -5,11 +5,11 @@
 |
 /--------------------------------------------------------------------------------------------------------------------------------------*/
 
-class ADRP_ShowMoneyInventory : SCR_InventoryMenuUI
+/*class ADRP_ShowMoneyInventory : SCR_InventoryStorageManagerComponent
 {
-	void OpenInventory()
+	override void OpenInventory()
 	{
 		GetGame().GetWorkspace().CreateWidgets("{5968FAE6F3EC3B1D}UI/layouts/GPS/PlayerMapIndicator.layout");
 		Print("Inventory Open");
 	}
-}
+}*/

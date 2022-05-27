@@ -1,0 +1,76 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{87C21E210CFDFE49}Prefabs/Props/Processing/Furnace/terminal/terminal.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 20
+   ResponseIndex "HugeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 1000
+   m_fForceToDamageScale 350
+   m_fDamageThresholdMinimum 30
+   m_fDamageThresholdMaximum 20000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{59757DA179FE31E8}" {
+     m_ModelPrefabs {
+      "{41B7DD05CF848F15}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_05.xob" "{D8A9649CD263BE85}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_06.xob"
+     }
+     m_fRandomVelocityLinear 2
+     m_eMaterialSoundType WOOD_PLANK_LARGE
+     m_fSoundTriggerThreshold 7.818
+    }
+    SCR_DebrisSpawnable "{59757DA179FE31EE}" {
+     m_ModelPrefabs {
+      "{DF6E9ECDB4E50446}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_01.xob" "{46702754A90235D6}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_02.xob" "{317A4FDC5DA0DAA6}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_03.xob" "{36BDB58D3B266065}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_04.xob" "{AFA30C1426C151F5}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_07.xob"
+     }
+     m_eMaterialSoundType WOOD_PLANK_LARGE
+     m_fSoundTriggerThreshold 10
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SMALL
+  }
+  SCR_InventoryStorageManagerComponent "{59757DA179FE31D3}" {
+  }
+  ActionsManagerComponent "{59757DA179FE31D2}" {
+   Enabled 0
+   ActionContexts {
+    UserActionContext "{59757DA179FE31D7}" {
+     ContextName "IventoryButton"
+     Position PointInfo "{59757DA179FE31D6}" {
+      Offset 0.0525 1.0858 -0.2628
+     }
+     Radius 6.02
+    }
+   }
+   additionalActions {
+    ADRP_StartFoundryAction "{59757DA179FE31DB}" {
+     ParentContextList {
+      "IventoryButton"
+     }
+     Duration 2
+    }
+    ADRP_UseFoundryAction "{59757DA179FE31DA}" {
+     ParentContextList {
+      "IventoryButton"
+     }
+     Duration 0.5
+    }
+    ADRP_ReleaseFoundryAction "{59757DA179FE31D9}" {
+     ParentContextList {
+      "IventoryButton"
+     }
+     Duration 5
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+}

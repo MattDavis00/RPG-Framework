@@ -1,0 +1,93 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  ADRP_FoundryComponent "{59760C13CC4A3A2B}" {
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{0D7F1C967858FC19}Prefabs/Props/Processing/Furnace/furnacefix.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 20
+   ResponseIndex "HugeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 1000
+   m_fForceToDamageScale 350
+   m_fDamageThresholdMinimum 30
+   m_fDamageThresholdMaximum 20000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{59760C13CC4A3A1E}" {
+     m_ModelPrefabs {
+      "{41B7DD05CF848F15}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_05.xob" "{D8A9649CD263BE85}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_06.xob"
+     }
+     m_fRandomVelocityLinear 2
+     m_eMaterialSoundType WOOD_PLANK_LARGE
+     m_fSoundTriggerThreshold 7.818
+    }
+    SCR_DebrisSpawnable "{59760C13CC4A3A03}" {
+     m_ModelPrefabs {
+      "{DF6E9ECDB4E50446}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_01.xob" "{46702754A90235D6}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_02.xob" "{317A4FDC5DA0DAA6}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_03.xob" "{36BDB58D3B266065}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_04.xob" "{AFA30C1426C151F5}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_07.xob"
+     }
+     m_eMaterialSoundType WOOD_PLANK_LARGE
+     m_fSoundTriggerThreshold 10
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SMALL
+  }
+  SCR_InventoryStorageManagerComponent "{59760C13CC4A3A05}" {
+  }
+  ActionsManagerComponent "{59760C13CC4A3A0A}" {
+   ActionContexts {
+    UserActionContext "{59760C13CC4A3A0E}" {
+     ContextName "IventoryButton"
+     Position PointInfo "{59760C13CC4A3A73}" {
+      Offset 1.7774 1.1613 0
+     }
+     Radius 6.02
+    }
+    UserActionContext "{59760C13CC4A3A71}" {
+     ContextName "ActionButton"
+     Position PointInfo "{59760C13CC4A3A77}" {
+      Offset 2.207 1.0969 -0.9281
+     }
+     Radius 6
+    }
+   }
+   additionalActions {
+    ADRP_OpenFoundryAction "{59760C13CC4A3A74}" {
+     ParentContextList {
+      "IventoryButton"
+     }
+     Duration 0.1
+    }
+    ADRP_UseFoundryAction "{59760C13CC4A3A7B}" {
+     ParentContextList {
+      "ActionButton" ""
+     }
+     Duration 1
+     "Sort Priority" 1
+    }
+    ADRP_ReleaseFoundryAction "{59760C13CC4A3A79}" {
+     ParentContextList {
+      "ActionButton"
+     }
+     Duration 1
+     "Sort Priority" 2
+    }
+    ADRP_StartFoundryAction "{59760C13CC4A3A78}" {
+     ParentContextList {
+      "ActionButton"
+     }
+     Duration 2
+     "Sort Priority" 3
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+}

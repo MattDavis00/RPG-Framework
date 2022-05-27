@@ -26,6 +26,7 @@ class ADRP_StartFoundryAction: ScriptedUserAction
 		bool sucess = _foundryComponent.IsActive();
 		if (sucess) {
 			SCR_HintManagerComponent.GetInstance().ShowCustomHint("The foundry is on the way do not open it while it is running.", "Foundry", 5.0 , true); 
+			//Faire partir de la fumé
 		} else {
 			SCR_HintManagerComponent.GetInstance().ShowCustomHint("Foundry failed to start.", "Foundry", 5.0 , false); 
 		}

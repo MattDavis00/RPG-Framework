@@ -5,8 +5,8 @@ $grp GenericEntity {
     Object "{FACD700DC72E8039}Prefabs/Items/Legal_Resources/Processed/iron/iron_ingot.xob"
    }
   }
-  coords 5227.826 18.228 4027.538
-  angleY 35.588
+  coords 4941.237 2.174 3894.592
+  angleY 97.569
  }
  {
   components {
@@ -14,8 +14,8 @@ $grp GenericEntity {
     Object "{167A0A8F323A7292}Prefabs/Items/Legal_Resources/Untreated/copper/Copper Ore.xob"
    }
   }
-  coords 5227.811 18.205 4027.079
-  angleY 35.588
+  coords 4941.018 2.169 3894.497
+  angleY 97.569
  }
  {
   components {
@@ -23,8 +23,8 @@ $grp GenericEntity {
     Object "{DEEB2F1500B42A9C}Prefabs/Items/Legal_Resources/Untreated/iron/iron_ore.xob"
    }
   }
-  coords 5227.835 18.196 4026.867
-  angleY 35.588
+  coords 4940.844 2.17 3894.373
+  angleY 97.569
  }
  {
   components {
@@ -32,8 +32,8 @@ $grp GenericEntity {
     Object "{3715069E5224EE50}Prefabs/Items/Legal_Resources/Processed/sand/Sand_bag.xob"
    }
   }
-  coords 5227.454 18.164 4026.668
-  angleY 35.588
+  coords 4940.515 2.173 3894.825
+  angleY 97.569
  }
  {
   components {
@@ -41,6 +41,10 @@ $grp GenericEntity {
     Object "{1EBF96E7E2028A28}Prefabs/Items/Legal_Resources/Untreated/sand/sand.xob"
    }
   }
-  coords 5227.587 18.177 4027.007
+  coords 4940.655 2.197 3894.555
+  angleY 61.981
  }
+}
+Tree : "{1C6F9AD2669C17F9}Prefabs/Vegetation/Tree/t_malus_domestica_2s.et" {
+ coords 4937.504 0.061 3895.024
 }

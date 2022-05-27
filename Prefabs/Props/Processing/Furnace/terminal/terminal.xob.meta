@@ -1,0 +1,41 @@
+MetaFileClass {
+ Name "{87C21E210CFDFE49}Prefabs/Props/Processing/Furnace/terminal/terminal.xob"
+ Configurations {
+  FBXResourceClass PC {
+   Scale 0.8 0.8 0.8
+   MaterialAssigns {
+    MaterialAssignClass "{59757DA101A44965}" {
+     SourceMaterial "DefaultMaterial"
+     AssignedMaterial "{BE49B3935687577E}Prefabs/Props/Processing/Furnace/terminal/data/DefaultMaterial.emat"
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Vend {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{59757DA101BFBD2C}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{59757DA101BFBDE1}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{59757DA101BFBDC8}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{59757DA101BFBC2F}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{59757DA101BFBC72}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

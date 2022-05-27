@@ -1,0 +1,28 @@
+Tree : "{388AE316D09D0680}Prefabs/Vegetation/Core/Tree_Base.et" {
+ ID "27132768B0952045"
+ components {
+  ActionsManagerComponent "{59752ECFAF0C5D1D}" {
+   ActionContexts {
+    UserActionContext "{59752ECFACC5BC2E}" {
+     ContextName "GatherButton"
+     Position PointInfo "{59752ECFA449E75B}" {
+      Offset 0 1.3032 0
+     }
+     Radius 6
+    }
+   }
+   additionalActions {
+    ADRP_GatherAction "{59752ECFD15018FC}" {
+     ParentContextList {
+      "GatherButton"
+     }
+     Duration 1
+     m_GatherItemDisplayName "apple"
+     m_GatherItemPrefab "{C9D661E5B0714712}Prefabs/Items/Food/Apple/Apple.et"
+    }
+   }
+  }
+  RplComponent "{59753DC41701E84D}" {
+  }
+ }
+}

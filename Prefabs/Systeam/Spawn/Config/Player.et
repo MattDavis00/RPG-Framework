@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
-   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+   WeaponTemplate ""
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate ""
@@ -39,6 +39,10 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
     }
     SCR_InfoDisplay "{59710D195787D3F7}" {
      m_LayoutPath "{40D4FF701F963929}UI/Layouts/Widgets/LifeHungerThrist.layout"
+     m_eLayer OVERLAY
+    }
+    SCR_InfoDisplay "{59732E477EB710FD}" {
+     m_LayoutPath "{47FAF746C5C163D6}UI/Layouts/Widgets/Stamina.layout"
      m_eLayer OVERLAY
     }
    }

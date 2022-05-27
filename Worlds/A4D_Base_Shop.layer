@@ -1,11 +1,11 @@
 GenericEntity : "{3214F90D2ED60496}Prefabs/Props/Kiosk/VendorKiosk.et" {
- coords 5232.048 18.632 4032.364
- angleY -47.429
+ coords 4942.449 2.196 3893.997
+ angleY -160.236
 }
 GenericEntity GeneralStore1 : "{7A7DB2EB70F0152B}Prefabs/Props/Commercial/GeneralStore.et" {
- coords 5229.572 18.443 4029.889
- angleY 113.502
- angleZ 2.424
+ coords 4945.644 2.172 3892.677
+ angleY 0.695
+ angleZ 0.091
  {
   $grp GenericEntity {
    {
@@ -84,9 +84,9 @@ GenericEntity Market1 : "{B89D79612B3B89B9}Prefabs/Props/Commercial/MarketShop.e
    }
   }
  }
- coords 5230.769 18.326 4026.775
+ coords 4948.098 2.186 3894.983
  angleX 1.816
- angleY 45.57
+ angleY -67.237
  angleZ 0.652
  {
   $grp GenericEntity {

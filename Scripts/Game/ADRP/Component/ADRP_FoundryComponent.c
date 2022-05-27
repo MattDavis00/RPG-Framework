@@ -66,10 +66,20 @@ class ADRP_FoundryComponent: GameComponent
 			return false;
 		
 		vector foundryPosition = {};
-		vector ownerPosition = {};
+		vector ownerPosition = {1,2,3};
 		
-		_foundry.GetTransform(foundryPosition);
-		_currentOwner.GetTransform(ownerPosition);
+		_foundry.CoordToParent(foundryPosition);//GetTransform replaced by CoordToParent
+		_currentOwner.CoordToParent(ownerPosition);//GetTransform replaced by CoordToParent
+		
+		Print("--------------------------------");
+		Print(_foundry);
+		Print("--------------------------------");
+		Print(foundryPosition);
+		Print("--------------------------------");
+		Print(_currentOwner);
+		Print("--------------------------------");
+		Print(ownerPosition);
+		Print("--------------------------------");
 		
 		float distance = vector.Distance(foundryPosition,ownerPosition);
 		
