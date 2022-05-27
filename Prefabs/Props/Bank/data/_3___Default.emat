@@ -4,5 +4,5 @@ MatPBRBasic {
  MetalnessScale 1.489
  AOScale 0.511
  DielectricReflectance 0.041
- BCRMap "{3F005DD0D28FDC20}Prefabs/Props/Bank/data/atm1.edds"
+ BCRMap "{3831689C404358C0}Prefabs/Props/Bank/data/atm.edds"
 }

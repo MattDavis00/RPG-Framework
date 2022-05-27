@@ -1,6 +1,0 @@
-MatPBRBasic {
- SpecularMul 0.343
- AOScale 0.647
- EmissiveMap "{69337ACE143239E9}Prefabs/Tools/textures/Models_Stick_Normal.edds"
- BCRMap "{4A262CBB239D2FA4}Prefabs/Tools/textures/Models_Stick_BaseColor.edds"
-}

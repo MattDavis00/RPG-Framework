@@ -1,10 +1,8 @@
 MatPBRBasic {
  SpecularMul 0.66
- RoughnessScale 0
+ RoughnessScale 0.229
  MetalnessScale 5
- AOScale 0.106
+ AOScale 0.249
  DielectricReflectance 0.159
- BCRMap "{E74F4C7CAAC0FB71}Prefabs/Items/Legal_Resources/Untreated/iron/data/iron_texture.edds"
- OpacityMap "{E9517FF5C27DABBF}Prefabs/Items/Legal_Resources/Untreated/iron/data/iron_ore_Metallic.edds"
- NMOMap "{3837EC72611ADB4C}Prefabs/Items/Legal_Resources/Untreated/iron/data/iron_ore_Mixed_AO.edds"
+ BCRMap "{596A51FA86CB33D5}Prefabs/Items/Legal_Resources/Untreated/iron/data/iron.edds"
 }

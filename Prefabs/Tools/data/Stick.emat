@@ -1,0 +1,7 @@
+MatPBRBasic {
+ SpecularMul 0.32
+ MetalnessScale 1.048
+ AOScale 0.423
+ BCRMap "{CD9CECE5857B1D93}Prefabs/Tools/data/Models_Stick_BaseColor.edds"
+ NMOMap "{69337ACE143239E9}Prefabs/Tools/textures/Models_Stick_Normal.edds"
+}

@@ -26,8 +26,9 @@ GenericEntity GeneralStore1 : "{7A7DB2EB70F0152B}Prefabs/Props/Commercial/Genera
       Object "{170EE372D687AEE1}Prefabs/Tools/Shovel/Shovel.xob"
      }
     }
-    coords 0.708 1.026 0.066
+    coords 0.714 1.039 0.115
     angleY -84.556
+    angleZ -90.117
    }
    {
     components {
@@ -35,8 +36,9 @@ GenericEntity GeneralStore1 : "{7A7DB2EB70F0152B}Prefabs/Props/Commercial/Genera
       Object "{F61D0B176B774985}Prefabs/Tools/Pickaxe/Pickaxe.xob"
      }
     }
-    coords 0.323 1.016 -0.052
+    coords 0.323 1.037 -0.052
     angleY -98.938
+    angleZ 90.137
    }
    {
     components {

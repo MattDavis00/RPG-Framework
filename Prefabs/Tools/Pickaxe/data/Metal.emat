@@ -1,5 +1,0 @@
-MatPBRBasic {
- RoughnessScale 0.263
- BCRMap "{7B763B2A48D1C69F}Prefabs/Tools/textures/Models_Metal_BaseColor.edds"
- NMOMap "{69337ACE143239E9}Prefabs/Tools/textures/Models_Stick_Normal.edds"
-}

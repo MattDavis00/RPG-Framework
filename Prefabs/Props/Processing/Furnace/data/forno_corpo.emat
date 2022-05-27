@@ -2,5 +2,5 @@ MatPBRBasic {
  RoughnessScale 0.489
  MetalnessScale 1.979
  DielectricReflectance 0.085
- BCRMap "{912F8249E827498F}Prefabs/Props/Processing/Furnace/data/ss.edds"
+ BCRMap "{5EC9B895598C65A6}Prefabs/Props/Processing/Furnace/data/foundry.edds"
 }

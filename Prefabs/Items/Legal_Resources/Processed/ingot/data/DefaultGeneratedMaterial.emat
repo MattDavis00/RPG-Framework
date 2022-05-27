@@ -2,5 +2,5 @@ MatPBRBasic {
  SpecularMul 0.857
  RoughnessScale 0.2
  AOScale 0.486
- BCRMap "{950955110D5D10B1}Prefabs/Items/Legal_Resources/Processed/ingot/data/gold_bar_DefaultMaterial_BaseColor.edds"
+ BCRMap "{F03DA351076AC268}Prefabs/Items/Legal_Resources/Processed/ingot/data/gold.edds"
 }
