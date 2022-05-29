@@ -23,26 +23,26 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
   ActionsManagerComponent "{596945B7E195302C}" {
    ActionContexts {
     UserActionContext "{596945B79E0FA106}" {
-     ContextName "BuyAppleButton"
+     ContextName "AppleButton"
      Position PointInfo "{596945B7944A0311}" {
       Offset -0.6405 0.7313 0.3486
      }
      Radius 1
     }
     UserActionContext "{596AC34272BBD81C}" {
-     ContextName "BuyPizzaButton"
+     ContextName "PizzaButton"
      Position PointInfo "{596AC342C9D292BC}" {
       Offset -0.2151 0.7313 0.3486
      }
     }
     UserActionContext "{596AE150EA774BAD}" {
-     ContextName "BuyWaterButton"
+     ContextName "WaterButton"
      Position PointInfo "{596AE150E387D089}" {
       Offset 0.3024 0.7313 0.3486
      }
     }
     UserActionContext "{596CA3D264BBDB86}" {
-     ContextName "BuyEnergyDrink"
+     ContextName "EnergyDrink"
      Position PointInfo "{596CA3D29CCCDE97}" {
       Offset 0.6703 0.7313 0.3486
      }
@@ -51,35 +51,75 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
    additionalActions {
     ADRP_BuyAction "{596AC342528C1F51}" {
      ParentContextList {
-      "BuyAppleButton"
+      "AppleButton"
      }
      Duration 0.2
-     m_BuyItemDisplayName "apple"
+     m_BuyItemDisplayName "#A4D_Apple"
+     m_ItemBuyPrice 50
      m_BuyItemPrefab "{C9D661E5B0714712}Prefabs/Items/Food/Apple/Apple.et"
     }
     ADRP_BuyAction "{596AC342602D24FC}" {
      ParentContextList {
-      "BuyPizzaButton"
+      "PizzaButton"
      }
      Duration 0.2
-     m_BuyItemDisplayName "pizza"
+     m_BuyItemDisplayName "#A4D_Pizza"
+     m_ItemBuyPrice 150
      m_BuyItemPrefab "{1B0816D8A787AC06}Prefabs/Items/Food/Pizza/Pizza.et"
     }
     ADRP_BuyAction "{596AE9867CDD6A4C}" {
      ParentContextList {
-      "BuyWaterButton"
+      "WaterButton"
      }
      Duration 0.2
-     m_BuyItemDisplayName "Water"
+     m_BuyItemDisplayName "#A4D_Water"
+     m_ItemBuyPrice 150
      m_BuyItemPrefab "{07B5EE4EB5344031}Prefabs/Items/Drink/Water/Full/BottleFull.et"
     }
     ADRP_BuyAction "{596CA3D2B8F35CC9}" {
      ParentContextList {
-      "BuyEnergyDrink"
+      "EnergyDrink"
      }
      Duration 0.2
-     m_BuyItemDisplayName "energy drink"
-     m_BuyItemPrefab "{14B6F1D08451F6FD}Prefabs/Items/Drink/EnergyDrink/EnergyDrink.et"
+     m_BuyItemDisplayName "#A4D_EnergyDrink"
+     m_ItemBuyPrice 200
+     m_BuyItemPrefab "{B623571E6D19B431}Prefabs/Items/Drink/EnergyDrink/EnergyDrink.et"
+    }
+    ADRP_SellAction "{597962B89E400415}" {
+     ParentContextList {
+      "AppleButton"
+     }
+     Duration 0.2
+     "Sort Priority" 1
+     m_SellItemDisplayName "#A4D_Apple"
+     m_ItemSellPrice 25
+    }
+    ADRP_SellAction "{597962B89C0464CA}" {
+     ParentContextList {
+      "PizzaButton"
+     }
+     Duration 0.2
+     "Sort Priority" 1
+     m_SellItemDisplayName "#A4D_Pizza"
+     m_ItemSellPrice 75
+    }
+    ADRP_SellAction "{597962B89DE0D1FB}" {
+     ParentContextList {
+      "WaterButton"
+     }
+     Duration 0.2
+     "Sort Priority" 1
+     m_SellItemDisplayName "#A4D_Water"
+     m_ItemSellPrice 75
+    }
+    ADRP_SellAction "{597962B893198059}" {
+     ParentContextList {
+      "EnergyDrink"
+     }
+     Duration 0.2
+     "Sort Priority" 1
+     m_SellItemDisplayName "#A4D_EnergyDrink"
+     m_ItemSellPrice 100
     }
    }
   }

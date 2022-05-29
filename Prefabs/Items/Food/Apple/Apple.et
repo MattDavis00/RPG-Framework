@@ -18,6 +18,7 @@ GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
      SizeSetupStrategy Volume
      ItemVolume 113
     }
+    CommonItemType "FOOD"
    }
   }
   MeshObject "{59695C81F008B03A}" {

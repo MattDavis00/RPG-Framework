@@ -36,7 +36,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
       "GatherButton"
      }
      Duration 2
-     m_GatherItemDisplayName "cannabis"
+     m_GatherItemDisplayName "#A4D_Cannabis"
      m_GatherItemPrefab "{F08F767AE9143520}Prefabs/Items/Illegal_Resources/Untreated/weed/cannabis.et"
     }
    }

@@ -24,12 +24,12 @@ class ADRP_ReleaseFoundryAction: ScriptedUserAction
 	{
 		_foundryComponent.SetFoundryActive(false);
 		_foundryComponent.ReleaseFoundry();
-		SCR_HintManagerComponent.GetInstance().ShowCustomHint("The foundry no longer belongs to you.", "Foundry", 5.0 , true); 
+		SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionRelease", "#A4D_FoundryTitle", 5.0 , true); 
 	}
 	
 	override bool GetActionNameScript(out string outName)
 	{
-		outName = string.Format("Release foundry");
+		outName = string.Format("#A4D_FoundryReleaseAction");
 		return true;
 	}
 	

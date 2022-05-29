@@ -23,12 +23,12 @@ class ADRP_OpenFoundryAction: ScriptedUserAction
 	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)
 	{
 		//_foundryComponent.OpenInventory();
-		SCR_HintManagerComponent.GetInstance().ShowCustomHint("Foundry inventory and process are under development.thank you for waiting <3", "Foundry", 5.0 , true); 
+		SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionOpen", "#A4D_FoundryTitle", 5.0 , true); 
 	}
 	
 	override bool GetActionNameScript(out string outName)
 	{
-		outName = string.Format("Open foundry inventory");
+		outName = string.Format("#A4D_FoundryOpenAction");
 		return true;
 	}
 	

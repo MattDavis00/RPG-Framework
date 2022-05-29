@@ -22,18 +22,19 @@ class ADRP_UseFoundryAction: ScriptedUserAction
 	
 	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)
 	{
+		//Doit verifier si on en utilise une autre avant si c'est la cas avertir que l'utilisateur utilise deja une fonderie
 		_foundryComponent.InitFoundry(pOwnerEntity);
 		bool sucess = _foundryComponent.SetCurrentOwner(pUserEntity);
 		if (sucess) {
-			SCR_HintManagerComponent.GetInstance().ShowCustomHint("You can use this foundry.", "Foundry", 5.0 , true); 
+			SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionUse", "#A4D_FoundryTitle", 5.0 , true); 
 		} else {
-			SCR_HintManagerComponent.GetInstance().ShowCustomHint("The foundry is already in use.", "Foundry", 5.0 , false); 
+			SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionInUse", "#A4D_FoundryTitle", 5.0 , false); 
 		}
 	}
 	
 	override bool GetActionNameScript(out string outName)
 	{
-		outName = string.Format("Use foundry");
+		outName = string.Format("#A4D_FoundryUseAction");
 		return true;
 	}
 	

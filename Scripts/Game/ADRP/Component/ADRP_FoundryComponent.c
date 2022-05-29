@@ -65,11 +65,15 @@ class ADRP_FoundryComponent: GameComponent
 		if (!_foundry)
 			return false;
 		
-		vector foundryPosition = {};
-		vector ownerPosition = {1,2,3};
 		
-		_foundry.CoordToParent(foundryPosition);//GetTransform replaced by CoordToParent
-		_currentOwner.CoordToParent(ownerPosition);//GetTransform replaced by CoordToParent
+		// En attendant sam correction de ce probleme
+		vector foundryPosition [4];
+		vector ownerPosition [4];
+		
+		_foundry.GetTransform(foundryPosition);
+		_currentOwner.GetTransform(ownerPosition);
+		// Hi hi 
+		
 		
 		Print("--------------------------------");
 		Print(_foundry);

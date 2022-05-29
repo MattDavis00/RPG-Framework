@@ -37,44 +37,44 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
   ActionsManagerComponent "{596CA3D2A3DEFBCF}" {
    ActionContexts {
     UserActionContext "{596CD826016972CB}" {
-     ContextName "BuyAxeButton"
+     ContextName "AxeButton"
      Position PointInfo "{596CD826384B6AC4}" {
       Offset 1.1428 1.0683 0.5363
      }
     }
     UserActionContext "{596CD8262E50B46B}" {
-     ContextName "BuyShovelButton"
+     ContextName "ShovelButton"
      Position PointInfo "{596CD826207209E8}" {
       Offset 0.8525 1.0683 0.5363
      }
     }
     UserActionContext "{596CD82625EEA2AB}" {
-     ContextName "BuyPickAxeButton"
+     ContextName "PickAxeButton"
      Position PointInfo "{596CD826584814DC}" {
       Offset 0.3389 1.0683 0.5363
       Angles 0 0 0.5363
      }
     }
     UserActionContext "{596CD826537003CD}" {
-     ContextName "BuyMapButton"
+     ContextName "MapButton"
      Position PointInfo "{596CD8264A704A43}" {
       Offset -0.1639 1.0683 0.5363
      }
     }
     UserActionContext "{596CD8264947281D}" {
-     ContextName "BuyBinocularButton"
+     ContextName "BinocularButton"
      Position PointInfo "{596CD826473490EE}" {
       Offset -0.4943 1.0683 0.5363
      }
     }
     UserActionContext "{596CD82645EB7C85}" {
-     ContextName "BuyWatchButton"
+     ContextName "WatchButton"
      Position PointInfo "{596CD8267059B585}" {
       Offset -0.8191 1.0683 0.5363
      }
     }
     UserActionContext "{596CD826746DAC31}" {
-     ContextName "BuyCompassButton"
+     ContextName "CompassButton"
      Position PointInfo "{596CD8266C074509}" {
       Offset -0.933 1.0683 0.5363
      }
@@ -83,59 +83,122 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
    additionalActions {
     ADRP_BuyAction "{596CD826A7E37E7B}" {
      ParentContextList {
-      "BuyAxeButton"
+      "AxeButton"
      }
      Duration 0.2
-     m_BuyItemDisplayName "axe"
+     m_BuyItemDisplayName "#A4D_Axe"
+     m_ItemBuyPrice 1200
      m_BuyItemPrefab "{CEA74B6F6E0B358B}Prefabs/Tools/Test.et"
     }
     ADRP_BuyAction "{596CD826A4FB7071}" {
      ParentContextList {
-      "BuyShovelButton"
+      "ShovelButton"
      }
      Duration 0.2
-     m_BuyItemDisplayName "shovel"
+     m_BuyItemDisplayName "#A4D_Shovel"
+     m_ItemBuyPrice 1200
      m_BuyItemPrefab "{9DBB4D6188632950}Prefabs/Tools/Shovel/Shovel.et"
     }
     ADRP_BuyAction "{596CD826A5AA1896}" {
      ParentContextList {
-      "BuyPickAxeButton"
+      "PickAxeButton"
      }
      Duration 0.2
-     m_BuyItemDisplayName "pickaxe"
+     m_BuyItemDisplayName "#A4D_Pickaxe"
+     m_ItemBuyPrice 1200
      m_BuyItemPrefab "{1A2C1EEF789206E1}Prefabs/Tools/Pickaxe/Pickaxe.et"
     }
     ADRP_BuyAction "{596CD826DA45E286}" {
      ParentContextList {
-      "BuyMapButton"
+      "MapButton"
      }
      Duration 0.2
-     m_BuyItemDisplayName "map"
+     m_BuyItemDisplayName "#A4D_Map"
+     m_ItemBuyPrice 30
      m_BuyItemPrefab "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
     }
     ADRP_BuyAction "{596CD826DB623D2F}" {
      ParentContextList {
-      "BuyBinocularButton"
+      "BinocularButton"
      }
      Duration 0.2
-     m_BuyItemDisplayName "binocular"
+     m_BuyItemDisplayName "#A4D_Binocular"
+     m_ItemBuyPrice 200
      m_BuyItemPrefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22.et"
     }
     ADRP_BuyAction "{596CD826D8164B15}" {
      ParentContextList {
-      "BuyWatchButton"
+      "WatchButton"
      }
      Duration 0.2
-     m_BuyItemDisplayName "watch"
+     m_BuyItemDisplayName "#A4D_Watch"
+     m_ItemBuyPrice 60
      m_BuyItemPrefab "{4FAD128BE9F66C6F}Prefabs/Items/Equipment/Watches/Watch_Vostok_Map.et"
     }
     ADRP_BuyAction "{596CD826D9290C59}" {
      ParentContextList {
-      "BuyCompassButton"
+      "CompassButton"
      }
      Duration 0.2
-     m_BuyItemDisplayName "compass"
+     m_BuyItemDisplayName "#A4D_Compass"
+     m_ItemBuyPrice 60
      m_BuyItemPrefab "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+    }
+    ADRP_SellAction "{597962BFCF6B6E73}" {
+     ParentContextList {
+      "AxeButton"
+     }
+     "Sort Priority" 1
+     m_SellItemDisplayName "#A4D_Axe"
+     m_ItemSellPrice 600
+    }
+    ADRP_SellAction "{597962BFCC5D71A5}" {
+     ParentContextList {
+      "ShovelButton"
+     }
+     "Sort Priority" 1
+     m_SellItemDisplayName "#A4D_Shovel"
+     m_ItemSellPrice 600
+    }
+    ADRP_SellAction "{597962BFCD45C519}" {
+     ParentContextList {
+      "PickAxeButton"
+     }
+     "Sort Priority" 1
+     m_SellItemDisplayName "#A4D_Pickaxe"
+     m_ItemSellPrice 600
+    }
+    ADRP_SellAction "{597962BFC2A1ED4A}" {
+     ParentContextList {
+      "MapButton"
+     }
+     "Sort Priority" 1
+     m_SellItemDisplayName "#A4D_Map"
+     m_ItemSellPrice 15
+    }
+    ADRP_SellAction "{597962BFC3ACA624}" {
+     ParentContextList {
+      "BinocularButton"
+     }
+     "Sort Priority" 1
+     m_SellItemDisplayName "#A4D_Binocular"
+     m_ItemSellPrice 100
+    }
+    ADRP_SellAction "{597962BFC0F8CF50}" {
+     ParentContextList {
+      "WatchButton"
+     }
+     "Sort Priority" 1
+     m_SellItemDisplayName "#A4D_Watch"
+     m_ItemSellPrice 30
+    }
+    ADRP_SellAction "{597962BFC6999ABC}" {
+     ParentContextList {
+      "CompassButton"
+     }
+     "Sort Priority" 1
+     m_SellItemDisplayName "#A4D_Compass"
+     m_ItemSellPrice 30
     }
    }
   }

@@ -35,7 +35,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
       "atmButton"
      }
      Duration 0.2
-     _DisplayName "ATM"
+     _DisplayName "#A4D_ATM"
      _UI_Class Atm
     }
    }

@@ -9,28 +9,28 @@ GameProject {
   GameProjectConfig PC {
    WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
     StringTables {
-     StringTableDefinition "{59729AC9AC998F71}" {
-      StringTableSource "{957D366524069157}Language/localization_a4d-rpg.st"
+     StringTableDefinition "{5979474B39963304}" {
+      StringTableSource "{957D366524069157}Language/localization.st"
       Languages {
-       LanguageDefinition "{59729AC9D721B3E5}" {
-        Code "eu_us"
-        StringTableRuntime "{FFABF1A438694BFC}Language/a4d-rpg_localization.en_us.conf"
-       }
-       LanguageDefinition "{59729AC9D7D0F0EB}" {
-        Code "de_de"
-        StringTableRuntime "{A15B7BEF529A4EFB}Language/a4d-rpg_localization.de_de.conf"
-       }
-       LanguageDefinition "{59729AC9D40DE7D9}" {
-        Code "es_es"
-        StringTableRuntime "{3AE7BC2DD66B20E5}Language/a4d-rpg_localization.es_es.conf"
-       }
-       LanguageDefinition "{59729AC9D4A1F8E9}" {
+       LanguageDefinition "{5979474B3299F905}" {
         Code "fr_fr"
-        StringTableRuntime "{814F491A30E8C3E7}Language/a4d-rpg_localization.fr_fr.conf"
+        StringTableRuntime "{814F491A30E8C3E7}Language/localization.fr_fr.conf"
        }
-       LanguageDefinition "{59729AC9D525F018}" {
+       LanguageDefinition "{5979474B303F7F80}" {
+        Code "de_de"
+        StringTableRuntime "{A15B7BEF529A4EFB}Language/localization.de_de.conf"
+       }
+       LanguageDefinition "{5979474B3070E016}" {
+        Code "es_es"
+        StringTableRuntime "{3AE7BC2DD66B20E5}Language/localization.es_es.conf"
+       }
+       LanguageDefinition "{5979474B30B19E91}" {
         Code "it_it"
-        StringTableRuntime "{0153C62E9DCA4020}Language/a4d-rpg_localization.it_it.conf"
+        StringTableRuntime "{0153C62E9DCA4020}Language/localization.it_it.conf"
+       }
+       LanguageDefinition "{5979474B518D6A82}" {
+        Code "en_us"
+        StringTableRuntime "{FFABF1A438694BFC}Language/localization.en_us.conf"
        }
       }
      }

@@ -1,0 +1,30 @@
+Vehicle {
+ ID "BBCBA43A9778AE21"
+ components {
+  ADRP_VehicleComponent "{597AC193FC4C1900}" {
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{597AC00430E4B131}" {
+     ContextName "flip"
+     Position PointInfo "{597AC004281BC2FB}" {
+      Offset 0 0.5 0
+     }
+     Radius 3
+    }
+   }
+   additionalActions {
+    ADRP_FlipAction "{597AC004279688A5}" {
+     ParentContextList {
+      "flip"
+     }
+     UIInfo UIInfo "{597AC004A1CDFB44}" {
+      Name "#A4D_Flip"
+     }
+     Duration 1
+     CanAggregate 1
+    }
+   }
+  }
+ }
+}

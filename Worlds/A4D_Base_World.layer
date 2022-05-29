@@ -310,6 +310,17 @@ GenericEntity : "{DEB57429CD49782E}Prefabs/Sand/SandPile_01.et" {
   }
  }
 }
+Vehicle M151A2 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 10408.7
+  }
+ }
+ coords 4931.114 4.352 3901.821
+ angleX -0.217
+ angleY -55.444
+ angleZ -180
+}
 GenericEntity : "{F8658A20B9B23695}Prefabs/Rock/copper/copper.et" {
  coords 4967.824 2.074 3894.576
  {
