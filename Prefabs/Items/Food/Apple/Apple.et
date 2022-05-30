@@ -12,6 +12,7 @@ GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
     ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
      Name "Apple"
      Description "A delicious apple, can be sold or eaten"
+     Icon "{C64170F56414B3AE}UI/Textures/QuickMenu/Icons/binoculars_M22.edds"
     }
     ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
      Weight 0.28

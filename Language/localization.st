@@ -165,8 +165,8 @@ StringTable {
   CustomStringTableItem "{597962A6DF9777C4}" {
    Id "A4D_FoundryReleaseAction"
    Target_en_us "Stop using this foundry"
-   Target_fr_fr "Ne plus utiliser cett fonderie"
-   Modified 1501172340
+   Target_fr_fr "Ne plus utiliser cette fonderie"
+   Modified 1501342129
    Author "Zomb"
    LastChanged "Zomb"
   }
