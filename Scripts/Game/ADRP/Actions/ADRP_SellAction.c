@@ -10,10 +10,13 @@ class ADRP_SellAction: ScriptedUserAction {
 	[Attribute("", UIWidgets.EditBox, desc: "Display name of what is being sell")]
 	private string m_SellItemDisplayName;
 	
+	[Attribute("", UIWidgets.ResourceNamePicker, desc: "Prefab what item is buy")]
+	private ResourceName m_SellItemPrefab;
+	
 	[Attribute("", UIWidgets.EditBox, desc: "Price")]
 	private int m_ItemSellPrice;
 	
-	private int _numberToSell = 0;
+	private int _numberToSell = 1;
 	private int _itemTotalPrice = 0;
 	
 
@@ -42,7 +45,7 @@ class ADRP_SellAction: ScriptedUserAction {
 			if (inventoryManager)
 			{
 				//Doit supprimer le nombre qu'il en vend
-				//Quelque choses comme sa ? : inventoryManager.TryDeleteItem(m_SellItemDisplayName);
+				//inventoryManager.TryDeleteItem(m_SellItemPrefab);
 			}
 			SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_SellDescription " + _numberToSell + " " + m_SellItemDisplayName + " #A4D_For " + _itemTotalPrice + " #A4D_Currency", "#A4D_SellTitle", 5.0 ); 
 		} else {

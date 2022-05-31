@@ -1,0 +1,890 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  BlurWidgetClass "{597EA2C2F765CF18}" {
+   Name "Blur0"
+   Slot FrameWidgetSlot "{597EA2C2F765CF7E}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 26.707
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY -26.707
+    OffsetBottom 0
+   }
+   Color 0 0 0 0.525
+   Intensity 1
+  }
+  ImageWidgetClass "{597EA2C441D77CE8}" {
+   Name "Background1"
+   Slot FrameWidgetSlot "{597EA2C441D77CC9}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 361
+    OffsetLeft 361
+    PositionY -450.5
+    OffsetTop -450.5
+    SizeX 449
+    OffsetRight -810
+    SizeY 919
+    OffsetBottom -468.5
+   }
+   Texture "{F30C9B787C6B00F8}UI/Textures/Layouts/phone/background/fond_1.edds"
+   Image ""
+   Size 449 919
+  }
+  ButtonWidgetClass "{5970866B0E3AF702}" {
+   Name "Exit"
+   Slot FrameWidgetSlot "{596B78007621CFEC}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 563.191
+    OffsetLeft 563.191
+    PositionY 365.895
+    OffsetTop 365.895
+    SizeX 40
+    OffsetRight -603.191
+    SizeY 40
+    OffsetBottom -405.895
+   }
+   Color 1 1 1 0
+   {
+    ImageWidgetClass "{597EA2C5518E83EE}" {
+     Name "Image0"
+     Slot ButtonWidgetSlot "{597EA2C54AD508F8}" {
+      Padding 5 5 5 5
+     }
+     Texture "{586794BAA4EF1810}UI/Textures/Layouts/phone/appicon/logout.edds"
+     Image ""
+     Size 64 64
+    }
+   }
+  }
+  TextWidgetClass "{597EA2C000ADF31E}" {
+   Name "hours"
+   Slot FrameWidgetSlot "{597EA2C000ADF37E}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 375.82
+    OffsetLeft 375.82
+    PositionY -363.999
+    OffsetTop -363.999
+    SizeX 417.03
+    OffsetRight -792.85
+    SizeY 75.81
+    OffsetBottom 288.189
+   }
+   Color 0 0 0 1
+   Text "12:40"
+   "Font Size" 70
+   "Horizontal Alignment" Center
+   "Vertical Alignment" Center
+   FontProperties FontProperties "{597EA2C09EDCF72F}" {
+    Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+   }
+  }
+  GridLayoutWidgetClass "{597EA2C3E86FF28C}" {
+   Name "Grid_Master"
+   Slot FrameWidgetSlot "{597EA2C3E86FF2D1}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 376.384
+    OffsetLeft 376.384
+    PositionY -275.12
+    OffsetTop -275.12
+    SizeX 416.53
+    OffsetRight -792.914
+    SizeY 636.36
+    OffsetBottom -361.241
+   }
+   {
+    GridLayoutWidgetClass "{597EA2CC2FBFEFB1}" {
+     Name "Grid_App_x0_y0"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+     }
+     {
+      ButtonWidgetClass "{597EA2C32B8DD666}" {
+       Name "App_x0_y0"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2C3527C957E}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Texture "{E42734F411D0BE35}UI/Textures/Layouts/phone/appicon/chat.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2C3AFD05A36}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text "SMS"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CC73138342}" {
+     Name "Grid_App_x0_y1"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Column 1
+     }
+     {
+      ButtonWidgetClass "{597EA2CC73138340}" {
+       Name "App_x0_y1"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CC73138345}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Texture "{8B789463CB27F1E5}UI/Textures/Layouts/phone/appicon/contact.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CC73126182}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text "Contact"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CCA453382C}" {
+     Name "Grid_App_x0_y2"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 0
+      Column 2
+     }
+     {
+      ButtonWidgetClass "{597EA2CCA453382F}" {
+       Name "App_x0_y2"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CCA4533828}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Texture "{31E0D398C5A56AEC}UI/Textures/Layouts/phone/appicon/clef.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CCA45319D6}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text "Key"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CCD9F67E18}" {
+     Name "Grid_App_x0_y3"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 0
+      Column 3
+     }
+     {
+      ButtonWidgetClass "{597EA2CCD9F67E19}" {
+       Name "App_x0_y3"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CCD9F67E1A}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Texture "{E35A740D98573542}UI/Textures/Layouts/phone/appicon/bourse.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CCD9F64391}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text "Exchange"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CCEAE28200}" {
+     Name "Grid_App_x1_y0"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 1
+      Column 0
+     }
+     {
+      ButtonWidgetClass "{597EA2CCEAE2820F}" {
+       Name "App_x1_y0"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CCEAE2820E}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Texture "{C5EBF4694B4D415A}UI/Textures/Layouts/phone/appicon/banque.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CCEAE2820D}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text "Bank"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CCE569806C}" {
+     Name "Grid_App_x1_y1"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 1
+      Column 1
+     }
+     {
+      ButtonWidgetClass "{597EA2CCE569806A}" {
+       Name "App_x1_y1"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CCE5698069}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Texture "{A9A837E5CF58A47B}UI/Textures/Layouts/phone/appicon/licence.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CCE5698068}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text "XP"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CD1FD806CF}" {
+     Name "Grid_App_x1_y2"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 1
+      Column 2
+     }
+     {
+      ButtonWidgetClass "{597EA2CD1FD806CE}" {
+       Name "App_x1_y2"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CD1FD84A84}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Texture "{E6E91A9A16B2A1F4}UI/Textures/Layouts/phone/appicon/groupe.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CD1FD84A87}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text "Group"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CD1313973F}" {
+     Name "Grid_App_x1_y3"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 1
+      Column 3
+     }
+     {
+      ButtonWidgetClass "{597EA2CD1313973E}" {
+       Name "App_x1_y3"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CD1313973B}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Color 1 1 1 0
+         Texture "{E42734F411D0BE35}UI/Textures/Layouts/phone/appicon/chat.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CD13104FBD}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text " "
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CD15C5B979}" {
+     Name "Grid_App_x2_y0"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 2
+      Column 0
+     }
+     {
+      ButtonWidgetClass "{597EA2CD15C5B97F}" {
+       Name "App_x2_y0"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CD15C5B97D}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Color 1 1 1 0
+         Texture "{E42734F411D0BE35}UI/Textures/Layouts/phone/appicon/chat.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CD15C5B97C}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text " "
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CD236CE39C}" {
+     Name "Grid_App_x2_y1"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 2
+      Column 1
+     }
+     {
+      ButtonWidgetClass "{597EA2CD236CE393}" {
+       Name "App_x2_y1"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CD236CE391}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Color 1 1 1 0
+         Texture "{E42734F411D0BE35}UI/Textures/Layouts/phone/appicon/chat.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CD236CE390}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text " "
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CD27681A8F}" {
+     Name "Grid_App_x2_y2"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 2
+      Column 2
+     }
+     {
+      ButtonWidgetClass "{597EA2CD27681A8C}" {
+       Name "App_x2_y2"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CD27681A82}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Color 1 1 1 0
+         Texture "{E42734F411D0BE35}UI/Textures/Layouts/phone/appicon/chat.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CD27681A81}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text " "
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CD5A69D764}" {
+     Name "Grid_App_x2_y3"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 2
+      Column 3
+     }
+     {
+      ButtonWidgetClass "{597EA2CD5A69D77B}" {
+       Name "App_x2_y3"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CD5A69D779}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Color 1 1 1 0
+         Texture "{E42734F411D0BE35}UI/Textures/Layouts/phone/appicon/chat.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CD5A69D778}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text " "
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CD5C4F1DE0}" {
+     Name "Grid_App_x3_y0"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 3
+      Column 0
+     }
+     {
+      ButtonWidgetClass "{597EA2CD5C4F1DE6}" {
+       Name "App_x3_y0"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CD5C4F1DE5}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Color 1 1 1 0
+         Texture "{E42734F411D0BE35}UI/Textures/Layouts/phone/appicon/chat.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CD5C4F1DE4}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text " "
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CD4862F4CE}" {
+     Name "Grid_App_x3_y1"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 3
+      Column 1
+     }
+     {
+      ButtonWidgetClass "{597EA2CD4862F4CC}" {
+       Name "App_x3_y1"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CD4862F4C3}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Color 1 1 1 0
+         Texture "{E42734F411D0BE35}UI/Textures/Layouts/phone/appicon/chat.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CD4862F4C2}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text " "
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CD4F0EA74D}" {
+     Name "Grid_App_x3_y2"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 3
+      Column 2
+     }
+     {
+      ButtonWidgetClass "{597EA2CD4F0EA74C}" {
+       Name "App_x3_y2"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CD4F0EA743}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Color 1 1 1 0
+         Texture "{E42734F411D0BE35}UI/Textures/Layouts/phone/appicon/chat.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CD4F0EA742}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text " "
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CD4DF2D7DD}" {
+     Name "Grid_App_x3_y3"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 3
+      Column 3
+     }
+     {
+      ButtonWidgetClass "{597EA2CD4DF2D7D2}" {
+       Name "App_x3_y3"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CD4DF2D7D1}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Color 1 1 1 0
+         Texture "{E42734F411D0BE35}UI/Textures/Layouts/phone/appicon/chat.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CD4DF26BA6}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text " "
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CD41A2980A}" {
+     Name "Grid_App_x4_y0"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 4
+      Column 0
+     }
+     {
+      ButtonWidgetClass "{597EA2CD41A29804}" {
+       Name "App_x4_y0"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CD41A29805}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Color 1 1 1 0
+         Texture "{E42734F411D0BE35}UI/Textures/Layouts/phone/appicon/chat.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CD41A29806}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text " "
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CD7213ECB3}" {
+     Name "Grid_App_x4_y1"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 4
+      Column 1
+     }
+     {
+      ButtonWidgetClass "{597EA2CD7213ECAC}" {
+       Name "App_x4_y1"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CD7213ECAD}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Color 1 1 1 0
+         Texture "{E42734F411D0BE35}UI/Textures/Layouts/phone/appicon/chat.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CD7213ECAE}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text " "
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CD7138CCA9}" {
+     Name "Grid_App_x4_y2"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 4
+      Column 2
+     }
+     {
+      ButtonWidgetClass "{597EA2CD7138CCAA}" {
+       Name "App_x4_y2"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CD7138CCAB}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Texture "{F166E9B8F6F99298}UI/Textures/Layouts/phone/appicon/police.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CD7138CCA4}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text "Interpol"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    GridLayoutWidgetClass "{597EA2CD7703A796}" {
+     Name "Grid_App_x4_y3"
+     Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+      Padding 16 16 16 16
+      Row 4
+      Column 3
+     }
+     {
+      ButtonWidgetClass "{597EA2CD7703A797}" {
+       Name "App_x4_y3"
+       Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+       }
+       Color 1 1 1 0
+       {
+        ImageWidgetClass "{597EA2CD7703A790}" {
+         Name "Image0"
+         Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+         }
+         Texture "{FD8F48FC8C111D5A}UI/Textures/Layouts/phone/appicon/reglage.edds"
+         Image ""
+         Size 70 70
+        }
+       }
+      }
+      TextWidgetClass "{597EA2CD7703A791}" {
+       Name "Text0"
+       Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+        Row 1
+        Column 0
+       }
+       Color 0 0 0 1
+       Text "Settings"
+       "Font Size" 15
+       "Min Font Size" 15
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+   }
+  }
+ }
+}

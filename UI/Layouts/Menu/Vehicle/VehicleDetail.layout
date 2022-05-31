@@ -1,0 +1,277 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  BlurWidgetClass "{597F0EDC580ED5C6}" {
+   Name "Blur0"
+   Slot FrameWidgetSlot "{597EA2C2F765CF7E}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   Color 0 0 0 0.525
+   Intensity 1
+  }
+  ImageWidgetClass "{597F0EDC580ED5A6}" {
+   Name "Image0"
+   Slot FrameWidgetSlot "{596B78009DA14E14}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -750
+    OffsetLeft -750
+    PositionY -519
+    OffsetTop -519
+    SizeX 1499.99
+    OffsetRight -750
+    SizeY 1038
+    OffsetBottom -519
+   }
+   Texture "{BC302D336016D9B2}UI/Textures/Layouts/Tablet/VehicleShop/CarShop.edds"
+   Image ""
+   Size 1920 1329
+  }
+  TextWidgetClass "{597F0EDC580ED519}" {
+   Name "Title"
+   Slot FrameWidgetSlot "{596C76755FBFEE2F}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -668.303
+    OffsetLeft -668.303
+    PositionY -414.739
+    OffsetTop -414.739
+    SizeX 1334.91
+    OffsetRight -666.61
+    SizeY 103.351
+    OffsetBottom 311.388
+   }
+   Color 0.503 0.503 0.503 1
+   Text "Vehicle Shop"
+   "Font Size" 60
+   "Horizontal Alignment" Center
+   "Vertical Alignment" Center
+  }
+  ImageWidgetClass "{597F0EDC7A3EBE73}" {
+   Name "CarImage"
+   Slot FrameWidgetSlot "{597F0EDC7A3EBE34}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -590.529
+    OffsetLeft -590.529
+    PositionY -263.912
+    OffsetTop -263.912
+    SizeX 560.823
+    OffsetRight 29.705
+    SizeY 417.742
+    OffsetBottom -153.83
+   }
+   Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+   Image ""
+   Size 1600 1070
+  }
+  TextWidgetClass "{597F0EDC9E727938}" {
+   Name "CarName"
+   Slot FrameWidgetSlot "{597F0EDC9E727913}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 21
+    OffsetLeft 21
+    PositionY -264
+    OffsetTop -264
+    SizeX 642.719
+    OffsetRight -663.719
+    SizeY 53.455
+    OffsetBottom 210.545
+   }
+   "Font Size" 40
+  }
+  GridLayoutWidgetClass "{597F0EDCA8343D6A}" {
+   Name "GridLayout0"
+   Slot FrameWidgetSlot "{597F0EDCA8343D42}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 21
+    OffsetLeft 21
+    PositionY -190.9
+    OffsetTop -190.9
+    SizeX 643.114
+    OffsetRight -664.114
+    SizeY 348.007
+    OffsetBottom -157.107
+   }
+   {
+    TextWidgetClass "{597F0EDFDF2E2267}" {
+     Name "SpeedTitle"
+     Slot GridWidgetSlot "{597F0EDFDF2E223E}" {
+      Padding 0 0 15 0
+     }
+     Text "Max speed :"
+    }
+    TextWidgetClass "{597F0EDFCB1582C4}" {
+     Name "MaxSpeed"
+     Slot GridWidgetSlot "{597F0EDFCB1582A0}" {
+      Row 0
+      Column 1
+     }
+     Text "80 km/h"
+    }
+    TextWidgetClass "{597F0EDE3C0CCD5F}" {
+     Name "EngineTitle"
+     Slot GridWidgetSlot "{597F0EDFDF2E223E}" {
+      Padding 0 30 15 0
+      Row 1
+      Column 0
+     }
+     Text "Engine :"
+    }
+    TextWidgetClass "{597F0EDE3C0CCD25}" {
+     Name "Engine"
+     Slot GridWidgetSlot "{597F0EDFCB1582A0}" {
+      Padding 0 30 0 0
+      Row 1
+      Column 1
+     }
+     Text "85 cv"
+    }
+    TextWidgetClass "{597F0EDE622BF1D2}" {
+     Name "SeatTitle"
+     Slot GridWidgetSlot "{597F0EDFDF2E223E}" {
+      Padding 0 30 15 0
+      Row 2
+      Column 0
+     }
+     Text "Seat :"
+    }
+    TextWidgetClass "{597F0EDE622BF19F}" {
+     Name "Seat"
+     Slot GridWidgetSlot "{597F0EDFCB1582A0}" {
+      Padding 0 30 0 0
+      Row 2
+      Column 1
+     }
+     Text "4"
+    }
+    TextWidgetClass "{597F0EDE8B963B41}" {
+     Name "TrunkTitle"
+     Slot GridWidgetSlot "{597F0EDFDF2E223E}" {
+      Padding 0 30 15 0
+      Row 3
+      Column 0
+     }
+     Text "Trunk capacity :"
+    }
+    TextWidgetClass "{597F0EDE8B963B1D}" {
+     Name "Trunk"
+     Slot GridWidgetSlot "{597F0EDFCB1582A0}" {
+      Padding 0 30 0 0
+      Row 3
+      Column 1
+     }
+     Text "325"
+    }
+    TextWidgetClass "{597F0ED10ED5EF91}" {
+     Name "InsuranceTitle"
+     Slot GridWidgetSlot "{597F0EDFDF2E223E}" {
+      Padding 0 30 15 0
+      Row 4
+      Column 0
+     }
+     Text "Insurance price :"
+    }
+    TextWidgetClass "{597F0ED10ED5EF62}" {
+     Name "Insurance"
+     Slot GridWidgetSlot "{597F0EDFCB1582A0}" {
+      Padding 0 30 0 0
+      Row 4
+      Column 1
+     }
+     Text "1 500 €"
+    }
+   }
+  }
+  TextWidgetClass "{597F0EDCC21446DB}" {
+   Name "PriceTitle"
+   Slot FrameWidgetSlot "{597F0EDC9E727913}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -643.319
+    OffsetLeft -643.3
+    PositionY 191
+    OffsetTop 191
+    SizeX 642.719
+    OffsetRight 0.6
+    SizeY 53.455
+    OffsetBottom -244.5
+   }
+   Text "Price :"
+   "Font Size" 40
+   "Horizontal Alignment" Right
+   "Vertical Alignment" Center
+  }
+  TextWidgetClass "{597F0EDCF4F446A9}" {
+   Name "PriceCar"
+   Slot FrameWidgetSlot "{597F0EDC9E727913}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 2
+    OffsetLeft 2
+    PositionY 191
+    OffsetTop 191
+    SizeX 642.719
+    OffsetRight -644.7
+    SizeY 53.455
+    OffsetBottom -244.5
+   }
+   Text "15 000 €"
+   "Font Size" 40
+   "Vertical Alignment" Center
+  }
+  ButtonWidgetClass "{597F0EDF4C31A31F}" {
+   Name "Buy"
+   Slot FrameWidgetSlot "{596B78007621CFEC}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -90
+    OffsetLeft -90
+    PositionY 263.052
+    OffsetTop 263.1
+    SizeX 180
+    OffsetRight -90
+    SizeY 100
+    OffsetBottom -363.1
+   }
+   Color 1 1 1 0
+   {
+    TextWidgetClass "{597F0EDF7BB6C6C0}" {
+     Name "Text0"
+     Slot ButtonWidgetSlot "{597F0EDF7BB6C696}" {
+     }
+     Text "BUY"
+     "Font Size" 50
+    }
+   }
+  }
+  ButtonWidgetClass "{597F0EDC580ED695}" {
+   Name "Exit"
+   Slot FrameWidgetSlot "{596B78007621CFEC}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -15.983
+    OffsetLeft -15.983
+    PositionY 440.722
+    OffsetTop 440.722
+    SizeX 40
+    OffsetRight -24.017
+    SizeY 40
+    OffsetBottom -480.722
+   }
+   Color 1 1 1 0
+   {
+    ImageWidgetClass "{597F0EDC580EFCBE}" {
+     Name "Image0"
+     Slot ButtonWidgetSlot "{597EA2C54AD508F8}" {
+      Padding 5 5 5 5
+     }
+     Texture "{586794BAA4EF1810}UI/Textures/Layouts/phone/appicon/logout.edds"
+     Image ""
+     Size 64 64
+    }
+   }
+  }
+ }
+}

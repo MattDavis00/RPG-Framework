@@ -1,0 +1,175 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  BlurWidgetClass "{597EA2DFB1984991}" {
+   Name "Blur0"
+   Slot FrameWidgetSlot "{597EA2C2F765CF7E}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 26.707
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY -26.707
+    OffsetBottom 0
+   }
+   Color 0 0 0 0.525
+   Intensity 1
+  }
+  ImageWidgetClass "{597EA2DF745CD54B}" {
+   Name "Image0"
+   Slot FrameWidgetSlot "{597EA2DF745CD563}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 361
+    OffsetLeft 361
+    PositionY -450.5
+    OffsetTop -450.5
+    SizeX 449
+    OffsetRight -810
+    SizeY 919
+    OffsetBottom -468.5
+   }
+   Texture "{789CFC4F84C66868}UI/Textures/Layouts/phone/message.edds"
+   Image ""
+   Size 449 919
+  }
+  ButtonWidgetClass "{597EA2DA0DBB92AF}" {
+   Name "Exit"
+   Slot FrameWidgetSlot "{596B78007621CFEC}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 563.191
+    OffsetLeft 563.191
+    PositionY 365.895
+    OffsetTop 365.895
+    SizeX 40
+    OffsetRight -603.191
+    SizeY 40
+    OffsetBottom -405.895
+   }
+   Color 1 1 1 0
+   {
+    ImageWidgetClass "{597EA2DA0DBB92A9}" {
+     Name "Image0"
+     Slot ButtonWidgetSlot "{597EA2C54AD508F8}" {
+      Padding 5 5 5 5
+     }
+     Texture "{BF502E859C29491F}UI/Textures/Layouts/phone/appicon/previous.edds"
+     Image ""
+     Size 64 64
+    }
+   }
+  }
+  TextWidgetClass "{597EA2DA6DF46FD8}" {
+   Name "Text0"
+   Slot FrameWidgetSlot "{597EA2DA6DF46FF0}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 382.563
+    OffsetLeft 382.563
+    PositionY -361.705
+    OffsetTop -361.705
+    SizeX 250.512
+    OffsetRight -633.075
+    SizeY 47.367
+    OffsetBottom 314.338
+   }
+   Text "Message"
+   "Font Size" 30
+   "Vertical Alignment" Center
+  }
+  TextWidgetClass "{597EA2DB01DF7775}" {
+   Name "Text1"
+   Slot FrameWidgetSlot "{597EA2DA6DF46FF0}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 416.641
+    OffsetLeft 416.641
+    PositionY -262.584
+    OffsetTop -262.584
+    SizeX 250.513
+    OffsetRight -667.154
+    SizeY 23.393
+    OffsetBottom 239.191
+   }
+   Color 0.258 0.254 0.246 1
+   Text "My number"
+   "Font Size" 20
+   "Min Font Size" 20
+   "Vertical Alignment" Center
+  }
+  TextWidgetClass "{597EA2DB4EE6A053}" {
+   Name "Text2"
+   Slot FrameWidgetSlot "{597EA2DA6DF46FF0}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 416.641
+    OffsetLeft 416.6
+    PositionY -202.284
+    OffsetTop -202.3
+    SizeX 250.513
+    OffsetRight -667.2
+    SizeY 23.393
+    OffsetBottom 178.9
+   }
+   Color 0.258 0.254 0.246 1
+   Text "Recipient"
+   "Font Size" 20
+   "Min Font Size" 20
+   "Vertical Alignment" Center
+  }
+  TextWidgetClass "{597EA2DB9D764B33}" {
+   Name "Text3"
+   Slot FrameWidgetSlot "{597EA2DA6DF46FF0}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 416.6
+    OffsetLeft 416.6
+    PositionY -153
+    OffsetTop -153
+    SizeX 199.213
+    OffsetRight -615.813
+    SizeY 23.4
+    OffsetBottom 129.6
+   }
+   Color 0.258 0.254 0.246 1
+   Text "Your message :"
+   "Font Size" 20
+   "Min Font Size" 20
+   "Vertical Alignment" Center
+  }
+  TextWidgetClass "{597EA2DBBB5C8C5A}" {
+   Name "Text4"
+   Slot FrameWidgetSlot "{597EA2DA6DF46FF0}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 617.423
+    OffsetLeft 617.423
+    PositionY -150.2
+    OffsetTop -150.2
+    SizeX 133.177
+    OffsetRight -750.6
+    SizeY 23.4
+    OffsetBottom 126.8
+   }
+   Color 0.258 0.254 0.246 1
+   Text "Send"
+   "Font Size" 20
+   "Min Font Size" 20
+   "Horizontal Alignment" Right
+   "Vertical Alignment" Center
+  }
+  EditBoxWidgetClass "{597EA2DBE6B61642}" {
+   Name "EditBox0"
+   Slot FrameWidgetSlot "{597EA2DBE6B61618}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 401.647
+    OffsetLeft 401.647
+    PositionY -119.526
+    OffsetTop -119.526
+    SizeX 367.256
+    OffsetRight -768.903
+    SizeY 330.341
+    OffsetBottom -210.815
+   }
+   Color 0 0 0 1
+   FontProperties FontProperties "{597EA2E4D1EB7255}" {
+   }
+  }
+ }
+}

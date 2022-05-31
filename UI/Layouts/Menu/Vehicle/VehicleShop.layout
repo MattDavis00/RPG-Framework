@@ -1,0 +1,625 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  BlurWidgetClass "{597F0ECCB26FB868}" {
+   Name "Blur0"
+   Slot FrameWidgetSlot "{597EA2C2F765CF7E}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   Color 0 0 0 0.525
+   Intensity 1
+  }
+  ImageWidgetClass "{596C76728DFCBC04}" {
+   Name "Image0"
+   Slot FrameWidgetSlot "{596B78009DA14E14}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -750
+    OffsetLeft -750
+    PositionY -519
+    OffsetTop -519
+    SizeX 1499.99
+    OffsetRight -750
+    SizeY 1038
+    OffsetBottom -519
+   }
+   Texture "{BC302D336016D9B2}UI/Textures/Layouts/Tablet/VehicleShop/CarShop.edds"
+   Image ""
+   Size 1920 1329
+  }
+  TextWidgetClass "{596C76755FBFEE73}" {
+   Name "Title"
+   Slot FrameWidgetSlot "{596C76755FBFEE2F}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -668.303
+    OffsetLeft -668.303
+    PositionY -414.739
+    OffsetTop -414.739
+    SizeX 1334.91
+    OffsetRight -666.61
+    SizeY 103.351
+    OffsetBottom 311.388
+   }
+   Color 0.503 0.503 0.503 1
+   Text "Vehicle Shop"
+   "Font Size" 60
+   "Horizontal Alignment" Center
+   "Vertical Alignment" Center
+  }
+  ScrollLayoutWidgetClass "{597F0ECE5D90CF05}" {
+   Name "ScrollLayout0"
+   Slot FrameWidgetSlot "{597F0ECE5D90CF43}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -668.731
+    OffsetLeft -668.731
+    PositionY -301.739
+    OffsetTop -301.739
+    SizeX 1335.05
+    OffsetRight -666.32
+    SizeY 718.066
+    OffsetBottom -416.327
+   }
+   {
+    GridLayoutWidgetClass "{597F0EC282ED3384}" {
+     Name "Grid_Master"
+     Slot AlignableSlot "{597F0EC2A5259EB6}" {
+     }
+     {
+      GridLayoutWidgetClass "{597F0EC282EAC4B9}" {
+       Name "Grid_Car_x0_y0"
+       Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+        Padding 20 20 20 20
+       }
+       {
+        ButtonWidgetClass "{597F0EC282EAC4B6}" {
+         Name "Car_x0_y0"
+         Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+         }
+         Color 1 1 1 0
+         {
+          ImageWidgetClass "{597F0EC282EAC4B7}" {
+           Name "Image0"
+           Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+           }
+           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Image ""
+           Size 300 300
+          }
+         }
+        }
+        TextWidgetClass "{597F0EC57E0176B3}" {
+         Name "PriceCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 2 0 0
+          Row 3
+          Column 0
+         }
+         Text "15 000 $"
+         "Font Size" 25
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        TextWidgetClass "{597F0EC282EAC4B4}" {
+         Name "TiteCar"
+         Slot GridWidgetSlot "{597F0EDBEF029DF4}" {
+          Row 2
+          Column 0
+         }
+         Text "Car test 1"
+         "Font Size" 35
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        ButtonWidgetClass "{597F0EC794D2C257}" {
+         Name "Car1"
+         Slot GridWidgetSlot "{597F0EC794D2C275}" {
+          Row 0
+          Column 0
+         }
+         Color 1 1 1 0
+        }
+       }
+      }
+      GridLayoutWidgetClass "{597F0EC404122B8C}" {
+       Name "Grid_Car_x0_y1"
+       Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+        Padding 20 20 20 20
+        Row 0
+        Column 1
+       }
+       {
+        ButtonWidgetClass "{597F0EC404122B8B}" {
+         Name "Car_x0_y0"
+         Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+         }
+         Color 1 1 1 0
+         {
+          ImageWidgetClass "{597F0EC404122B8A}" {
+           Name "Image0"
+           Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+           }
+           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Image ""
+           Size 300 300
+          }
+         }
+        }
+        TextWidgetClass "{597F0EC404122B89}" {
+         Name "TiteCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 0 0 0
+          Row 3
+          Column 0
+         }
+         Text "Car test 2"
+         "Font Size" 35
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        TextWidgetClass "{597F0EC404122B88}" {
+         Name "PriceCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 2 0 0
+          Row 2
+          Column 0
+         }
+         Text "15 000 $"
+         "Font Size" 25
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        ButtonWidgetClass "{597F0EDA9AF9BA81}" {
+         Name "Car2"
+         Slot GridWidgetSlot "{597F0EC794D2C275}" {
+          Row 0
+          Column 0
+         }
+         Color 1 1 1 0
+        }
+       }
+      }
+      GridLayoutWidgetClass "{597F0EC43D3333B2}" {
+       Name "Grid_Car_x0_y2"
+       Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+        Padding 20 20 20 20
+        Row 0
+        Column 2
+       }
+       {
+        ButtonWidgetClass "{597F0EC43D3333B0}" {
+         Name "Car_x0_y0"
+         Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+         }
+         Color 1 1 1 0
+         {
+          ImageWidgetClass "{597F0EC43D3333AF}" {
+           Name "Image0"
+           Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+           }
+           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Image ""
+           Size 300 300
+          }
+         }
+        }
+        TextWidgetClass "{597F0EC43D3333AE}" {
+         Name "TiteCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 0 0 0
+          Row 2
+          Column 0
+         }
+         Text "Car test 3"
+         "Font Size" 35
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        TextWidgetClass "{597F0EC43D3333AD}" {
+         Name "PriceCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 2 0 0
+          Row 1
+          Column 0
+         }
+         Text "15 000 $"
+         "Font Size" 25
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        ButtonWidgetClass "{597F0EDA9CA16DDC}" {
+         Name "Car3"
+         Slot GridWidgetSlot "{597F0EC794D2C275}" {
+          Row 0
+          Column 0
+         }
+         Color 1 1 1 0
+        }
+       }
+      }
+      GridLayoutWidgetClass "{597F0EC44BF4AAB8}" {
+       Name "Grid_Car_x1_y0"
+       Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+        Padding 20 20 20 20
+        Row 1
+        Column 0
+       }
+       {
+        ButtonWidgetClass "{597F0EC44BF4AAB6}" {
+         Name "Car_x0_y0"
+         Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+         }
+         Color 1 1 1 0
+         {
+          ImageWidgetClass "{597F0EC44BF4AAB5}" {
+           Name "Image0"
+           Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+           }
+           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Image ""
+           Size 300 300
+          }
+         }
+        }
+        TextWidgetClass "{597F0EC44BF4AAB4}" {
+         Name "TiteCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 0 0 0
+          Row 3
+          Column 0
+         }
+         Text "Car test 4"
+         "Font Size" 35
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        TextWidgetClass "{597F0EC44BF4AAB3}" {
+         Name "PriceCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 2 0 0
+          Row 2
+          Column 0
+         }
+         Text "15 000 $"
+         "Font Size" 25
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        ButtonWidgetClass "{597F0EDA90FD565C}" {
+         Name "Car4"
+         Slot GridWidgetSlot "{597F0EC794D2C275}" {
+          Row 0
+          Column 0
+         }
+         Color 1 1 1 0
+        }
+       }
+      }
+      GridLayoutWidgetClass "{597F0EC446E7E35E}" {
+       Name "Grid_Car_x1_y1"
+       Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+        Padding 20 20 20 20
+        Row 1
+        Column 1
+       }
+       {
+        ButtonWidgetClass "{597F0EC446E7E35D}" {
+         Name "Car_x0_y0"
+         Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+         }
+         Color 1 1 1 0
+         {
+          ImageWidgetClass "{597F0EC446E7E35C}" {
+           Name "Image0"
+           Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+           }
+           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Image ""
+           Size 300 300
+          }
+         }
+        }
+        TextWidgetClass "{597F0EC446E7E35B}" {
+         Name "TiteCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 0 0 0
+          Row 2
+          Column 0
+         }
+         Text "Car test 5"
+         "Font Size" 35
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        TextWidgetClass "{597F0EC446E7E35A}" {
+         Name "PriceCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 2 0 0
+          Row 1
+          Column 0
+         }
+         Text "15 000 $"
+         "Font Size" 25
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        ButtonWidgetClass "{597F0EDA97D40D79}" {
+         Name "Car5"
+         Slot GridWidgetSlot "{597F0EC794D2C275}" {
+          Row 0
+          Column 0
+         }
+         Color 1 1 1 0
+        }
+       }
+      }
+      GridLayoutWidgetClass "{597F0EC47A5159E3}" {
+       Name "Grid_Car_x1_y2"
+       Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+        Padding 20 20 20 20
+        Row 1
+        Column 2
+       }
+       {
+        ButtonWidgetClass "{597F0EC47A5159E2}" {
+         Name "Car_x0_y0"
+         Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+         }
+         Color 1 1 1 0
+         {
+          ImageWidgetClass "{597F0EC47A5159E1}" {
+           Name "Image0"
+           Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+           }
+           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Image ""
+           Size 300 300
+          }
+         }
+        }
+        TextWidgetClass "{597F0EC47A5159E0}" {
+         Name "TiteCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 0 0 0
+          Row 2
+          Column 0
+         }
+         Text "Car test 6"
+         "Font Size" 35
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        TextWidgetClass "{597F0EC47A515A1F}" {
+         Name "PriceCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 2 0 0
+          Row 1
+          Column 0
+         }
+         Text "15 000 $"
+         "Font Size" 25
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        ButtonWidgetClass "{597F0EDA86BD617A}" {
+         Name "Car6"
+         Slot GridWidgetSlot "{597F0EC794D2C275}" {
+          Row 0
+          Column 0
+         }
+         Color 1 1 1 0
+        }
+       }
+      }
+      GridLayoutWidgetClass "{597F0EC47588E4C7}" {
+       Name "Grid_Car_x2_y0"
+       Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+        Padding 20 20 20 20
+        Row 2
+        Column 0
+       }
+       {
+        ButtonWidgetClass "{597F0EC47588E4C4}" {
+         Name "Car_x0_y0"
+         Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+         }
+         Color 1 1 1 0
+         {
+          ImageWidgetClass "{597F0EC47588E4C2}" {
+           Name "Image0"
+           Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+           }
+           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Image ""
+           Size 300 300
+          }
+         }
+        }
+        TextWidgetClass "{597F0EC47588E4C1}" {
+         Name "TiteCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 0 0 0
+          Row 2
+          Column 0
+         }
+         Text "Car test 7"
+         "Font Size" 35
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        TextWidgetClass "{597F0EC47588E4C0}" {
+         Name "PriceCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 2 0 0
+          Row 1
+          Column 0
+         }
+         Text "15 000 $"
+         "Font Size" 25
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        ButtonWidgetClass "{597F0EDA85B3EC1E}" {
+         Name "Car7"
+         Slot GridWidgetSlot "{597F0EC794D2C275}" {
+          Row 0
+          Column 0
+         }
+         Color 1 1 1 0
+        }
+       }
+      }
+      GridLayoutWidgetClass "{597F0EC4648E1589}" {
+       Name "Grid_Car_x2_y1"
+       Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+        Padding 20 20 20 20
+        Row 2
+        Column 1
+       }
+       {
+        ButtonWidgetClass "{597F0EC4648E1588}" {
+         Name "Car_x0_y0"
+         Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+         }
+         Color 1 1 1 0
+         {
+          ImageWidgetClass "{597F0EC4648E1587}" {
+           Name "Image0"
+           Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+           }
+           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Image ""
+           Size 300 300
+          }
+         }
+        }
+        TextWidgetClass "{597F0EC4648E1586}" {
+         Name "TiteCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 0 0 0
+          Row 2
+          Column 0
+         }
+         Text "Car test 8"
+         "Font Size" 35
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        TextWidgetClass "{597F0EC4648E1585}" {
+         Name "PriceCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 2 0 0
+          Row 1
+          Column 0
+         }
+         Text "15 000 $"
+         "Font Size" 25
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        ButtonWidgetClass "{597F0EDAB805BD61}" {
+         Name "Car8"
+         Slot GridWidgetSlot "{597F0EC794D2C275}" {
+          Row 0
+          Column 0
+         }
+         Color 1 1 1 0
+        }
+       }
+      }
+      GridLayoutWidgetClass "{597F0EC49E81BD7B}" {
+       Name "Grid_Car_x2_y2"
+       Slot GridWidgetSlot "{597EA2CC2CE2EBD9}" {
+        Padding 20 20 20 20
+        Row 2
+        Column 2
+       }
+       {
+        ButtonWidgetClass "{597F0EC49E81BD77}" {
+         Name "Car_x0_y0"
+         Slot GridWidgetSlot "{597EA2C3ECBB2CE4}" {
+         }
+         Color 1 1 1 0
+         {
+          ImageWidgetClass "{597F0EC49E81D5BF}" {
+           Name "Image0"
+           Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
+           }
+           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Image ""
+           Size 300 300
+          }
+         }
+        }
+        TextWidgetClass "{597F0EC49E81D5BC}" {
+         Name "TiteCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 0 0 0
+          Row 2
+          Column 0
+         }
+         Text "Car test 9"
+         "Font Size" 35
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        TextWidgetClass "{597F0EC49E81D5BB}" {
+         Name "PriceCar"
+         Slot GridWidgetSlot "{597EA2C3E3CACEDA}" {
+          Padding 0 2 0 0
+          Row 1
+          Column 0
+         }
+         Text "15 000 $"
+         "Font Size" 25
+         "Min Font Size" 15
+         "Vertical Alignment" Center
+        }
+        ButtonWidgetClass "{597F0EDABE8D8C88}" {
+         Name "Car9"
+         Slot GridWidgetSlot "{597F0EC794D2C275}" {
+          Row 0
+          Column 0
+         }
+         Color 1 1 1 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  ButtonWidgetClass "{597F0EC2223E038A}" {
+   Name "Exit"
+   Slot FrameWidgetSlot "{596B78007621CFEC}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -15.983
+    OffsetLeft -15.983
+    PositionY 440.722
+    OffsetTop 440.722
+    SizeX 40
+    OffsetRight -24.017
+    SizeY 40
+    OffsetBottom -480.722
+   }
+   Color 1 1 1 0
+   {
+    ImageWidgetClass "{597F0EC2223E0389}" {
+     Name "Image0"
+     Slot ButtonWidgetSlot "{597EA2C54AD508F8}" {
+      Padding 5 5 5 5
+     }
+     Texture "{586794BAA4EF1810}UI/Textures/Layouts/phone/appicon/logout.edds"
+     Image ""
+     Size 64 64
+    }
+   }
+  }
+ }
+}

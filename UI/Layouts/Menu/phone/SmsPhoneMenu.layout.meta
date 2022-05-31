@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{0879AD9CC9BA131D}UI/Layouts/Menu/phone/SmsPhoneMenu.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,3 +1,6 @@
+GenericEntity : "{06D52E13B0928A46}Prefabs/Vehicles/VehicleSpawnPoint.et" {
+ coords 4973.583 2.86 3888.52
+}
 $grp SCR_SpawnPoint : "{503A450D82290A13}Prefabs/Systeam/Spawn/SpawnPoint.et" {
  {
   coords 4932.232 2.187 3911.52

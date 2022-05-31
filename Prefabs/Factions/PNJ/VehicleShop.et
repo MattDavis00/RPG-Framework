@@ -178,6 +178,15 @@ SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_
      _DisplayName "SmartPhone"
      _UI_Class PhoneMenu
     }
+    ADRP_SpawnVehicleAction "{597F0EC9E552A907}" {
+     ParentContextList {
+      "GarageButton"
+     }
+     Duration 0.5
+     m_Vehicle "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
+     m_Key "{97112478144DFD61}Prefabs/Items/Key/House/KeyHouse.et"
+     m_SpawnPosition 4973.583 2.86 3888.52
+    }
    }
   }
   CharacterAnimationComponent "{520EA1D2F659C994}" {
