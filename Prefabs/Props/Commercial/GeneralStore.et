@@ -85,6 +85,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      ParentContextList {
       "AxeButton"
      }
+     VisibilityRange -1
      Duration 0.2
      m_BuyItemDisplayName "#A4D_Axe"
      m_ItemBuyPrice 1200
@@ -150,6 +151,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      }
      "Sort Priority" 1
      m_SellItemDisplayName "#A4D_Axe"
+     m_SellItemPrefab "{CEA74B6F6E0B358B}Prefabs/Tools/Test.et"
      m_ItemSellPrice 600
     }
     ADRP_SellAction "{597962BFCC5D71A5}" {
@@ -158,6 +160,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      }
      "Sort Priority" 1
      m_SellItemDisplayName "#A4D_Shovel"
+     m_SellItemPrefab "{9DBB4D6188632950}Prefabs/Tools/Shovel/Shovel.et"
      m_ItemSellPrice 600
     }
     ADRP_SellAction "{597962BFCD45C519}" {
@@ -166,6 +169,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      }
      "Sort Priority" 1
      m_SellItemDisplayName "#A4D_Pickaxe"
+     m_SellItemPrefab "{1A2C1EEF789206E1}Prefabs/Tools/Pickaxe/Pickaxe.et"
      m_ItemSellPrice 600
     }
     ADRP_SellAction "{597962BFC2A1ED4A}" {
@@ -174,6 +178,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      }
      "Sort Priority" 1
      m_SellItemDisplayName "#A4D_Map"
+     m_SellItemPrefab "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
      m_ItemSellPrice 15
     }
     ADRP_SellAction "{597962BFC3ACA624}" {
@@ -182,6 +187,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      }
      "Sort Priority" 1
      m_SellItemDisplayName "#A4D_Binocular"
+     m_SellItemPrefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22.et"
      m_ItemSellPrice 100
     }
     ADRP_SellAction "{597962BFC0F8CF50}" {
@@ -190,6 +196,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      }
      "Sort Priority" 1
      m_SellItemDisplayName "#A4D_Watch"
+     m_SellItemPrefab "{4FAD128BE9F66C6F}Prefabs/Items/Equipment/Watches/Watch_Vostok_Map.et"
      m_ItemSellPrice 30
     }
     ADRP_SellAction "{597962BFC6999ABC}" {
@@ -198,6 +205,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      }
      "Sort Priority" 1
      m_SellItemDisplayName "#A4D_Compass"
+     m_SellItemPrefab "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
      m_ItemSellPrice 30
     }
    }

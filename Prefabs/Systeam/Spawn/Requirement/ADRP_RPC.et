@@ -1,0 +1,10 @@
+GameEntity {
+ ID "59873E7B6D5154FB"
+ components {
+  ADRP_RPC "{59873E7B53866EE5}" {
+  }
+  RplComponent "{59873E7B6D51571D}" {
+  }
+ }
+ coords 0 0 0
+}

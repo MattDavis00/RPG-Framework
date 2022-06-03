@@ -2,11 +2,11 @@ GenericEntity : "{3214F90D2ED60496}Prefabs/Props/Kiosk/VendorKiosk.et" {
  coords 4942.741 2.196 3894.286
  angleY -149.788
 }
-GenericEntity GeneralStore1 : "{7A7DB2EB70F0152B}Prefabs/Props/Commercial/GeneralStore.et" {
+GenericEntity GeneralStore_1 : "{7A7DB2EB70F0152B}Prefabs/Props/Commercial/GeneralStore.et" {
  coords 4940.323 2.181 3895.3
- angleX -0.047
- angleY 31.863
- angleZ 0.078
+ angleX -0.04
+ angleY 31.914
+ angleZ -0.025
  {
   $grp GenericEntity {
    {
@@ -15,10 +15,10 @@ GenericEntity GeneralStore1 : "{7A7DB2EB70F0152B}Prefabs/Props/Commercial/Genera
       Object "{47E30697B0265157}Prefabs/Tools/Axe/Axe.xob"
      }
     }
-    coords 1.085 1.045 0.175
-    angleX 0.63
-    angleY 97.701
-    angleZ -90.984
+    coords 1.193 1.043 0.121
+    angleX 0.535
+    angleY 94.717
+    angleZ -90.943
    }
    {
     components {
@@ -26,9 +26,10 @@ GenericEntity GeneralStore1 : "{7A7DB2EB70F0152B}Prefabs/Props/Commercial/Genera
       Object "{170EE372D687AEE1}Prefabs/Tools/Shovel/Shovel.xob"
      }
     }
-    coords 0.714 1.039 0.115
-    angleY -84.556
-    angleZ -90.117
+    coords 0.828 1.037 0.042
+    angleX 0.093
+    angleY -87.54
+    angleZ -90.161
    }
    {
     components {
@@ -36,9 +37,10 @@ GenericEntity GeneralStore1 : "{7A7DB2EB70F0152B}Prefabs/Props/Commercial/Genera
       Object "{F61D0B176B774985}Prefabs/Tools/Pickaxe/Pickaxe.xob"
      }
     }
-    coords 0.323 1.037 -0.052
-    angleY -98.938
-    angleZ 90.137
+    coords 0.444 1.036 -0.145
+    angleX 0.079
+    angleY -101.922
+    angleZ 90.071
    }
    {
     components {
@@ -46,9 +48,10 @@ GenericEntity GeneralStore1 : "{7A7DB2EB70F0152B}Prefabs/Props/Commercial/Genera
       Object "{7FF724B7B51E2059}Assets/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.xob"
      }
     }
-    coords -0.521 1.078 0.438
-    angleX 16.233
-    angleY -21.21
+    coords -0.425 1.079 0.3
+    angleX 16.314
+    angleY -24.176
+    angleZ 0.066
    }
    {
     components {
@@ -56,8 +59,10 @@ GenericEntity GeneralStore1 : "{7A7DB2EB70F0152B}Prefabs/Props/Commercial/Genera
       Object "{C02B912A423AEADA}Assets/Items/Equipment/Watches/Watch_Vostok/Watch_Vostok_item.xob"
      }
     }
-    coords -0.818 1.026 0.407
-    angleY 32.602
+    coords -0.72 1.027 0.254
+    angleX -0.003
+    angleY 29.618
+    angleZ 0.103
    }
    {
     components {
@@ -65,8 +70,10 @@ GenericEntity GeneralStore1 : "{7A7DB2EB70F0152B}Prefabs/Props/Commercial/Genera
       Object "{C1BFD239F9A10AF5}Assets/Items/Equipment/Compass/Compass_SY183/Compass_SY183.xob"
      }
     }
-    coords -0.954 1.024 0.435
-    angleY -26.991
+    coords -0.856 1.025 0.275
+    angleX 0.087
+    angleY -29.975
+    angleZ 0.055
    }
    {
     components {
@@ -74,19 +81,15 @@ GenericEntity GeneralStore1 : "{7A7DB2EB70F0152B}Prefabs/Props/Commercial/Genera
       Object "{BDB7E0B5CEA16D85}Assets/Items/Equipment/Maps/Map_Paper_01/Map_Paper_01_title.xob"
      }
     }
-    coords -0.224 1.026 0.406
-    angleY 100.329
+    coords -0.126 1.026 0.284
+    angleX -0.097
+    angleY 97.345
+    angleZ 0.036
    }
   }
  }
 }
 GenericEntity Market1 : "{B89D79612B3B89B9}Prefabs/Props/Commercial/MarketShop.et" {
- components {
-  ActionsManagerComponent "{596945B7E195302C}" {
-   additionalActions {
-   }
-  }
- }
  coords 4938.045 2.175 3896.898
  angleX -0.956
  angleY 32.69
