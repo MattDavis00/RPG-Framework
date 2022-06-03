@@ -1,4 +1,15 @@
 SCR_ChimeraCharacter : "{8D451A4C1F9A48E4}Prefabs/Factions/PNJ/VehicleShop.et" {
- coords 4945.475 2.206 3892.368
+ components {
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    ADRP_SpawnVehicleAction "{597F0EC9E552A907}" {
+     vehicleRessourceName "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+     keyRessourceName "{97112478144DFD61}Prefabs/Items/Key/House/KeyHouse.et"
+     spawnPoint 4973.583 2.86 3888.52
+    }
+   }
+  }
+ }
+ coords 4945.474 3.197 3892.368
  angleY 29.465
 }
