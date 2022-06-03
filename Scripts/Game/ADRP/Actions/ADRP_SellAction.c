@@ -19,20 +19,29 @@ class ADRP_SellAction: ScriptedUserAction {
 	private int _numberToSell = 1;
 	private int _itemTotalPrice = 0;
 	
+	private string _itemsName;
+	
+	private SCR_InventoryStorageManagerComponent _inventoryManager;
+	
 
 	override void Init(IEntity pOwnerEntity, GenericComponent pManagerComponent) 
 	{
-		//Doit compter le nombre qu'il en as sur lui pour tout vendre
+		IEntity items = ADRP_SpawnPrefab.SpawnPrefab(pOwnerEntity, m_SellItemPrefab,"0 0 0");
 		/*
-		_numberToSell = compte le nombre dans l'inventaire.
+		|
+		| ZOMB A UN GROS CHIBRE
+		|
 		*/
-				
-		/*SCR_InventoryStorageManagerComponent inventoryManager = SCR_InventoryStorageManagerComponent.Cast(pUserEntity.FindComponent(SCR_InventoryStorageManagerComponent));
-			if (inventoryManager)
+		if (items) 
+		{
+			InventoryItemComponent pInvComp = InventoryItemComponent.Cast(items.FindComponent(InventoryItemComponent));
+			if (pInvComp)
 			{
-				//Doit supprimer le nombre qu'il en vend
-				//Quelque choses comme sa ? : inventoryManager.TryDeleteItem(m_SellItemDisplayName);
-			}*/
+				ItemAttributeCollection attribs = pInvComp.GetAttributes();
+				if( attribs )
+					_itemsName = attribs.GetUIInfo().GetName();
+			}	
+		}
 		
 		_itemTotalPrice = _numberToSell * m_ItemSellPrice;
 	}
@@ -68,6 +77,30 @@ class ADRP_SellAction: ScriptedUserAction {
 	
 	override bool CanBePerformedScript(IEntity user)
  	{
+		if (!_inventoryManager)
+			_inventoryManager = SCR_InventoryStorageManagerComponent.Cast(user.FindComponent(SCR_InventoryStorageManagerComponent));
+		
+		array<IEntity> temp = new array<IEntity>();
+		
+
+		_inventoryManager.GetItems(temp);
+		
+		foreach (IEntity currentElement : temp)
+		{
+			InventoryItemComponent pInvComp = InventoryItemComponent.Cast(currentElement.FindComponent(InventoryItemComponent));
+			if (pInvComp)
+			{
+				
+				//Make sure there is item attributes
+				ItemAttributeCollection attribs = pInvComp.GetAttributes();
+				if( !attribs )
+					break;
+			
+				
+				Print("chocolat : " + attribs.GetUIInfo().GetName() + " : " + _itemsName);
+			}	
+		};
+		
 		return true;
  	}
 }
