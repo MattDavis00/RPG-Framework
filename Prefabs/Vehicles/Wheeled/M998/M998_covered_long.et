@@ -1,0 +1,14 @@
+Vehicle : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    ADRP_VehicleLockAction "{597F0EC9CBC412AC}" {
+     ParentContextList {
+      "wheel_l01" "door_r01"
+     }
+    }
+   }
+  }
+ }
+}

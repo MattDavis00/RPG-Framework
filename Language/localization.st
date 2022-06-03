@@ -194,6 +194,19 @@ StringTable {
    Author "Zomb"
    LastChanged "Zomb"
   }
+  CustomStringTableItem "{59855B1EAFDB5B45}" {
+   Id "A4D_GameDescription"
+   Target_en_us "arma4dev.com to develop this RPG game mode for you"\
+   ""\
+   "we wanted to build an advanced framework leaving you free to create the most beautiful role play scenarios"\
+   ""\
+   "we are progressing well for the moment the project is not yet open source but we are working to make it soon"\
+   ""\
+   "we already have projects to put in place for a version 2, version 1 will not really add realistic animation for harvesting and other advanced features but this one will already allow you to create a role play experience for your players leaving us thus the time to better prepare the vesion 2"
+   Modified 1501912628
+   Author "Zomb"
+   LastChanged "Zomb"
+  }
   CustomStringTableItem "{59794824387E3170}" {
    Id "A4D_GatherAction"
    Target_en_us "Gather"

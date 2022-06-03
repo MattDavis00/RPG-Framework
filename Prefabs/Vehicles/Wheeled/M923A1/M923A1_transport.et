@@ -1,0 +1,14 @@
+Vehicle : "{9A0D72816DFFDB7F}Prefabs/Vehicles/Wheeled/M923A1/M923A1.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    ADRP_VehicleLockAction "{597F0EC9CBC412AC}" {
+     ParentContextList {
+      "door_l01" "door_r01"
+     }
+    }
+   }
+  }
+ }
+}

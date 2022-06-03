@@ -12,8 +12,7 @@ modded enum ChimeraMenuPreset: ScriptMenuPresetEnum
 	Atm,
 	Clothing,
 	PlayerInteraction,
-	VehicleShop,
-	PhoneMenu
+	VehicleShop
 }
 
 class ADRP_OpenMenuAction: ScriptedUserAction {

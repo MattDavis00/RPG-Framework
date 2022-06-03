@@ -21,6 +21,8 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
     }
    }
   }
+  ADRP_KeyListenerComponent "{5984E9A2393650DB}" {
+  }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
    WeaponTemplate ""
   }

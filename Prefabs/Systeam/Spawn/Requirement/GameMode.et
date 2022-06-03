@@ -36,8 +36,10 @@ SCR_GameModeCampaignMP : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
   }
   SCR_RespawnBriefingComponent "{5970E6DDB87B6C4B}" {
    m_Info SCR_UIInfo "{5970E6DDB87B6CB5}" {
-    Description "#AR-Campaign_GamemodeTutorial"
+    Name "A4D RPG Framework"
+    Description "#A4D_GameDescription"
    }
+   m_SimpleBriefingBackground "{54D61F08778D356E}UI/Textures/arma4dev/briefing.edds"
   }
   SCR_RespawnMenuHandlerComponent "{5970E6DDB87B6CB0}" {
    m_bAllowFactionChange 0

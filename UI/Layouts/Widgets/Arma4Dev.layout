@@ -13,9 +13,9 @@ FrameWidgetClass {
     SizeY 150
     OffsetBottom -150
    }
-   Texture "{0D661101A65BCC12}UI/Textures/arma4dev/logo.edds"
+   Texture "{AE956409F63A7E54}UI/Textures/arma4dev/a4d-rpg1000.edds"
    Image ""
-   Size 300 300
+   Size 1000 1000
   }
   TextWidgetClass "{596F426D0DE98742}" {
    Name "Text0"

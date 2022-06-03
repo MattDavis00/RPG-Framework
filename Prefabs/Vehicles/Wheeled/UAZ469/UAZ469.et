@@ -1,0 +1,14 @@
+Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    ADRP_VehicleLockAction "{597F0EC9CBC412AC}" {
+     ParentContextList {
+      "door_l01" "door_r01"
+     }
+    }
+   }
+  }
+ }
+}

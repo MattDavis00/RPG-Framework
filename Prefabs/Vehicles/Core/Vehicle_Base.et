@@ -12,13 +12,6 @@ Vehicle {
      }
      Radius 2.5
     }
-    UserActionContext "{597F0EC9ABAB4E49}" {
-     ContextName "lock-unlock"
-     Position PointInfo "{597F0EC9D83E54EC}" {
-      Offset -0.8 1 0.3
-     }
-     Radius 6
-    }
    }
    additionalActions {
     ADRP_FlipAction "{597AC004279688A5}" {
@@ -32,9 +25,6 @@ Vehicle {
      CanAggregate 1
     }
     ADRP_VehicleLockAction "{597F0EC9CBC412AC}" {
-     ParentContextList {
-      "lock-unlock"
-     }
      Duration 0.5
     }
    }
