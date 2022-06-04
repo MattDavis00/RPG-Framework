@@ -18,7 +18,5 @@ SCR_CampaignBuildingManagerEntity : "{1722294208A98907}Prefabs/Systeam/Spawn/Req
 }
 SCR_CampaignTaskManager : "{17E3EF2CF4554610}Prefabs/Systeam/Spawn/Requirement/TaskManager.et" {
 }
-GameEntity : "{365965AA2DB3BE9E}Prefabs/Systeam/Spawn/Requirement/ADRP_RPC.et" {
-}
 SCR_LoadoutManager : "{58FBD035E53D95C2}Prefabs/Systeam/Spawn/Requirement/LoadoutManager.et" {
 }

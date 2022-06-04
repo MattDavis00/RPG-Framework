@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{365965AA2DB3BE9E}Prefabs/Items/Core/ADRP_RPC.et"
+ Name "{DE00A104EB738BF5}Prefabs/Items/Core/ADRP_GameEntity.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

@@ -1,0 +1,8 @@
+GameEntity {
+ ID "5988B28B9E3BE346"
+ components {
+  RplComponent "{5988B28B9E3BE3A3}" {
+  }
+ }
+ coords 0 0 0
+}
