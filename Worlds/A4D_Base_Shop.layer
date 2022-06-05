@@ -3,21 +3,6 @@ GenericEntity : "{3214F90D2ED60496}Prefabs/Props/Kiosk/VendorKiosk.et" {
  angleY -149.788
 }
 GenericEntity GeneralStore_1 : "{7A7DB2EB70F0152B}Prefabs/Props/Commercial/GeneralStore.et" {
- components {
-  ActionsManagerComponent "{596CA3D2A3DEFBCF}" {
-   additionalActions {
-    ADRP_SellAction "{597962BFCC5D71A5}" {
-     _itemID WATER
-    }
-    ADRP_SellAction "{597962BFCD45C519}" {
-     _itemID APPEL
-    }
-    ADRP_SellAction "{597962BFC2A1ED4A}" {
-     _itemID PIZZA
-    }
-   }
-  }
- }
  coords 4940.323 2.181 3895.3
  angleX -0.04
  angleY 31.914

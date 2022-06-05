@@ -1,13 +1,12 @@
 /*--------------------------------------------------------------------------------------------------------------------------------------/
 |
 |	Author : Zomblard & TheSam
-|	Desc : 
+|	Desc :
 |
 /--------------------------------------------------------------------------------------------------------------------------------------*/
 
-class ADRP_SellAction: ScriptedUserAction 
+class ADRP_SellAction: ScriptedUserAction
 {
-
 	[Attribute(defvalue: "0", uiwidget: UIWidgets.ComboBox, desc: "ID of item", enums: ParamEnumArray.FromEnum(ItemsId))]
 	protected ItemsId _itemID;
 
@@ -16,14 +15,14 @@ class ADRP_SellAction: ScriptedUserAction
 
 	private int _numberToSell = 0;
 	private int _itemTotalPrice = 0;
-	
+
 	private ref array<IEntity> _prefabsItem = new array<IEntity>();
-	
+
 	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)
 	{
 		if (!_inventoryManager || !pUserEntity)
 			return;
-		
+
 		if (_numberToSell > 0 && _prefabsItem.Count() > 0)
 		{
 			foreach (IEntity currentElement : _prefabsItem)
@@ -32,12 +31,12 @@ class ADRP_SellAction: ScriptedUserAction
 			}
 
 			string message = string.Format("#A4D_SellDescription %1 %2 #A4D_For %3 #A4D_Currency", _numberToSell, _itemInfo.GetName(), GetFloatPriceForAll());
-			SCR_HintManagerComponent.GetInstance().ShowCustomHint(message, "#A4D_SellTitle", 5.0, false, EFieldManualEntryId.NONE, true); 
+			SCR_HintManagerComponent.GetInstance().ShowCustomHint(message, "#A4D_SellTitle", 5.0, false, EFieldManualEntryId.NONE, true);
 		} else {
 			SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_NothingToSell", "#A4D_SellTitle", 5.0, false, EFieldManualEntryId.NONE, true);
 		}
 	}
-	
+
 	override bool GetActionNameScript(out string outName)
 	{
 		outName = "ERROR !!";
@@ -55,16 +54,16 @@ class ADRP_SellAction: ScriptedUserAction
 	}
 
 	override bool CanBePerformedScript(IEntity user)
- 	{	
+ 	{
 		if (!_inventoryManager)
 			_inventoryManager = SCR_InventoryStorageManagerComponent.Cast(user.FindComponent(SCR_InventoryStorageManagerComponent));
 
 		if (!_inventoryManager)
 			return false;
-		
+
 		if (!_itemInfo)
 			SetItemInfo();
-		
+
 		// If the variable definition did not work
 		if (!_itemInfo || !_inventoryManager)
 			return false;
@@ -78,10 +77,10 @@ class ADRP_SellAction: ScriptedUserAction
 
 		foreach (IEntity currentElement : temp)
 		{
-			ADRP_ItemPriceComponent itemComponent = ADRP_ItemPriceComponent.Cast(currentElement.FindComponent(ADRP_ItemPriceComponent));			
+			ADRP_ItemPriceComponent itemComponent = ADRP_ItemPriceComponent.Cast(currentElement.FindComponent(ADRP_ItemPriceComponent));
 			if (!itemComponent || itemComponent.GetItemID() != _itemID)
 				continue;
-			
+
 			_numberToSell = _numberToSell + 1;
 			_prefabsItem.Insert(currentElement);
 		}
@@ -91,11 +90,11 @@ class ADRP_SellAction: ScriptedUserAction
 
 		return true;
  	}
-	
+
 	private void SetItemInfo()
 	{
 		ADRP_ItemPriceList itemPriceList = ADRP_ItemPriceList.GetInstance();
-		
+
 		if (!itemPriceList)
 			return;
 
@@ -118,7 +117,7 @@ class ADRP_SellAction: ScriptedUserAction
 		price = price / 100;
 		return price;
 	}
-	
+
 	private float GetFloatPriceForAll()
 	{
 		float price = GetFloatPrice();

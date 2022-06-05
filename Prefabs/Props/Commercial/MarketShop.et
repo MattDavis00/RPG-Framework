@@ -54,36 +54,27 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
       "AppleButton"
      }
      Duration 0.2
-     m_BuyItemDisplayName "#A4D_Apple"
-     m_ItemBuyPrice 50
-     m_BuyItemPrefab "{C9D661E5B0714712}Prefabs/Items/Food/Apple/Apple.et"
+     _itemID APPEL
     }
     ADRP_BuyAction "{596AC342602D24FC}" {
      ParentContextList {
       "PizzaButton"
      }
      Duration 0.2
-     m_BuyItemDisplayName "#A4D_Pizza"
-     m_ItemBuyPrice 150
-     m_BuyItemPrefab "{1B0816D8A787AC06}Prefabs/Items/Food/Pizza/Pizza.et"
+     _itemID PIZZA
     }
     ADRP_BuyAction "{596AE9867CDD6A4C}" {
      ParentContextList {
       "WaterButton"
      }
      Duration 0.2
-     m_BuyItemDisplayName "#A4D_Water"
-     m_ItemBuyPrice 150
-     m_BuyItemPrefab "{07B5EE4EB5344031}Prefabs/Items/Drink/Water/Full/BottleFull.et"
+     _itemID WATER
     }
     ADRP_BuyAction "{596CA3D2B8F35CC9}" {
      ParentContextList {
       "EnergyDrink"
      }
      Duration 0.2
-     m_BuyItemDisplayName "#A4D_EnergyDrink"
-     m_ItemBuyPrice 200
-     m_BuyItemPrefab "{B623571E6D19B431}Prefabs/Items/Drink/EnergyDrink/EnergyDrink.et"
     }
     ADRP_SellAction "{597962B89E400415}" {
      ParentContextList {
