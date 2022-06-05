@@ -14,15 +14,15 @@ class ADRP_VehicleLockAction : ScriptedUserAction
 		
 		//Hints
 		if (vehicleLock.m_IsLocked) {
-			SCR_HintManagerComponent.GetInstance().ShowCustomHint("Your vehicle is now locked.", "Vehicle Locked", 3);
+			SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_VehicleLocked", "#A4D_Vehicle", 5.0, false, EFieldManualEntryId.NONE, true);
 		} else {
-			SCR_HintManagerComponent.GetInstance().ShowCustomHint("Your vehicle is now unlocked.", "Vehicle Unlocked", 3);
+			SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_VehicleUnlocked", "#A4D_Vehicle", 5.0, false, EFieldManualEntryId.NONE, true);
 		};
 	}
 	
 	override bool GetActionNameScript(out string outName)
 	{
-		outName = string.Format("Lock/Unlock Vehicle");
+		outName = string.Format("#A4D_VehicleLockUnlock #A4D_Vehicle");
 		return true;
 	}
 	

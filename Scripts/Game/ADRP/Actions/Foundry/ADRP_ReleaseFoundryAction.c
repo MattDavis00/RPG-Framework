@@ -24,7 +24,7 @@ class ADRP_ReleaseFoundryAction: ScriptedUserAction
 	{
 		_foundryComponent.SetFoundryActive(false);
 		_foundryComponent.ReleaseFoundry();
-		SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionRelease", "#A4D_FoundryTitle", 5.0 , true); 
+		SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionRelease", "#A4D_FoundryTitle", 5.0, false, EFieldManualEntryId.NONE, true); 
 	}
 	
 	override bool GetActionNameScript(out string outName)

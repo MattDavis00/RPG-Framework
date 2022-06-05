@@ -23,7 +23,7 @@ class ADRP_OpenFoundryAction: ScriptedUserAction
 	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)
 	{
 		//_foundryComponent.OpenInventory();
-		SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionOpen", "#A4D_FoundryTitle", 5.0 , true); 
+		SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionOpen", "#A4D_FoundryTitle", 10.0, false, EFieldManualEntryId.NONE, true); 
 	}
 	
 	override bool GetActionNameScript(out string outName)

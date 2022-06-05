@@ -24,7 +24,7 @@ class ADRP_BuyAction: ScriptedUserAction {
 		bool valid = _inventoryManager.TrySpawnPrefabToStorage(_itemInfo.GetItemPrefab());
 
 		if (valid)
-			SCR_HintManagerComponent.GetInstance().ShowCustomHint(_validMessage, "#A4D_BuyTitle", 5.0 );
+			SCR_HintManagerComponent.GetInstance().ShowCustomHint(_validMessage, "#A4D_BuyTitle", 5.0, false, EFieldManualEntryId.NONE, true);
 	}
 
 	override bool GetActionNameScript(out string outName)

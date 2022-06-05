@@ -28,7 +28,7 @@ class ADRP_GatherAction: ScriptedUserAction {
 			_numberGathered - 1;
 		}*/
 		
-		SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_GatherDecription " + _numberGathered + " " + m_GatherItemDisplayName, "#A4D_GatherTitle", 5.0 ); 
+		SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_GatherDecription " + _numberGathered + " " + m_GatherItemDisplayName, "#A4D_GatherTitle", 5.0, false, EFieldManualEntryId.NONE, true ); 
 	}
 	
 	override bool GetActionNameScript(out string outName)

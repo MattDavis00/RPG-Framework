@@ -26,9 +26,9 @@ class ADRP_UseFoundryAction: ScriptedUserAction
 		_foundryComponent.InitFoundry(pOwnerEntity);
 		bool sucess = _foundryComponent.SetCurrentOwner(pUserEntity);
 		if (sucess) {
-			SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionUse", "#A4D_FoundryTitle", 5.0 , true); 
+			SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionUse", "#A4D_FoundryTitle", 5.0, false, EFieldManualEntryId.NONE, true); 
 		} else {
-			SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionInUse", "#A4D_FoundryTitle", 5.0 , false); 
+			SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionInUse", "#A4D_FoundryTitle", 5.0, false, EFieldManualEntryId.NONE, true); 
 		}
 	}
 	

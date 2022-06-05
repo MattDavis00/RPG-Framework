@@ -67,12 +67,12 @@ class ADRP_SpawnVehicleAction : ScriptedUserAction
 			return;
 		}
 
-		SCR_HintManagerComponent.GetInstance().ShowCustomHint("Your vehicle is ready and locked.", "Vehicle", 5, false, EFieldManualEntryId.NONE, true);
+		SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_VehicleSpawn", "#A4D_Vehicle", 5, false, EFieldManualEntryId.NONE, true);
 	}
 	
 	override bool GetActionNameScript(out string outName)
 	{
-		outName = string.Format("Purchase UAZ");
+		outName = string.Format("Purchase car");
 		return true;
 	}
 	
