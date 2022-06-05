@@ -91,9 +91,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      }
      Duration 0.2
      "Sort Priority" 1
-     m_SellItemDisplayName "#A4D_Apple"
-     m_SellItemPrefab "{C9D661E5B0714712}Prefabs/Items/Food/Apple/Apple.et"
-     m_ItemSellPrice 25
+     _itemID APPEL
     }
     ADRP_SellAction "{597962B89C0464CA}" {
      ParentContextList {
@@ -101,9 +99,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      }
      Duration 0.2
      "Sort Priority" 1
-     m_SellItemDisplayName "#A4D_Pizza"
-     m_SellItemPrefab "{1B0816D8A787AC06}Prefabs/Items/Food/Pizza/Pizza.et"
-     m_ItemSellPrice 75
+     _itemID PIZZA
     }
     ADRP_SellAction "{597962B89DE0D1FB}" {
      ParentContextList {
@@ -111,9 +107,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      }
      Duration 0.2
      "Sort Priority" 1
-     m_SellItemDisplayName "#A4D_Water"
-     m_SellItemPrefab "{07B5EE4EB5344031}Prefabs/Items/Drink/Water/Full/BottleFull.et"
-     m_ItemSellPrice 75
+     _itemID WATER
     }
     ADRP_SellAction "{597962B893198059}" {
      ParentContextList {
@@ -121,9 +115,6 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      }
      Duration 0.2
      "Sort Priority" 1
-     m_SellItemDisplayName "#A4D_EnergyDrink"
-     m_SellItemPrefab "{B623571E6D19B431}Prefabs/Items/Drink/EnergyDrink/EnergyDrink.et"
-     m_ItemSellPrice 100
     }
    }
   }
