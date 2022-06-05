@@ -39,44 +39,56 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
     UserActionContext "{596CD826016972CB}" {
      ContextName "AxeButton"
      Position PointInfo "{596CD826384B6AC4}" {
-      Offset 1.1428 1.0683 0.5363
+      Offset 1.2347 1.0683 0.5
      }
     }
     UserActionContext "{596CD8262E50B46B}" {
      ContextName "ShovelButton"
      Position PointInfo "{596CD826207209E8}" {
-      Offset 0.8525 1.0683 0.5363
+      Offset 0.9549 1.0683 0.5
      }
     }
     UserActionContext "{596CD82625EEA2AB}" {
      ContextName "PickAxeButton"
      Position PointInfo "{596CD826584814DC}" {
-      Offset 0.3389 1.0683 0.5363
+      Offset 0.5885 1.0683 0.5
       Angles 0 0 0.5363
      }
     }
     UserActionContext "{596CD826537003CD}" {
      ContextName "MapButton"
      Position PointInfo "{596CD8264A704A43}" {
-      Offset -0.1639 1.0683 0.5363
+      Offset -0.9742 1.0683 0.5
      }
     }
     UserActionContext "{596CD8264947281D}" {
      ContextName "BinocularButton"
      Position PointInfo "{596CD826473490EE}" {
-      Offset -0.4943 1.0683 0.5363
+      Offset 0.0129 1.0683 0.5
      }
     }
     UserActionContext "{596CD82645EB7C85}" {
      ContextName "WatchButton"
      Position PointInfo "{596CD8267059B585}" {
-      Offset -0.8191 1.0683 0.5363
+      Offset -0.4626 1.0683 0.4998
      }
     }
     UserActionContext "{596CD826746DAC31}" {
      ContextName "CompassButton"
      Position PointInfo "{596CD8266C074509}" {
-      Offset -0.933 1.0683 0.5363
+      Offset -0.2568 1.0683 0.4999
+     }
+    }
+    UserActionContext "{598B1B6A04A140C4}" {
+     ContextName "BandageButton"
+     Position PointInfo "{598B1B6AB4837C3B}" {
+      Offset 0.2741 1.0683 0.5001
+     }
+    }
+    UserActionContext "{598B1B6A05792813}" {
+     ContextName "LightButton"
+     Position PointInfo "{598B1B6ADAC6B200}" {
+      Offset -0.6907 1.0683 0.4999
      }
     }
    }
@@ -131,61 +143,19 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      Duration 0.2
      _itemID COMPASS
     }
-    ADRP_SellAction "{597962BFCF6B6E73}" {
+    ADRP_BuyAction "{598B1B6A26A18747}" {
      ParentContextList {
-      "AxeButton"
+      "BandageButton"
      }
      Duration 0.2
-     "Sort Priority" 1
-     _itemID AXE
+     _itemID BANDAGE
     }
-    ADRP_SellAction "{597962BFCC5D71A5}" {
+    ADRP_BuyAction "{598B1B6A27B38327}" {
      ParentContextList {
-      "ShovelButton"
+      "LightButton"
      }
      Duration 0.2
-     "Sort Priority" 1
-     _itemID SHOVEL
-    }
-    ADRP_SellAction "{597962BFCD45C519}" {
-     ParentContextList {
-      "PickAxeButton"
-     }
-     Duration 0.2
-     "Sort Priority" 1
-     _itemID PICKAXE
-    }
-    ADRP_SellAction "{597962BFC2A1ED4A}" {
-     ParentContextList {
-      "MapButton"
-     }
-     Duration 0.2
-     "Sort Priority" 1
-     _itemID MAP
-    }
-    ADRP_SellAction "{597962BFC3ACA624}" {
-     ParentContextList {
-      "BinocularButton"
-     }
-     Duration 0.2
-     "Sort Priority" 1
-     _itemID BINOCULAR
-    }
-    ADRP_SellAction "{597962BFC0F8CF50}" {
-     ParentContextList {
-      "WatchButton"
-     }
-     Duration 0.2
-     "Sort Priority" 1
-     _itemID WATCH
-    }
-    ADRP_SellAction "{597962BFC6999ABC}" {
-     ParentContextList {
-      "CompassButton"
-     }
-     Duration 0.2
-     "Sort Priority" 1
-     _itemID COMPASS
+     _itemID LIGHT
     }
    }
   }

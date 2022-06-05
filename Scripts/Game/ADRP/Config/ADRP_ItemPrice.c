@@ -105,7 +105,9 @@ enum ItemsId
 	MAP,
 	BINOCULAR,
 	WATCH,
-	COMPASS
+	COMPASS,
+	LIGHT,
+	BANDAGE
 };
 
 [ComponentEditorProps(category: "Game/ADRP/Items", description: "", color: "0 0 255 255")]

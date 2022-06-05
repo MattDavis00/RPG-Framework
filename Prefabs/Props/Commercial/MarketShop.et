@@ -84,29 +84,6 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      "Sort Priority" 1
      _itemID APPEL
     }
-    ADRP_SellAction "{597962B89C0464CA}" {
-     ParentContextList {
-      "PizzaButton"
-     }
-     Duration 0.2
-     "Sort Priority" 1
-     _itemID PIZZA
-    }
-    ADRP_SellAction "{597962B89DE0D1FB}" {
-     ParentContextList {
-      "WaterButton"
-     }
-     Duration 0.2
-     "Sort Priority" 1
-     _itemID WATER
-    }
-    ADRP_SellAction "{597962B893198059}" {
-     ParentContextList {
-      "EnergyDrink"
-     }
-     Duration 0.2
-     "Sort Priority" 1
-    }
    }
   }
   RplComponent "{5624A88DC2D9928D}" {

@@ -1,0 +1,27 @@
+Layer ADRP_DefaultEden {
+ Index 0
+}
+Layer ADRP_Bank {
+ Index 1
+}
+Layer ADRP_Civilian {
+ Index 2
+}
+Layer ADRP_Systems {
+ Index 8
+}
+Layer ADRP_PNJ {
+ Index 4
+}
+Layer ADRP_Processing {
+ Index 5
+}
+Layer ADRP_Shop {
+ Index 6
+}
+Layer ADRP_SpawnPoint {
+ Index 7
+}
+Layer ADRP_Worlds {
+ Index 3
+}

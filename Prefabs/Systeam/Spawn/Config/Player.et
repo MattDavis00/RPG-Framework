@@ -72,13 +72,12 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
      Prefab ""
     }
     LoadoutSlotInfo Hat {
-     Prefab ""
+     Prefab "{B02281435AED8274}Prefabs/Characters/HeadGear/Hat_M70_01/Hat_M70_01.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab ""
+     Prefab "{E44990162EBC47B7}Prefabs/Characters/Uniforms/Jacket_M88_base.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{404F750A7575AF7B}Prefabs/Characters/Uniforms/ADRP_Pants_1.et"
     }
     LoadoutSlotInfo Vest {
      Prefab ""
