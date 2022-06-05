@@ -30,28 +30,9 @@ FrameWidgetClass {
     SizeY 1038
     OffsetBottom -519
    }
-   Texture "{BC302D336016D9B2}UI/Textures/Layouts/Tablet/VehicleShop/CarShop.edds"
+   Texture "{36225A807FCDE3A0}UI/Textures/Layouts/Tablet/BackgroundTablet.edds"
    Image ""
    Size 1920 1329
-  }
-  TextWidgetClass "{597F0EDC580ED519}" {
-   Name "Title"
-   Slot FrameWidgetSlot "{596C76755FBFEE2F}" {
-    Anchor 0.5 0.5 0.5 0.5
-    PositionX -668.303
-    OffsetLeft -668.303
-    PositionY -414.739
-    OffsetTop -414.739
-    SizeX 1334.91
-    OffsetRight -666.61
-    SizeY 103.351
-    OffsetBottom 311.388
-   }
-   Color 0.503 0.503 0.503 1
-   Text "Vehicle Shop"
-   "Font Size" 60
-   "Horizontal Alignment" Center
-   "Vertical Alignment" Center
   }
   ImageWidgetClass "{597F0EDC7A3EBE73}" {
    Name "CarImage"
@@ -66,9 +47,14 @@ FrameWidgetClass {
     SizeY 417.742
     OffsetBottom -153.83
    }
-   Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+   Texture "{68766A0B70026EB0}UI/Textures/Layouts/CarShop/car1.edds"
    Image ""
-   Size 1600 1070
+   Size 1920 1080
+   "Transition width" 0.664
+   "Mask Mode" "Exclude Range"
+   Range 1
+   "Shadow Offset" 10 10
+   "Shadow Color" 0 0 0 0.392
   }
   TextWidgetClass "{597F0EDC9E727938}" {
    Name "CarName"
@@ -83,6 +69,7 @@ FrameWidgetClass {
     SizeY 53.455
     OffsetBottom 210.545
    }
+   Color 0 0 0 1
    "Font Size" 40
   }
   GridLayoutWidgetClass "{597F0EDCA8343D6A}" {
@@ -98,12 +85,14 @@ FrameWidgetClass {
     SizeY 348.007
     OffsetBottom -157.107
    }
+   Color 0 0 0 1
    {
     TextWidgetClass "{597F0EDFDF2E2267}" {
      Name "SpeedTitle"
      Slot GridWidgetSlot "{597F0EDFDF2E223E}" {
       Padding 0 0 15 0
      }
+     Color 0 0 0 1
      Text "Max speed :"
     }
     TextWidgetClass "{597F0EDFCB1582C4}" {
@@ -112,6 +101,7 @@ FrameWidgetClass {
       Row 0
       Column 1
      }
+     Color 0 0 0 1
      Text "80 km/h"
     }
     TextWidgetClass "{597F0EDE3C0CCD5F}" {
@@ -121,6 +111,7 @@ FrameWidgetClass {
       Row 1
       Column 0
      }
+     Color 0 0 0 1
      Text "Engine :"
     }
     TextWidgetClass "{597F0EDE3C0CCD25}" {
@@ -130,6 +121,7 @@ FrameWidgetClass {
       Row 1
       Column 1
      }
+     Color 0 0 0 1
      Text "85 cv"
     }
     TextWidgetClass "{597F0EDE622BF1D2}" {
@@ -139,6 +131,7 @@ FrameWidgetClass {
       Row 2
       Column 0
      }
+     Color 0 0 0 1
      Text "Seat :"
     }
     TextWidgetClass "{597F0EDE622BF19F}" {
@@ -148,6 +141,7 @@ FrameWidgetClass {
       Row 2
       Column 1
      }
+     Color 0 0 0 1
      Text "4"
     }
     TextWidgetClass "{597F0EDE8B963B41}" {
@@ -157,6 +151,7 @@ FrameWidgetClass {
       Row 3
       Column 0
      }
+     Color 0 0 0 1
      Text "Trunk capacity :"
     }
     TextWidgetClass "{597F0EDE8B963B1D}" {
@@ -166,6 +161,7 @@ FrameWidgetClass {
       Row 3
       Column 1
      }
+     Color 0 0 0 1
      Text "325"
     }
     TextWidgetClass "{597F0ED10ED5EF91}" {
@@ -175,6 +171,7 @@ FrameWidgetClass {
       Row 4
       Column 0
      }
+     Color 0 0 0 1
      Text "Insurance price :"
     }
     TextWidgetClass "{597F0ED10ED5EF62}" {
@@ -184,6 +181,7 @@ FrameWidgetClass {
       Row 4
       Column 1
      }
+     Color 0 0 0 1
      Text "1 500 €"
     }
    }
@@ -201,6 +199,7 @@ FrameWidgetClass {
     SizeY 53.455
     OffsetBottom -244.5
    }
+   Color 0 0 0 1
    Text "Price :"
    "Font Size" 40
    "Horizontal Alignment" Right
@@ -219,6 +218,7 @@ FrameWidgetClass {
     SizeY 53.455
     OffsetBottom -244.5
    }
+   Color 0 0 0 1
    Text "15 000 €"
    "Font Size" 40
    "Vertical Alignment" Center
@@ -242,6 +242,7 @@ FrameWidgetClass {
      Name "Text0"
      Slot ButtonWidgetSlot "{597F0EDF7BB6C696}" {
      }
+     Color 0 0 0 1
      Text "BUY"
      "Font Size" 50
     }
@@ -271,6 +272,27 @@ FrameWidgetClass {
      Image ""
      Size 64 64
     }
+   }
+  }
+  TextWidgetClass "{5988B295E951A500}" {
+   Name "Title"
+   Slot FrameWidgetSlot "{596C76755FBFEE2F}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -652.535
+    OffsetLeft -652.535
+    PositionY -414.739
+    OffsetTop -414.739
+    SizeX 1317.17
+    OffsetRight -664.638
+    SizeY 103.351
+    OffsetBottom 311.388
+   }
+   Color 0 0 0 1
+   Text "Vehicle Shop"
+   "Font Size" 60
+   "Vertical Alignment" Center
+   FontProperties FontProperties "{5988B29669D91308}" {
+    Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
    }
   }
  }

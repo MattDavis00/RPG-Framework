@@ -1,58 +1,285 @@
 FrameWidgetClass {
  Name "rootFrame"
  {
-  ImageWidgetClass "{596B78009DA14E32}" {
+  BlurWidgetClass "{5988D54798C81442}" {
+   Name "Blur0"
+   Slot FrameWidgetSlot "{597EA2C2F765CF7E}" {
+    Anchor 0 0 1 1
+    PositionX -1.497
+    OffsetLeft -1.497
+    PositionY -1.497
+    OffsetTop -1.497
+    SizeX 0
+    OffsetRight 1.497
+    SizeY 0
+    OffsetBottom 1.497
+   }
+   Color 0 0 0 0.525
+   Intensity 1
+  }
+  ImageWidgetClass "{5988D54798C814E5}" {
    Name "Image0"
    Slot FrameWidgetSlot "{596B78009DA14E14}" {
-    PositionX 355.609
-    OffsetLeft 355.609
-    PositionY 435.714
-    OffsetTop 435.714
-    SizeX 789.941
-    OffsetRight -1145.55
-    SizeY 408.16
-    OffsetBottom -843.874
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -750
+    OffsetLeft -750
+    PositionY -519
+    OffsetTop -519
+    SizeX 1499.99
+    OffsetRight -750
+    SizeY 1038
+    OffsetBottom -519
    }
-   Texture "{90BB7FC55A160133}textures/background.edds"
+   Texture "{36225A807FCDE3A0}UI/Textures/Layouts/Tablet/BackgroundTablet.edds"
    Image ""
-   Size 980 594
+   Size 1920 1329
   }
-  ButtonWidgetClass "{596B78007621CFF3}" {
+  TextWidgetClass "{5988D54798C81775}" {
+   Name "Title"
+   Slot FrameWidgetSlot "{596C76755FBFEE2F}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -652.535
+    OffsetLeft -652.535
+    PositionY -414.739
+    OffsetTop -414.739
+    SizeX 1317.17
+    OffsetRight -664.638
+    SizeY 103.351
+    OffsetBottom 311.388
+   }
+   Color 0 0 0 1
+   Text "Garage"
+   "Font Size" 60
+   "Vertical Alignment" Center
+   FontProperties FontProperties "{5988B29669D91308}" {
+    Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+   }
+  }
+  ButtonWidgetClass "{5988D54798C817D5}" {
    Name "Exit"
    Slot FrameWidgetSlot "{596B78007621CFEC}" {
-    PositionX 1029.06
-    OffsetLeft 1029.06
-    PositionY 789.927
-    OffsetTop 789.927
-    SizeX 100
-    OffsetRight -1129.06
-    SizeY 30
-    OffsetBottom -819.927
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -15.983
+    OffsetLeft -15.983
+    PositionY 440.722
+    OffsetTop 440.722
+    SizeX 40
+    OffsetRight -24.017
+    SizeY 40
+    OffsetBottom -480.722
    }
+   Color 1 1 1 0
    {
-    TextWidgetClass "{596B780074DC5252}" {
-     Name "Text0"
-     Slot ButtonWidgetSlot "{596B780074DC52B6}" {
+    ImageWidgetClass "{5988D54798C817D4}" {
+     Name "Image0"
+     Slot ButtonWidgetSlot "{597EA2C54AD508F8}" {
+      Padding 5 5 5 5
      }
-     Color 0 0 0 1
-     Text "Exit"
+     Texture "{586794BAA4EF1810}UI/Textures/Layouts/phone/appicon/logout.edds"
+     Image ""
+     Size 64 64
     }
    }
   }
-  TextWidgetClass "{596C76753CA45E86}" {
-   Name "Text0"
-   Slot FrameWidgetSlot "{596C76753CA45EBF}" {
-    PositionX 1009.3
-    OffsetLeft 1009.3
-    PositionY 442.906
-    OffsetTop 442.906
-    SizeX 149.39
-    OffsetRight -1158.69
-    SizeY 30
-    OffsetBottom -472.906
+  GridLayoutWidgetClass "{5988D547BA95FD7E}" {
+   Name "GridLayout0"
+   Slot FrameWidgetSlot "{597F0EDCA8343D42}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 21
+    OffsetLeft 21
+    PositionY -190.9
+    OffsetTop -190.9
+    SizeX 643.114
+    OffsetRight -664.114
+    SizeY 348.007
+    OffsetBottom -157.107
    }
-   Color 0.502 0 0 1
-   Text "Garage Menu"
+   Color 0 0 0 1
+   {
+    TextWidgetClass "{5988D547BA95FD7D}" {
+     Name "SpeedTitle"
+     Slot GridWidgetSlot "{597F0EDFDF2E223E}" {
+      Padding 0 0 15 0
+     }
+     Color 0 0 0 1
+     Text "Max speed :"
+    }
+    TextWidgetClass "{5988D547BA95FD7C}" {
+     Name "MaxSpeed"
+     Slot GridWidgetSlot "{597F0EDFCB1582A0}" {
+      Row 0
+      Column 1
+     }
+     Color 0 0 0 1
+     Text "80 km/h"
+    }
+    TextWidgetClass "{5988D547BA95FD63}" {
+     Name "EngineTitle"
+     Slot GridWidgetSlot "{597F0EDFDF2E223E}" {
+      Padding 0 30 15 0
+      Row 1
+      Column 0
+     }
+     Color 0 0 0 1
+     Text "Engine :"
+    }
+    TextWidgetClass "{5988D547BA95FD62}" {
+     Name "Engine"
+     Slot GridWidgetSlot "{597F0EDFCB1582A0}" {
+      Padding 0 30 0 0
+      Row 1
+      Column 1
+     }
+     Color 0 0 0 1
+     Text "85 cv"
+    }
+    TextWidgetClass "{5988D547BA947871}" {
+     Name "SeatTitle"
+     Slot GridWidgetSlot "{597F0EDFDF2E223E}" {
+      Padding 0 30 15 0
+      Row 2
+      Column 0
+     }
+     Color 0 0 0 1
+     Text "Seat :"
+    }
+    TextWidgetClass "{5988D547BA947874}" {
+     Name "Seat"
+     Slot GridWidgetSlot "{597F0EDFCB1582A0}" {
+      Padding 0 30 0 0
+      Row 2
+      Column 1
+     }
+     Color 0 0 0 1
+     Text "4"
+    }
+    TextWidgetClass "{5988D547BA947875}" {
+     Name "TrunkTitle"
+     Slot GridWidgetSlot "{597F0EDFDF2E223E}" {
+      Padding 0 30 15 0
+      Row 3
+      Column 0
+     }
+     Color 0 0 0 1
+     Text "Trunk capacity :"
+    }
+    TextWidgetClass "{5988D547BA94C2DF}" {
+     Name "Trunk"
+     Slot GridWidgetSlot "{597F0EDFCB1582A0}" {
+      Padding 0 30 0 0
+      Row 3
+      Column 1
+     }
+     Color 0 0 0 1
+     Text "325"
+    }
+    TextWidgetClass "{5988D547BA94C2DC}" {
+     Name "InsuranceTitle"
+     Slot GridWidgetSlot "{597F0EDFDF2E223E}" {
+      Padding 0 30 15 0
+      Row 4
+      Column 0
+     }
+     Color 0 0 0 1
+     Text "Insurance price :"
+    }
+    TextWidgetClass "{5988D547BA94C2DD}" {
+     Name "Insurance"
+     Slot GridWidgetSlot "{597F0EDFCB1582A0}" {
+      Padding 0 30 0 0
+      Row 4
+      Column 1
+     }
+     Color 0 0 0 1
+     Text "1 500 €"
+    }
+    TextWidgetClass "{5988D547F5A0140D}" {
+     Name "InsurancedTitle"
+     Slot GridWidgetSlot "{597F0EDFDF2E223E}" {
+      Padding 0 30 15 0
+      Row 5
+      Column 0
+     }
+     Color 0 0 0 1
+     Text "Insurance :"
+    }
+    TextWidgetClass "{5988D547F5A01420}" {
+     Name "Insuranced"
+     Slot GridWidgetSlot "{597F0EDFCB1582A0}" {
+      Padding 0 30 0 0
+      Row 5
+      Column 1
+     }
+     Color 0 0 0 1
+     Text "inactive"
+    }
+   }
+  }
+  TextWidgetClass "{5988D547BA94C20C}" {
+   Name "CarName"
+   Slot FrameWidgetSlot "{597F0EDC9E727913}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 21
+    OffsetLeft 21
+    PositionY -264
+    OffsetTop -264
+    SizeX 642.719
+    OffsetRight -663.719
+    SizeY 53.455
+    OffsetBottom 210.545
+   }
+   Color 0 0 0 1
+   "Font Size" 40
+  }
+  ButtonWidgetClass "{5988D547BA94C253}" {
+   Name "Buy"
+   Slot FrameWidgetSlot "{596B78007621CFEC}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -200
+    OffsetLeft -200
+    PositionY 263.052
+    OffsetTop 263.1
+    SizeX 180
+    OffsetRight 20
+    SizeY 100
+    OffsetBottom -363.1
+   }
+   Color 1 1 1 0
+   {
+    TextWidgetClass "{5988D547BA94C250}" {
+     Name "Text0"
+     Slot ButtonWidgetSlot "{597F0EDF7BB6C696}" {
+     }
+     Color 0 0 0 1
+     Text "RETRIVE"
+     "Font Size" 50
+    }
+   }
+  }
+  ButtonWidgetClass "{5988D547AB612B25}" {
+   Name "Insure"
+   Slot FrameWidgetSlot "{596B78007621CFEC}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX 30
+    OffsetLeft 30
+    PositionY 263.1
+    OffsetTop 263.1
+    SizeX 180
+    OffsetRight -210
+    SizeY 100
+    OffsetBottom -363.1
+   }
+   Color 1 1 1 0
+   {
+    TextWidgetClass "{5988D547AB612B3A}" {
+     Name "Text0"
+     Slot ButtonWidgetSlot "{597F0EDF7BB6C696}" {
+     }
+     Color 0 0 0 1
+     Text "INSURE"
+     "Font Size" 50
+    }
+   }
   }
  }
 }

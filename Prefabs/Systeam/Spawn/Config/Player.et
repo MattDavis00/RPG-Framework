@@ -21,8 +21,6 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
     }
    }
   }
-  ADRP_KeyListenerComponent "{5984E9A2393650DB}" {
-  }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
    WeaponTemplate ""
   }
@@ -69,19 +67,18 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
-     Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+     Prefab ""
     }
     LoadoutSlotInfo Hat {
-     Prefab "{E12126CDE731EED5}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01.et"
+     Prefab ""
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{3CCA7A9BB4FD3197}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup.et"
+     Prefab ""
     }
     LoadoutSlotInfo Pants {
-     Prefab "{604BB72BE8E023C2}Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+     Prefab "{404F750A7575AF7B}Prefabs/Characters/Uniforms/ADRP_Pants_1.et"
     }
     LoadoutSlotInfo Vest {
      Prefab ""

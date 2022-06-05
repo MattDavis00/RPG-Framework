@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{53760F2DF3615DD2}Prefabs/Vehicles/Wheeled/M151A2/Material/Skin.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

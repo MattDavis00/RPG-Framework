@@ -30,7 +30,7 @@ FrameWidgetClass {
     SizeY 1038
     OffsetBottom -519
    }
-   Texture "{BC302D336016D9B2}UI/Textures/Layouts/Tablet/VehicleShop/CarShop.edds"
+   Texture "{36225A807FCDE3A0}UI/Textures/Layouts/Tablet/BackgroundTablet.edds"
    Image ""
    Size 1920 1329
   }
@@ -38,20 +38,22 @@ FrameWidgetClass {
    Name "Title"
    Slot FrameWidgetSlot "{596C76755FBFEE2F}" {
     Anchor 0.5 0.5 0.5 0.5
-    PositionX -668.303
-    OffsetLeft -668.303
+    PositionX -652.535
+    OffsetLeft -652.535
     PositionY -414.739
     OffsetTop -414.739
-    SizeX 1334.91
-    OffsetRight -666.61
+    SizeX 1317.17
+    OffsetRight -664.638
     SizeY 103.351
     OffsetBottom 311.388
    }
-   Color 0.503 0.503 0.503 1
+   Color 0 0 0 1
    Text "Vehicle Shop"
    "Font Size" 60
-   "Horizontal Alignment" Center
    "Vertical Alignment" Center
+   FontProperties FontProperties "{5988B29669D91308}" {
+    Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+   }
   }
   ScrollLayoutWidgetClass "{597F0ECE5D90CF05}" {
    Name "ScrollLayout0"
@@ -88,9 +90,11 @@ FrameWidgetClass {
            Name "Image0"
            Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
            }
-           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Texture "{68766A0B70026EB0}UI/Textures/Layouts/CarShop/car1.edds"
            Image ""
-           Size 300 300
+           Size 400 300
+           "Shadow Offset" 10 10
+           "Shadow Color" 0 0 0 0.392
           }
          }
         }
@@ -101,6 +105,7 @@ FrameWidgetClass {
           Row 3
           Column 0
          }
+         Color 0 0 0 1
          Text "15 000 $"
          "Font Size" 25
          "Min Font Size" 15
@@ -109,9 +114,10 @@ FrameWidgetClass {
         TextWidgetClass "{597F0EC282EAC4B4}" {
          Name "TiteCar"
          Slot GridWidgetSlot "{597F0EDBEF029DF4}" {
-          Row 2
+          Row 4
           Column 0
          }
+         Color 0 0 0 1
          Text "Car test 1"
          "Font Size" 35
          "Min Font Size" 15
@@ -145,9 +151,11 @@ FrameWidgetClass {
            Name "Image0"
            Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
            }
-           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Texture "{C29604D0C25288CB}UI/Textures/Layouts/CarShop/car3.edds"
            Image ""
-           Size 300 300
+           Size 400 300
+           "Shadow Offset" 10 10
+           "Shadow Color" 0 0 0 0.392
           }
          }
         }
@@ -158,6 +166,7 @@ FrameWidgetClass {
           Row 3
           Column 0
          }
+         Color 0 0 0 1
          Text "Car test 2"
          "Font Size" 35
          "Min Font Size" 15
@@ -170,6 +179,7 @@ FrameWidgetClass {
           Row 2
           Column 0
          }
+         Color 0 0 0 1
          Text "15 000 $"
          "Font Size" 25
          "Min Font Size" 15
@@ -203,9 +213,11 @@ FrameWidgetClass {
            Name "Image0"
            Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
            }
-           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Texture "{8B4E11CFB094FCA1}UI/Textures/Layouts/CarShop/car4.edds"
            Image ""
-           Size 300 300
+           Size 400 300
+           "Shadow Offset" 10 10
+           "Shadow Color" 0 0 0 0.392
           }
          }
         }
@@ -216,6 +228,7 @@ FrameWidgetClass {
           Row 2
           Column 0
          }
+         Color 0 0 0 1
          Text "Car test 3"
          "Font Size" 35
          "Min Font Size" 15
@@ -228,6 +241,7 @@ FrameWidgetClass {
           Row 1
           Column 0
          }
+         Color 0 0 0 1
          Text "15 000 $"
          "Font Size" 25
          "Min Font Size" 15
@@ -261,9 +275,11 @@ FrameWidgetClass {
            Name "Image0"
            Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
            }
-           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Texture "{7F465657BD4994D5}UI/Textures/Layouts/CarShop/car5.edds"
            Image ""
-           Size 300 300
+           Size 400 300
+           "Shadow Offset" 10 10
+           "Shadow Color" 0 0 0 0.392
           }
          }
         }
@@ -274,6 +290,7 @@ FrameWidgetClass {
           Row 3
           Column 0
          }
+         Color 0 0 0 1
          Text "Car test 4"
          "Font Size" 35
          "Min Font Size" 15
@@ -286,6 +303,7 @@ FrameWidgetClass {
           Row 2
           Column 0
          }
+         Color 0 0 0 1
          Text "15 000 $"
          "Font Size" 25
          "Min Font Size" 15
@@ -319,9 +337,11 @@ FrameWidgetClass {
            Name "Image0"
            Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
            }
-           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Texture "{21AE7F1402C41ADA}UI/Textures/Layouts/CarShop/car6.edds"
            Image ""
-           Size 300 300
+           Size 400 300
+           "Shadow Offset" 10 10
+           "Shadow Color" 0 0 0 0.392
           }
          }
         }
@@ -332,6 +352,7 @@ FrameWidgetClass {
           Row 2
           Column 0
          }
+         Color 0 0 0 1
          Text "Car test 5"
          "Font Size" 35
          "Min Font Size" 15
@@ -344,6 +365,7 @@ FrameWidgetClass {
           Row 1
           Column 0
          }
+         Color 0 0 0 1
          Text "15 000 $"
          "Font Size" 25
          "Min Font Size" 15
@@ -377,9 +399,11 @@ FrameWidgetClass {
            Name "Image0"
            Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
            }
-           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Texture "{68766A0B70026EB0}UI/Textures/Layouts/CarShop/car1.edds"
            Image ""
-           Size 300 300
+           Size 400 300
+           "Shadow Offset" 10 10
+           "Shadow Color" 0 0 0 0.392
           }
          }
         }
@@ -390,6 +414,7 @@ FrameWidgetClass {
           Row 2
           Column 0
          }
+         Color 0 0 0 1
          Text "Car test 6"
          "Font Size" 35
          "Min Font Size" 15
@@ -402,6 +427,7 @@ FrameWidgetClass {
           Row 1
           Column 0
          }
+         Color 0 0 0 1
          Text "15 000 $"
          "Font Size" 25
          "Min Font Size" 15
@@ -435,9 +461,11 @@ FrameWidgetClass {
            Name "Image0"
            Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
            }
-           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Texture "{68766A0B70026EB0}UI/Textures/Layouts/CarShop/car1.edds"
            Image ""
-           Size 300 300
+           Size 400 300
+           "Shadow Offset" 10 10
+           "Shadow Color" 0 0 0 0.392
           }
          }
         }
@@ -448,6 +476,7 @@ FrameWidgetClass {
           Row 2
           Column 0
          }
+         Color 0 0 0 1
          Text "Car test 7"
          "Font Size" 35
          "Min Font Size" 15
@@ -460,6 +489,7 @@ FrameWidgetClass {
           Row 1
           Column 0
          }
+         Color 0 0 0 1
          Text "15 000 $"
          "Font Size" 25
          "Min Font Size" 15
@@ -493,9 +523,11 @@ FrameWidgetClass {
            Name "Image0"
            Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
            }
-           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Texture "{68766A0B70026EB0}UI/Textures/Layouts/CarShop/car1.edds"
            Image ""
-           Size 300 300
+           Size 400 300
+           "Shadow Offset" 10 10
+           "Shadow Color" 0 0 0 0.392
           }
          }
         }
@@ -506,6 +538,7 @@ FrameWidgetClass {
           Row 2
           Column 0
          }
+         Color 0 0 0 1
          Text "Car test 8"
          "Font Size" 35
          "Min Font Size" 15
@@ -518,6 +551,7 @@ FrameWidgetClass {
           Row 1
           Column 0
          }
+         Color 0 0 0 1
          Text "15 000 $"
          "Font Size" 25
          "Min Font Size" 15
@@ -551,9 +585,11 @@ FrameWidgetClass {
            Name "Image0"
            Slot ButtonWidgetSlot "{597EA2C3527C955C}" {
            }
-           Texture "{F520C70FA6D5CABE}UI/Textures/Layouts/CarShop/la-kia-ev6-elue-car-of-the-year-2022-photo-kia-1646066749.edds"
+           Texture "{68766A0B70026EB0}UI/Textures/Layouts/CarShop/car1.edds"
            Image ""
-           Size 300 300
+           Size 400 300
+           "Shadow Offset" 10 10
+           "Shadow Color" 0 0 0 0.392
           }
          }
         }
@@ -564,6 +600,7 @@ FrameWidgetClass {
           Row 2
           Column 0
          }
+         Color 0 0 0 1
          Text "Car test 9"
          "Font Size" 35
          "Min Font Size" 15
@@ -576,6 +613,7 @@ FrameWidgetClass {
           Row 1
           Column 0
          }
+         Color 0 0 0 1
          Text "15 000 $"
          "Font Size" 25
          "Min Font Size" 15

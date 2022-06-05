@@ -33,6 +33,7 @@ FrameWidgetClass {
    Texture "{F30C9B787C6B00F8}UI/Textures/Layouts/phone/background/fond_1.edds"
    Image ""
    Size 449 919
+   "Transition width" 0.531
   }
   ButtonWidgetClass "{5970866B0E3AF702}" {
    Name "Exit"

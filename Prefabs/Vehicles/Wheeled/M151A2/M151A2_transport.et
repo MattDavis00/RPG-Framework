@@ -1,3 +1,13 @@
 Vehicle : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
  ID "44EC665ABD2FF04B"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5988D54506F00188}" {
+     SourceMaterial "M151A2_Body"
+     AssignedMaterial "{51965F0CF2FEE72E}Assets/Vehicles/Wheeled/M151A2/Data/M151A2_Body.emat"
+    }
+   }
+  }
+ }
 }

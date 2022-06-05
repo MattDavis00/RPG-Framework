@@ -30,3 +30,6 @@ $grp SCR_SpawnPoint : "{503A450D82290A13}Prefabs/Systeam/Spawn/SpawnPoint.et" {
   }
  }
 }
+GameEntity : "{E44990162EBC47B8}Prefabs/Characters/Uniforms/Jacket_M88_base.et" {
+ coords 4980.221 2.305 3891.479
+}
