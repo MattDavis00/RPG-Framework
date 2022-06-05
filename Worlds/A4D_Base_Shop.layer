@@ -105,42 +105,6 @@ GenericEntity GeneralStore_1 : "{7A7DB2EB70F0152B}Prefabs/Props/Commercial/Gener
  }
 }
 GenericEntity Market1 : "{B89D79612B3B89B9}Prefabs/Props/Commercial/MarketShop.et" {
- components {
-  ActionsManagerComponent "{596945B7E195302C}" {
-   additionalActions {
-    ADRP_BuyAction "{596AC342528C1F51}" {
-     ParentContextList {
-      ""
-     }
-    }
-    ADRP_BuyAction "{596AC342602D24FC}" {
-     ParentContextList {
-      ""
-     }
-    }
-    ADRP_BuyAction "{596CA3D2B8F35CC9}" {
-     ParentContextList {
-      ""
-     }
-    }
-    ADRP_SellAction "{597962B89E400415}" {
-     ParentContextList {
-      ""
-     }
-    }
-    ADRP_SellAction "{597962B89C0464CA}" {
-     ParentContextList {
-      ""
-     }
-    }
-    ADRP_SellAction "{597962B893198059}" {
-     ParentContextList {
-      ""
-     }
-    }
-   }
-  }
- }
  coords 4938.045 2.175 3896.898
  angleX -0.956
  angleY 32.69

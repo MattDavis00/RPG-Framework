@@ -59,14 +59,14 @@ class ADRP_SellAction: ScriptedUserAction
 		if (!_inventoryManager)
 			_inventoryManager = SCR_InventoryStorageManagerComponent.Cast(user.FindComponent(SCR_InventoryStorageManagerComponent));
 
-		if (!_inventoryManager || !_itemID)
+		if (!_inventoryManager)
 			return false;
 		
 		if (!_itemInfo)
 			SetItemInfo();
 		
 		// If the variable definition did not work
-		if (!_itemInfo || !_inventoryManager || !_itemID)
+		if (!_itemInfo || !_inventoryManager)
 			return false;
 
 		_itemTotalPrice = 0;
