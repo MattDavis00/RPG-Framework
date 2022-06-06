@@ -18,6 +18,8 @@ class ADRP_OpenFoundryAction: ScriptedUserAction
 		
 		if (!_foundryComponent)
 			Print("Foundry component not found", LogLevel.ERROR);
+		
+		_foundryComponent.SetOwner(pOwnerEntity);
 	}
 	
 	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)

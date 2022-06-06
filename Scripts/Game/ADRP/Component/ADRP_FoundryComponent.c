@@ -10,7 +10,7 @@ class ADRP_FoundryComponent: GameComponent
 	private SCR_InventoryStorageManagerComponent _inventory;
 	private float _maxDistance = 1000.0;
 	
-	override void _WB_OnInit(IEntity owner, inout vector mat[4], IEntitySource src) 
+	void SetOwner(IEntity owner) 
 	{
 		_foundry = owner;
 		

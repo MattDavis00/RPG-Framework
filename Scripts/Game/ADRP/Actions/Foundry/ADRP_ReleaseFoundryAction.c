@@ -18,13 +18,15 @@ class ADRP_ReleaseFoundryAction: ScriptedUserAction
 		
 		if (!_foundryComponent)
 			Print("Foundry component not found", LogLevel.ERROR);
+		
+		_foundryComponent.SetOwner(pOwnerEntity);
 	}
 	
 	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)
 	{
 		_foundryComponent.SetFoundryActive(false);
 		_foundryComponent.ReleaseFoundry();
-		SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionRelease", "#A4D_FoundryTitle", 5.0, false, EFieldManualEntryId.NONE, true); 
+		SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionRelease", "#A4D_FoundryTitle", 10.0, false, EFieldManualEntryId.NONE, true); 
 	}
 	
 	override bool GetActionNameScript(out string outName)

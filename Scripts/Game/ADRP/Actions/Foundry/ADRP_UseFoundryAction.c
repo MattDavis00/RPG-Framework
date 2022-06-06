@@ -18,6 +18,8 @@ class ADRP_UseFoundryAction: ScriptedUserAction
 		
 		if (!_foundryComponent)
 			Print("Foundry component not found", LogLevel.ERROR);
+		
+		_foundryComponent.SetOwner(pOwnerEntity);
 	}
 	
 	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)
@@ -26,9 +28,9 @@ class ADRP_UseFoundryAction: ScriptedUserAction
 		_foundryComponent.InitFoundry(pOwnerEntity);
 		bool sucess = _foundryComponent.SetCurrentOwner(pUserEntity);
 		if (sucess) {
-			SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionUse", "#A4D_FoundryTitle", 5.0, false, EFieldManualEntryId.NONE, true); 
+			SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionUse", "#A4D_FoundryTitle", 10.0, false, EFieldManualEntryId.NONE, true); 
 		} else {
-			SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionInUse", "#A4D_FoundryTitle", 5.0, false, EFieldManualEntryId.NONE, true); 
+			SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_FoundryDescriptionInUse", "#A4D_FoundryTitle", 10.0, false, EFieldManualEntryId.NONE, true); 
 		}
 	}
 	

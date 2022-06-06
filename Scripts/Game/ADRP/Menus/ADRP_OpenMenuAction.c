@@ -12,7 +12,8 @@ modded enum ChimeraMenuPreset: ScriptMenuPresetEnum
 	Atm,
 	Clothing,
 	PlayerInteraction,
-	VehicleShop
+	VehicleShop,
+	PhoneMenu
 }
 
 class ADRP_OpenMenuAction: ScriptedUserAction {
@@ -33,7 +34,7 @@ class ADRP_OpenMenuAction: ScriptedUserAction {
 	
 	override bool GetActionNameScript(out string outName)
 	{
-		outName = string.Format("#◙A4D_Open %1", _DisplayName);
+		outName = string.Format("#A4D_Open %1", _DisplayName);
 		return true;
 	}
 	

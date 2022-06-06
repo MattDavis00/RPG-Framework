@@ -11,6 +11,9 @@ modded enum ChimeraMenuPreset: ScriptMenuPresetEnum
 
 class PhoneMenuUI: ChimeraMenuBase
 {
+	
+	private Widget _currentHours
+	
 	override void OnMenuOpen()
 	{
 		super.OnMenuOpen();

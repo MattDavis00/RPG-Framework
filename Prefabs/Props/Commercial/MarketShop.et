@@ -54,7 +54,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
       "AppleButton"
      }
      Duration 0.2
-     _itemID APPEL
+     _itemID APPLE
     }
     ADRP_BuyAction "{596AC342602D24FC}" {
      ParentContextList {
@@ -82,7 +82,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
      }
      Duration 0.2
      "Sort Priority" 1
-     _itemID APPEL
+     _itemID APPLE
     }
    }
   }

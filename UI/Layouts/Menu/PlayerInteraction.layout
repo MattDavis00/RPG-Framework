@@ -13,9 +13,9 @@ FrameWidgetClass {
     SizeY 408.16
     OffsetBottom -843.874
    }
-   Texture "{90BB7FC55A160133}textures/background.edds"
+   Texture "{5CFEAA8223D50FFB}UI/Textures/arma4dev/a4d-background.edds"
    Image ""
-   Size 980 594
+   Size 1920 1080
   }
   ButtonWidgetClass "{596C767296029775}" {
    Name "Exit"
