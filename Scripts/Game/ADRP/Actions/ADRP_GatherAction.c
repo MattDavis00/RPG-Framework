@@ -22,12 +22,6 @@ class ADRP_GatherAction: ScriptedUserAction {
 		if (inventoryManager) 
 			inventoryManager.TrySpawnPrefabToStorage(m_GatherItemPrefab);
 		
-		/*while (_numberGathered != 0)
-		{
-			Print ("test: " + _numberGathered);
-			_numberGathered - 1;
-		}*/
-		
 		SCR_HintManagerComponent.GetInstance().ShowCustomHint("#A4D_GatherDecription " + _numberGathered + " " + m_GatherItemDisplayName, "#A4D_GatherTitle", 5.0, false, EFieldManualEntryId.NONE, true ); 
 	}
 	

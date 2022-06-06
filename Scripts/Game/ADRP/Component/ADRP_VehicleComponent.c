@@ -15,9 +15,7 @@ class ADRP_VehicleComponent: GameComponent
 		Print(ActualPosition);
 		Print(angles);
 		Print("-------------------------------");
-		
-		//Verifier si l'angle est bon 
-		
+				
 		return true;
 	}
 

@@ -22,7 +22,7 @@ class ADRP_UseFoundryAction: ScriptedUserAction
 	
 	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)
 	{
-		//Doit verifier si on en utilise une autre avant si c'est la cas avertir que l'utilisateur utilise deja une fonderie
+		//Must check if another one is used before if so warn that the user is already using a foundry
 		_foundryComponent.InitFoundry(pOwnerEntity);
 		bool sucess = _foundryComponent.SetCurrentOwner(pUserEntity);
 		if (sucess) {

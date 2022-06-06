@@ -65,14 +65,11 @@ class ADRP_FoundryComponent: GameComponent
 		if (!_foundry)
 			return false;
 		
-		
-		// En attendant sam correction de ce probleme
 		vector foundryPosition [4];
 		vector ownerPosition [4];
 		
 		_foundry.GetTransform(foundryPosition);
 		_currentOwner.GetTransform(ownerPosition);
-		// Hi hi 
 		
 		
 		Print("--------------------------------");

@@ -25,7 +25,7 @@ class VehicleDetailUI: ChimeraMenuBase
 		if (w.GetName() == "Buy") 
 		{
 			Print("Buy");
-			ADRP_BuyVehicleButton.test();
+			//ADRP_BuyVehicleButton.todo();
 			
 		}
 			
